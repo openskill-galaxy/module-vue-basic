@@ -1,0 +1,9882 @@
+[
+  {
+    "id": "vu-case-001",
+    "title": "创建项目案例1",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000048",
+      "vu-q-000345",
+      "vu-q-002404"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-002",
+    "title": "模板语法案例2",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001176",
+      "vu-q-002187",
+      "vu-q-000234"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-003",
+    "title": "v-if案例3",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003157",
+      "vu-q-002042",
+      "vu-q-001516"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-004",
+    "title": "v-for案例4",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001664",
+      "vu-q-001087",
+      "vu-q-001255"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-005",
+    "title": "表单绑定案例5",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000819",
+      "vu-q-003208",
+      "vu-q-003308"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-006",
+    "title": "组件通信案例6",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000119",
+      "vu-q-003694",
+      "vu-q-001987"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-007",
+    "title": "slot案例7",
+    "description": "通过slot掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001089",
+      "vu-q-000978",
+      "vu-q-000504"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-008",
+    "title": "computed案例8",
+    "description": "通过computed掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000178",
+      "vu-q-002414",
+      "vu-q-001445"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-009",
+    "title": "watch案例9",
+    "description": "通过watch掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001255",
+      "vu-q-002010",
+      "vu-q-002535"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-010",
+    "title": "生命周期案例10",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002426",
+      "vu-q-002128",
+      "vu-q-002240"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-011",
+    "title": "CompositionAPI案例11",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002667",
+      "vu-q-000914",
+      "vu-q-002515"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-012",
+    "title": "路由案例12",
+    "description": "通过路由掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003118",
+      "vu-q-000614",
+      "vu-q-000958"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-013",
+    "title": "Pinia案例13",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002624",
+      "vu-q-001079",
+      "vu-q-001281"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-014",
+    "title": "axios案例14",
+    "description": "通过axios掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001658",
+      "vu-q-002849",
+      "vu-q-000717"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-015",
+    "title": "loading案例15",
+    "description": "通过loading掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003364",
+      "vu-q-001872",
+      "vu-q-003531"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-016",
+    "title": "搜索案例16",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000698",
+      "vu-q-003152",
+      "vu-q-002297"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-017",
+    "title": "管理案例17",
+    "description": "通过管理掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002781",
+      "vu-q-000775",
+      "vu-q-001018"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-018",
+    "title": "部署案例18",
+    "description": "通过部署掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003055",
+      "vu-q-001122",
+      "vu-q-003565"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-019",
+    "title": "创建项目案例19",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001987",
+      "vu-q-003601",
+      "vu-q-002154"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-020",
+    "title": "模板语法案例20",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001760",
+      "vu-q-001598",
+      "vu-q-002192"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-021",
+    "title": "v-if案例21",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002482",
+      "vu-q-001388",
+      "vu-q-002412"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-022",
+    "title": "v-for案例22",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001899",
+      "vu-q-001417",
+      "vu-q-001335"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-023",
+    "title": "表单绑定案例23",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001301",
+      "vu-q-001156",
+      "vu-q-000092"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-024",
+    "title": "组件通信案例24",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000027",
+      "vu-q-001877",
+      "vu-q-002813"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-025",
+    "title": "slot案例25",
+    "description": "通过slot掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001595",
+      "vu-q-001920",
+      "vu-q-002554"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-026",
+    "title": "computed案例26",
+    "description": "通过computed掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003687",
+      "vu-q-003279",
+      "vu-q-000749"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-027",
+    "title": "watch案例27",
+    "description": "通过watch掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000718",
+      "vu-q-003479",
+      "vu-q-002042"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-028",
+    "title": "生命周期案例28",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000995",
+      "vu-q-003309",
+      "vu-q-000992"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-029",
+    "title": "CompositionAPI案例29",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001065",
+      "vu-q-001768",
+      "vu-q-001535"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-030",
+    "title": "路由案例30",
+    "description": "通过路由掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002616",
+      "vu-q-000803",
+      "vu-q-001393"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-031",
+    "title": "Pinia案例31",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003443",
+      "vu-q-000027",
+      "vu-q-001709"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-032",
+    "title": "axios案例32",
+    "description": "通过axios掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003647",
+      "vu-q-001327",
+      "vu-q-001995"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-033",
+    "title": "loading案例33",
+    "description": "通过loading掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002744",
+      "vu-q-002834",
+      "vu-q-002123"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-034",
+    "title": "搜索案例34",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002640",
+      "vu-q-003640",
+      "vu-q-000018"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-035",
+    "title": "管理案例35",
+    "description": "通过管理掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002138",
+      "vu-q-001596",
+      "vu-q-003573"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-036",
+    "title": "部署案例36",
+    "description": "通过部署掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002151",
+      "vu-q-001598",
+      "vu-q-002591"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-037",
+    "title": "创建项目案例37",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001773",
+      "vu-q-000818",
+      "vu-q-003490"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-038",
+    "title": "模板语法案例38",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000762",
+      "vu-q-003284",
+      "vu-q-003142"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-039",
+    "title": "v-if案例39",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001164",
+      "vu-q-002296",
+      "vu-q-002559"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-040",
+    "title": "v-for案例40",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001696",
+      "vu-q-002976",
+      "vu-q-001633"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-041",
+    "title": "表单绑定案例41",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002064",
+      "vu-q-002819",
+      "vu-q-003686"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-042",
+    "title": "组件通信案例42",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003233",
+      "vu-q-000600",
+      "vu-q-001184"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-043",
+    "title": "slot案例43",
+    "description": "通过slot掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000965",
+      "vu-q-003339",
+      "vu-q-002917"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-044",
+    "title": "computed案例44",
+    "description": "通过computed掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001749",
+      "vu-q-003383",
+      "vu-q-000952"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-045",
+    "title": "watch案例45",
+    "description": "通过watch掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001841",
+      "vu-q-000440",
+      "vu-q-001591"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-046",
+    "title": "生命周期案例46",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000797",
+      "vu-q-003210",
+      "vu-q-002823"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-047",
+    "title": "CompositionAPI案例47",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003585",
+      "vu-q-003367",
+      "vu-q-001242"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-048",
+    "title": "路由案例48",
+    "description": "通过路由掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000269",
+      "vu-q-000459",
+      "vu-q-003294"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-049",
+    "title": "Pinia案例49",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001697",
+      "vu-q-001648",
+      "vu-q-000043"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-050",
+    "title": "axios案例50",
+    "description": "通过axios掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000597",
+      "vu-q-001995",
+      "vu-q-001462"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-051",
+    "title": "loading案例51",
+    "description": "通过loading掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000461",
+      "vu-q-002561",
+      "vu-q-000952"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-052",
+    "title": "搜索案例52",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001707",
+      "vu-q-001656",
+      "vu-q-002924"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-053",
+    "title": "管理案例53",
+    "description": "通过管理掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002325",
+      "vu-q-000785",
+      "vu-q-000663"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-054",
+    "title": "部署案例54",
+    "description": "通过部署掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002888",
+      "vu-q-001958",
+      "vu-q-001583"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-055",
+    "title": "创建项目案例55",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003408",
+      "vu-q-003433",
+      "vu-q-003691"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-056",
+    "title": "模板语法案例56",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000401",
+      "vu-q-003057",
+      "vu-q-002447"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-057",
+    "title": "v-if案例57",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002269",
+      "vu-q-001546",
+      "vu-q-000742"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-058",
+    "title": "v-for案例58",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001566",
+      "vu-q-000881",
+      "vu-q-000696"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-059",
+    "title": "表单绑定案例59",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001525",
+      "vu-q-002054",
+      "vu-q-000980"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-060",
+    "title": "组件通信案例60",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000397",
+      "vu-q-002555",
+      "vu-q-002784"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-061",
+    "title": "slot案例61",
+    "description": "通过slot掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002273",
+      "vu-q-000355",
+      "vu-q-001671"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-062",
+    "title": "computed案例62",
+    "description": "通过computed掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002294",
+      "vu-q-001513",
+      "vu-q-003101"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-063",
+    "title": "watch案例63",
+    "description": "通过watch掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000398",
+      "vu-q-001031",
+      "vu-q-002572"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-064",
+    "title": "生命周期案例64",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002753",
+      "vu-q-000254",
+      "vu-q-001829"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-065",
+    "title": "CompositionAPI案例65",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002452",
+      "vu-q-000127",
+      "vu-q-001287"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-066",
+    "title": "路由案例66",
+    "description": "通过路由掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002151",
+      "vu-q-001015",
+      "vu-q-002560"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-067",
+    "title": "Pinia案例67",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001706",
+      "vu-q-003356",
+      "vu-q-002389"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-068",
+    "title": "axios案例68",
+    "description": "通过axios掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000055",
+      "vu-q-002859",
+      "vu-q-003045"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-069",
+    "title": "loading案例69",
+    "description": "通过loading掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001931",
+      "vu-q-003397",
+      "vu-q-002052"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-070",
+    "title": "搜索案例70",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002284",
+      "vu-q-000046",
+      "vu-q-002525"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-071",
+    "title": "管理案例71",
+    "description": "通过管理掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001968",
+      "vu-q-002419",
+      "vu-q-002563"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-072",
+    "title": "部署案例72",
+    "description": "通过部署掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000326",
+      "vu-q-003524",
+      "vu-q-002008"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-073",
+    "title": "创建项目案例73",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003509",
+      "vu-q-003051",
+      "vu-q-003246"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-074",
+    "title": "模板语法案例74",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000403",
+      "vu-q-000205",
+      "vu-q-003273"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-075",
+    "title": "v-if案例75",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001522",
+      "vu-q-000774",
+      "vu-q-002367"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-076",
+    "title": "v-for案例76",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003590",
+      "vu-q-002762",
+      "vu-q-003291"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-077",
+    "title": "表单绑定案例77",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000570",
+      "vu-q-001913",
+      "vu-q-000525"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-078",
+    "title": "组件通信案例78",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002978",
+      "vu-q-000095",
+      "vu-q-001657"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-079",
+    "title": "slot案例79",
+    "description": "通过slot掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000363",
+      "vu-q-002782",
+      "vu-q-001316"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-080",
+    "title": "computed案例80",
+    "description": "通过computed掌握Vue",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002252",
+      "vu-q-001763",
+      "vu-q-002851"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-081",
+    "title": "watch案例81",
+    "description": "通过watch掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001953",
+      "vu-q-000762",
+      "vu-q-002278"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-082",
+    "title": "生命周期案例82",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001690",
+      "vu-q-002790",
+      "vu-q-000132"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-083",
+    "title": "CompositionAPI案例83",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003647",
+      "vu-q-003030",
+      "vu-q-003252"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-084",
+    "title": "路由案例84",
+    "description": "通过路由掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001004",
+      "vu-q-000841",
+      "vu-q-001697"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-085",
+    "title": "Pinia案例85",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001329",
+      "vu-q-000215",
+      "vu-q-000170"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-086",
+    "title": "axios案例86",
+    "description": "通过axios掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002830",
+      "vu-q-003005",
+      "vu-q-001448"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-087",
+    "title": "loading案例87",
+    "description": "通过loading掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003458",
+      "vu-q-001969",
+      "vu-q-000978"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-088",
+    "title": "搜索案例88",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002130",
+      "vu-q-003470",
+      "vu-q-000055"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-089",
+    "title": "管理案例89",
+    "description": "通过管理掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003281",
+      "vu-q-000149",
+      "vu-q-002526"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-090",
+    "title": "部署案例90",
+    "description": "通过部署掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000127",
+      "vu-q-002304",
+      "vu-q-002671"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-091",
+    "title": "创建项目案例91",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002893",
+      "vu-q-003278",
+      "vu-q-002385"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-092",
+    "title": "模板语法案例92",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002770",
+      "vu-q-003311",
+      "vu-q-002023"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-093",
+    "title": "v-if案例93",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002770",
+      "vu-q-003617",
+      "vu-q-002275"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-094",
+    "title": "v-for案例94",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002850",
+      "vu-q-003249",
+      "vu-q-003480"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-095",
+    "title": "表单绑定案例95",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002478",
+      "vu-q-000270",
+      "vu-q-001587"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-096",
+    "title": "组件通信案例96",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001375",
+      "vu-q-002819",
+      "vu-q-000150"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-097",
+    "title": "slot案例97",
+    "description": "通过slot掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000841",
+      "vu-q-001178",
+      "vu-q-002718"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-098",
+    "title": "computed案例98",
+    "description": "通过computed掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003455",
+      "vu-q-000114",
+      "vu-q-000543"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-099",
+    "title": "watch案例99",
+    "description": "通过watch掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003073",
+      "vu-q-000538",
+      "vu-q-001413"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-100",
+    "title": "生命周期案例100",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003040",
+      "vu-q-003299",
+      "vu-q-001619"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-101",
+    "title": "CompositionAPI案例101",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002265",
+      "vu-q-000325",
+      "vu-q-001334"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-102",
+    "title": "路由案例102",
+    "description": "通过路由掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000780",
+      "vu-q-003293",
+      "vu-q-000864"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-103",
+    "title": "Pinia案例103",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002499",
+      "vu-q-001077",
+      "vu-q-001912"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-104",
+    "title": "axios案例104",
+    "description": "通过axios掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000496",
+      "vu-q-001299",
+      "vu-q-001359"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-105",
+    "title": "loading案例105",
+    "description": "通过loading掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002787",
+      "vu-q-002697",
+      "vu-q-001868"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-106",
+    "title": "搜索案例106",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001012",
+      "vu-q-000616",
+      "vu-q-002580"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-107",
+    "title": "管理案例107",
+    "description": "通过管理掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000350",
+      "vu-q-002331",
+      "vu-q-001889"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-108",
+    "title": "部署案例108",
+    "description": "通过部署掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001500",
+      "vu-q-002769",
+      "vu-q-000952"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-109",
+    "title": "创建项目案例109",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001886",
+      "vu-q-001378",
+      "vu-q-002927"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-110",
+    "title": "模板语法案例110",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003413",
+      "vu-q-001691",
+      "vu-q-001548"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-111",
+    "title": "v-if案例111",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002203",
+      "vu-q-002681",
+      "vu-q-002952"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-112",
+    "title": "v-for案例112",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001923",
+      "vu-q-003651",
+      "vu-q-001930"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-113",
+    "title": "表单绑定案例113",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000581",
+      "vu-q-002641",
+      "vu-q-001616"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-114",
+    "title": "组件通信案例114",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001059",
+      "vu-q-001230",
+      "vu-q-001334"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-115",
+    "title": "slot案例115",
+    "description": "通过slot掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003346",
+      "vu-q-002971",
+      "vu-q-000531"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-116",
+    "title": "computed案例116",
+    "description": "通过computed掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003105",
+      "vu-q-001074",
+      "vu-q-002478"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-117",
+    "title": "watch案例117",
+    "description": "通过watch掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000753",
+      "vu-q-002259",
+      "vu-q-000138"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-118",
+    "title": "生命周期案例118",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003164",
+      "vu-q-000040",
+      "vu-q-003688"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-119",
+    "title": "CompositionAPI案例119",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000194",
+      "vu-q-000903",
+      "vu-q-001877"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-120",
+    "title": "路由案例120",
+    "description": "通过路由掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001879",
+      "vu-q-002502",
+      "vu-q-001077"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-121",
+    "title": "Pinia案例121",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003636",
+      "vu-q-001547",
+      "vu-q-003557"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-122",
+    "title": "axios案例122",
+    "description": "通过axios掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000165",
+      "vu-q-001644",
+      "vu-q-003686"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-123",
+    "title": "loading案例123",
+    "description": "通过loading掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000570",
+      "vu-q-000213",
+      "vu-q-001062"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-124",
+    "title": "搜索案例124",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003362",
+      "vu-q-002750",
+      "vu-q-002192"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-125",
+    "title": "管理案例125",
+    "description": "通过管理掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000960",
+      "vu-q-003695",
+      "vu-q-003197"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-126",
+    "title": "部署案例126",
+    "description": "通过部署掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003333",
+      "vu-q-000626",
+      "vu-q-001089"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-127",
+    "title": "创建项目案例127",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002442",
+      "vu-q-003246",
+      "vu-q-000045"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-128",
+    "title": "模板语法案例128",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003429",
+      "vu-q-001922",
+      "vu-q-001664"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-129",
+    "title": "v-if案例129",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003270",
+      "vu-q-002452",
+      "vu-q-000725"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-130",
+    "title": "v-for案例130",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000496",
+      "vu-q-000066",
+      "vu-q-001097"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-131",
+    "title": "表单绑定案例131",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000128",
+      "vu-q-001529",
+      "vu-q-002302"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-132",
+    "title": "组件通信案例132",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000004",
+      "vu-q-001807",
+      "vu-q-002561"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-133",
+    "title": "slot案例133",
+    "description": "通过slot掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003335",
+      "vu-q-000067",
+      "vu-q-000995"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-134",
+    "title": "computed案例134",
+    "description": "通过computed掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000499",
+      "vu-q-000224",
+      "vu-q-003055"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-135",
+    "title": "watch案例135",
+    "description": "通过watch掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003650",
+      "vu-q-000833",
+      "vu-q-000712"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-136",
+    "title": "生命周期案例136",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002439",
+      "vu-q-003675",
+      "vu-q-002629"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-137",
+    "title": "CompositionAPI案例137",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001093",
+      "vu-q-000925",
+      "vu-q-003325"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-138",
+    "title": "路由案例138",
+    "description": "通过路由掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001326",
+      "vu-q-003657",
+      "vu-q-002841"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-139",
+    "title": "Pinia案例139",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001988",
+      "vu-q-002784",
+      "vu-q-003543"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-140",
+    "title": "axios案例140",
+    "description": "通过axios掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002120",
+      "vu-q-000069",
+      "vu-q-002272"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-141",
+    "title": "loading案例141",
+    "description": "通过loading掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001832",
+      "vu-q-002733",
+      "vu-q-002842"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-142",
+    "title": "搜索案例142",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003278",
+      "vu-q-000752",
+      "vu-q-000451"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-143",
+    "title": "管理案例143",
+    "description": "通过管理掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000326",
+      "vu-q-001702",
+      "vu-q-000892"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-144",
+    "title": "部署案例144",
+    "description": "通过部署掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003246",
+      "vu-q-001728",
+      "vu-q-001862"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-145",
+    "title": "创建项目案例145",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000426",
+      "vu-q-002483",
+      "vu-q-002542"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-146",
+    "title": "模板语法案例146",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002204",
+      "vu-q-001641",
+      "vu-q-000698"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-147",
+    "title": "v-if案例147",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002482",
+      "vu-q-003501",
+      "vu-q-003098"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-148",
+    "title": "v-for案例148",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002211",
+      "vu-q-002709",
+      "vu-q-001252"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-149",
+    "title": "表单绑定案例149",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000231",
+      "vu-q-001403",
+      "vu-q-000229"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-150",
+    "title": "组件通信案例150",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002211",
+      "vu-q-000650",
+      "vu-q-000194"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-151",
+    "title": "slot案例151",
+    "description": "通过slot掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003543",
+      "vu-q-003588",
+      "vu-q-000065"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-152",
+    "title": "computed案例152",
+    "description": "通过computed掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001083",
+      "vu-q-001421",
+      "vu-q-000572"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-153",
+    "title": "watch案例153",
+    "description": "通过watch掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000410",
+      "vu-q-003218",
+      "vu-q-000300"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-154",
+    "title": "生命周期案例154",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002984",
+      "vu-q-002717",
+      "vu-q-001802"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-155",
+    "title": "CompositionAPI案例155",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003149",
+      "vu-q-003271",
+      "vu-q-002183"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-156",
+    "title": "路由案例156",
+    "description": "通过路由掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001488",
+      "vu-q-002886",
+      "vu-q-000673"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-157",
+    "title": "Pinia案例157",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000108",
+      "vu-q-001863",
+      "vu-q-000436"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-158",
+    "title": "axios案例158",
+    "description": "通过axios掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001112",
+      "vu-q-001731",
+      "vu-q-000410"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-159",
+    "title": "loading案例159",
+    "description": "通过loading掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002894",
+      "vu-q-000936",
+      "vu-q-002149"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-160",
+    "title": "搜索案例160",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002776",
+      "vu-q-002968",
+      "vu-q-002492"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-161",
+    "title": "管理案例161",
+    "description": "通过管理掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002861",
+      "vu-q-003696",
+      "vu-q-003158"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-162",
+    "title": "部署案例162",
+    "description": "通过部署掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003286",
+      "vu-q-000139",
+      "vu-q-002453"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-163",
+    "title": "创建项目案例163",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002871",
+      "vu-q-000819",
+      "vu-q-001229"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-164",
+    "title": "模板语法案例164",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001197",
+      "vu-q-002354",
+      "vu-q-002534"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-165",
+    "title": "v-if案例165",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002716",
+      "vu-q-000159",
+      "vu-q-000956"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-166",
+    "title": "v-for案例166",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000251",
+      "vu-q-002430",
+      "vu-q-000318"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-167",
+    "title": "表单绑定案例167",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000095",
+      "vu-q-002204",
+      "vu-q-001427"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-168",
+    "title": "组件通信案例168",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001374",
+      "vu-q-001966",
+      "vu-q-002887"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-169",
+    "title": "slot案例169",
+    "description": "通过slot掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001403",
+      "vu-q-002196",
+      "vu-q-003425"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-170",
+    "title": "computed案例170",
+    "description": "通过computed掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001465",
+      "vu-q-000092",
+      "vu-q-000755"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-171",
+    "title": "watch案例171",
+    "description": "通过watch掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000788",
+      "vu-q-001387",
+      "vu-q-002989"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-172",
+    "title": "生命周期案例172",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001809",
+      "vu-q-001665",
+      "vu-q-000377"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-173",
+    "title": "CompositionAPI案例173",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000014",
+      "vu-q-000120",
+      "vu-q-001171"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-174",
+    "title": "路由案例174",
+    "description": "通过路由掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003535",
+      "vu-q-003244",
+      "vu-q-003587"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-175",
+    "title": "Pinia案例175",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001251",
+      "vu-q-000728",
+      "vu-q-003019"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-176",
+    "title": "axios案例176",
+    "description": "通过axios掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000848",
+      "vu-q-000572",
+      "vu-q-002719"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-177",
+    "title": "loading案例177",
+    "description": "通过loading掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000312",
+      "vu-q-000270",
+      "vu-q-003572"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-178",
+    "title": "搜索案例178",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000148",
+      "vu-q-001872",
+      "vu-q-001170"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-179",
+    "title": "管理案例179",
+    "description": "通过管理掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001245",
+      "vu-q-001605",
+      "vu-q-000347"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-180",
+    "title": "部署案例180",
+    "description": "通过部署掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000634",
+      "vu-q-000988",
+      "vu-q-003083"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-181",
+    "title": "创建项目案例181",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001796",
+      "vu-q-002188",
+      "vu-q-001769"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-182",
+    "title": "模板语法案例182",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001234",
+      "vu-q-002677",
+      "vu-q-001942"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-183",
+    "title": "v-if案例183",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001299",
+      "vu-q-003394",
+      "vu-q-000857"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-184",
+    "title": "v-for案例184",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003475",
+      "vu-q-000414",
+      "vu-q-001955"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-185",
+    "title": "表单绑定案例185",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002397",
+      "vu-q-001665",
+      "vu-q-003468"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-186",
+    "title": "组件通信案例186",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000291",
+      "vu-q-001070",
+      "vu-q-002664"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-187",
+    "title": "slot案例187",
+    "description": "通过slot掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001041",
+      "vu-q-001141",
+      "vu-q-000877"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-188",
+    "title": "computed案例188",
+    "description": "通过computed掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000002",
+      "vu-q-003659",
+      "vu-q-001987"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-189",
+    "title": "watch案例189",
+    "description": "通过watch掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000330",
+      "vu-q-000698",
+      "vu-q-002670"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-190",
+    "title": "生命周期案例190",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003497",
+      "vu-q-001800",
+      "vu-q-002014"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-191",
+    "title": "CompositionAPI案例191",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001164",
+      "vu-q-001336",
+      "vu-q-003462"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-192",
+    "title": "路由案例192",
+    "description": "通过路由掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000105",
+      "vu-q-002286",
+      "vu-q-001950"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-193",
+    "title": "Pinia案例193",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003139",
+      "vu-q-003188",
+      "vu-q-000229"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-194",
+    "title": "axios案例194",
+    "description": "通过axios掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003336",
+      "vu-q-001266",
+      "vu-q-002494"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-195",
+    "title": "loading案例195",
+    "description": "通过loading掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001324",
+      "vu-q-002039",
+      "vu-q-002488"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-196",
+    "title": "搜索案例196",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000960",
+      "vu-q-001498",
+      "vu-q-003271"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-197",
+    "title": "管理案例197",
+    "description": "通过管理掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001607",
+      "vu-q-003390",
+      "vu-q-002813"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-198",
+    "title": "部署案例198",
+    "description": "通过部署掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002763",
+      "vu-q-002563",
+      "vu-q-000771"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-199",
+    "title": "创建项目案例199",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000494",
+      "vu-q-001169",
+      "vu-q-003009"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-200",
+    "title": "模板语法案例200",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002447",
+      "vu-q-001222",
+      "vu-q-001956"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-201",
+    "title": "v-if案例201",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002717",
+      "vu-q-001488",
+      "vu-q-002650"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-202",
+    "title": "v-for案例202",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001542",
+      "vu-q-003322",
+      "vu-q-002802"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-203",
+    "title": "表单绑定案例203",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003106",
+      "vu-q-000768",
+      "vu-q-000971"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-204",
+    "title": "组件通信案例204",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002333",
+      "vu-q-001685",
+      "vu-q-002125"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-205",
+    "title": "slot案例205",
+    "description": "通过slot掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002197",
+      "vu-q-001467",
+      "vu-q-001493"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-206",
+    "title": "computed案例206",
+    "description": "通过computed掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002524",
+      "vu-q-000111",
+      "vu-q-002117"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-207",
+    "title": "watch案例207",
+    "description": "通过watch掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000624",
+      "vu-q-002648",
+      "vu-q-003635"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-208",
+    "title": "生命周期案例208",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002911",
+      "vu-q-002797",
+      "vu-q-000016"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-209",
+    "title": "CompositionAPI案例209",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001747",
+      "vu-q-000298",
+      "vu-q-003302"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-210",
+    "title": "路由案例210",
+    "description": "通过路由掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002344",
+      "vu-q-003065",
+      "vu-q-002357"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-211",
+    "title": "Pinia案例211",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002759",
+      "vu-q-002140",
+      "vu-q-003227"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-212",
+    "title": "axios案例212",
+    "description": "通过axios掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003451",
+      "vu-q-003048",
+      "vu-q-001764"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-213",
+    "title": "loading案例213",
+    "description": "通过loading掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002171",
+      "vu-q-002897",
+      "vu-q-003321"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-214",
+    "title": "搜索案例214",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001869",
+      "vu-q-000860",
+      "vu-q-000579"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-215",
+    "title": "管理案例215",
+    "description": "通过管理掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000260",
+      "vu-q-003391",
+      "vu-q-003074"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-216",
+    "title": "部署案例216",
+    "description": "通过部署掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001759",
+      "vu-q-001821",
+      "vu-q-001706"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-217",
+    "title": "创建项目案例217",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000573",
+      "vu-q-001770",
+      "vu-q-000723"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-218",
+    "title": "模板语法案例218",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001597",
+      "vu-q-002802",
+      "vu-q-002683"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-219",
+    "title": "v-if案例219",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000834",
+      "vu-q-000637",
+      "vu-q-001158"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-220",
+    "title": "v-for案例220",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003655",
+      "vu-q-000099",
+      "vu-q-002072"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-221",
+    "title": "表单绑定案例221",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000584",
+      "vu-q-001068",
+      "vu-q-002558"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-222",
+    "title": "组件通信案例222",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003439",
+      "vu-q-000866",
+      "vu-q-001065"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-223",
+    "title": "slot案例223",
+    "description": "通过slot掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001830",
+      "vu-q-001858",
+      "vu-q-001766"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-224",
+    "title": "computed案例224",
+    "description": "通过computed掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001540",
+      "vu-q-000008",
+      "vu-q-002723"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-225",
+    "title": "watch案例225",
+    "description": "通过watch掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000202",
+      "vu-q-002383",
+      "vu-q-002851"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-226",
+    "title": "生命周期案例226",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000457",
+      "vu-q-001500",
+      "vu-q-000731"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-227",
+    "title": "CompositionAPI案例227",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001467",
+      "vu-q-000967",
+      "vu-q-000374"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-228",
+    "title": "路由案例228",
+    "description": "通过路由掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002717",
+      "vu-q-002592",
+      "vu-q-003683"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-229",
+    "title": "Pinia案例229",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002951",
+      "vu-q-002006",
+      "vu-q-000036"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-230",
+    "title": "axios案例230",
+    "description": "通过axios掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002302",
+      "vu-q-003384",
+      "vu-q-003568"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-231",
+    "title": "loading案例231",
+    "description": "通过loading掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002738",
+      "vu-q-001338",
+      "vu-q-001683"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-232",
+    "title": "搜索案例232",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002774",
+      "vu-q-001563",
+      "vu-q-001816"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-233",
+    "title": "管理案例233",
+    "description": "通过管理掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003653",
+      "vu-q-003674",
+      "vu-q-001584"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-234",
+    "title": "部署案例234",
+    "description": "通过部署掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001960",
+      "vu-q-002421",
+      "vu-q-000766"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-235",
+    "title": "创建项目案例235",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003359",
+      "vu-q-002822",
+      "vu-q-002519"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-236",
+    "title": "模板语法案例236",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000495",
+      "vu-q-001009",
+      "vu-q-003192"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-237",
+    "title": "v-if案例237",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001077",
+      "vu-q-002375",
+      "vu-q-000796"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-238",
+    "title": "v-for案例238",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000585",
+      "vu-q-001538",
+      "vu-q-002356"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-239",
+    "title": "表单绑定案例239",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003449",
+      "vu-q-000777",
+      "vu-q-003281"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-240",
+    "title": "组件通信案例240",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001673",
+      "vu-q-000694",
+      "vu-q-002147"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-241",
+    "title": "slot案例241",
+    "description": "通过slot掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003447",
+      "vu-q-000546",
+      "vu-q-002676"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-242",
+    "title": "computed案例242",
+    "description": "通过computed掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001293",
+      "vu-q-002798",
+      "vu-q-002818"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-243",
+    "title": "watch案例243",
+    "description": "通过watch掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000383",
+      "vu-q-002663",
+      "vu-q-003467"
+    ],
+    "tags": [
+      "watch"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-244",
+    "title": "生命周期案例244",
+    "description": "通过生命周期掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000009",
+      "vu-q-000144",
+      "vu-q-000768"
+    ],
+    "tags": [
+      "生命周期"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-245",
+    "title": "CompositionAPI案例245",
+    "description": "通过CompositionAPI掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003106",
+      "vu-q-003394",
+      "vu-q-002809"
+    ],
+    "tags": [
+      "CompositionAPI"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-246",
+    "title": "路由案例246",
+    "description": "通过路由掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000846",
+      "vu-q-001599",
+      "vu-q-001465"
+    ],
+    "tags": [
+      "路由"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-247",
+    "title": "Pinia案例247",
+    "description": "通过Pinia掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003414",
+      "vu-q-000655",
+      "vu-q-001835"
+    ],
+    "tags": [
+      "Pinia"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-248",
+    "title": "axios案例248",
+    "description": "通过axios掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000478",
+      "vu-q-003320",
+      "vu-q-002950"
+    ],
+    "tags": [
+      "axios"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-249",
+    "title": "loading案例249",
+    "description": "通过loading掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002993",
+      "vu-q-003020",
+      "vu-q-003321"
+    ],
+    "tags": [
+      "loading"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-250",
+    "title": "搜索案例250",
+    "description": "通过搜索掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000047",
+      "vu-q-001768",
+      "vu-q-001058"
+    ],
+    "tags": [
+      "搜索"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-251",
+    "title": "管理案例251",
+    "description": "通过管理掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-003202",
+      "vu-q-002478",
+      "vu-q-001144"
+    ],
+    "tags": [
+      "管理"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-252",
+    "title": "部署案例252",
+    "description": "通过部署掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000032",
+      "vu-q-002049",
+      "vu-q-002208"
+    ],
+    "tags": [
+      "部署"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-253",
+    "title": "创建项目案例253",
+    "description": "通过创建项目掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002958",
+      "vu-q-000761",
+      "vu-q-003479"
+    ],
+    "tags": [
+      "创建项目"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-254",
+    "title": "模板语法案例254",
+    "description": "通过模板语法掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000936",
+      "vu-q-000108",
+      "vu-q-002778"
+    ],
+    "tags": [
+      "模板语法"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-255",
+    "title": "v-if案例255",
+    "description": "通过v-if掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001786",
+      "vu-q-002256",
+      "vu-q-001320"
+    ],
+    "tags": [
+      "v-if"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-256",
+    "title": "v-for案例256",
+    "description": "通过v-for掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-000606",
+      "vu-q-001911",
+      "vu-q-002211"
+    ],
+    "tags": [
+      "v-for"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-257",
+    "title": "表单绑定案例257",
+    "description": "通过表单绑定掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002502",
+      "vu-q-003036",
+      "vu-q-001415"
+    ],
+    "tags": [
+      "表单绑定"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-258",
+    "title": "组件通信案例258",
+    "description": "通过组件通信掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002391",
+      "vu-q-002893",
+      "vu-q-001082"
+    ],
+    "tags": [
+      "组件通信"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-259",
+    "title": "slot案例259",
+    "description": "通过slot掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-001387",
+      "vu-q-000431",
+      "vu-q-002538"
+    ],
+    "tags": [
+      "slot"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-case-260",
+    "title": "computed案例260",
+    "description": "通过computed掌握Vue",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "分析",
+        "description": "需求"
+      },
+      {
+        "order": 2,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 3,
+        "title": "测试",
+        "description": "验证"
+      },
+      {
+        "order": 4,
+        "title": "总结",
+        "description": "归纳"
+      }
+    ],
+    "relatedQuestionIds": [
+      "vu-q-002880",
+      "vu-q-002588",
+      "vu-q-001747"
+    ],
+    "tags": [
+      "computed"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  }
+]

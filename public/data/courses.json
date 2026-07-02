@@ -1,0 +1,520 @@
+[
+  {
+    "id": "vu-course-01",
+    "order": 1,
+    "slug": "Vue3入门",
+    "title": "Vue 3 入门与前端路线",
+    "description": "Vue3概述、响应式、组件化、学习路线。",
+    "estimatedHours": 4,
+    "difficulty": "easy",
+    "tags": [
+      "Vue 3 入门与前端路线"
+    ],
+    "lessonIds": [
+      "vu-lesson-001",
+      "vu-lesson-002",
+      "vu-lesson-003",
+      "vu-lesson-004",
+      "vu-lesson-005",
+      "vu-lesson-006",
+      "vu-lesson-007",
+      "vu-lesson-008",
+      "vu-lesson-009",
+      "vu-lesson-010",
+      "vu-lesson-011",
+      "vu-lesson-012",
+      "vu-lesson-013"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-02",
+    "order": 2,
+    "slug": "Vite项目",
+    "title": "Vite 创建 Vue 项目",
+    "description": "Vite使用、项目结构、SFC、dev/build。",
+    "estimatedHours": 4,
+    "difficulty": "easy",
+    "tags": [
+      "Vite 创建 Vue 项目"
+    ],
+    "lessonIds": [
+      "vu-lesson-014",
+      "vu-lesson-015",
+      "vu-lesson-016",
+      "vu-lesson-017",
+      "vu-lesson-018",
+      "vu-lesson-019",
+      "vu-lesson-020",
+      "vu-lesson-021",
+      "vu-lesson-022",
+      "vu-lesson-023",
+      "vu-lesson-024",
+      "vu-lesson-025",
+      "vu-lesson-026"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-03",
+    "order": 3,
+    "slug": "模板语法",
+    "title": "模板语法与指令",
+    "description": "插值、v-bind/v-model/v-if/v-for/v-on。",
+    "estimatedHours": 8,
+    "difficulty": "easy",
+    "tags": [
+      "模板语法与指令"
+    ],
+    "lessonIds": [
+      "vu-lesson-027",
+      "vu-lesson-028",
+      "vu-lesson-029",
+      "vu-lesson-030",
+      "vu-lesson-031",
+      "vu-lesson-032",
+      "vu-lesson-033",
+      "vu-lesson-034",
+      "vu-lesson-035",
+      "vu-lesson-036",
+      "vu-lesson-037",
+      "vu-lesson-038",
+      "vu-lesson-039"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-04",
+    "order": 4,
+    "slug": "响应式基础",
+    "title": "响应式基础：ref 与 reactive",
+    "description": "ref、reactive、toRef/toRefs。",
+    "estimatedHours": 8,
+    "difficulty": "medium",
+    "tags": [
+      "响应式基础：ref 与 reactive"
+    ],
+    "lessonIds": [
+      "vu-lesson-040",
+      "vu-lesson-041",
+      "vu-lesson-042",
+      "vu-lesson-043",
+      "vu-lesson-044",
+      "vu-lesson-045",
+      "vu-lesson-046",
+      "vu-lesson-047",
+      "vu-lesson-048",
+      "vu-lesson-049",
+      "vu-lesson-050",
+      "vu-lesson-051",
+      "vu-lesson-052"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-05",
+    "order": 5,
+    "slug": "事件处理",
+    "title": "事件处理与表单绑定",
+    "description": "事件监听、修饰符、v-model表单绑定。",
+    "estimatedHours": 6,
+    "difficulty": "easy",
+    "tags": [
+      "事件处理与表单绑定"
+    ],
+    "lessonIds": [
+      "vu-lesson-053",
+      "vu-lesson-054",
+      "vu-lesson-055",
+      "vu-lesson-056",
+      "vu-lesson-057",
+      "vu-lesson-058",
+      "vu-lesson-059",
+      "vu-lesson-060",
+      "vu-lesson-061",
+      "vu-lesson-062",
+      "vu-lesson-063",
+      "vu-lesson-064",
+      "vu-lesson-065"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-06",
+    "order": 6,
+    "slug": "条件列表渲染",
+    "title": "条件渲染与列表渲染",
+    "description": "v-if/v-show、v-for、key。",
+    "estimatedHours": 6,
+    "difficulty": "medium",
+    "tags": [
+      "条件渲染与列表渲染"
+    ],
+    "lessonIds": [
+      "vu-lesson-066",
+      "vu-lesson-067",
+      "vu-lesson-068",
+      "vu-lesson-069",
+      "vu-lesson-070",
+      "vu-lesson-071",
+      "vu-lesson-072",
+      "vu-lesson-073",
+      "vu-lesson-074",
+      "vu-lesson-075",
+      "vu-lesson-076",
+      "vu-lesson-077",
+      "vu-lesson-078"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-07",
+    "order": 7,
+    "slug": "组件通信",
+    "title": "组件基础与组件通信",
+    "description": "组件注册、props、emit、slot。",
+    "estimatedHours": 10,
+    "difficulty": "medium",
+    "tags": [
+      "组件基础与组件通信"
+    ],
+    "lessonIds": [
+      "vu-lesson-079",
+      "vu-lesson-080",
+      "vu-lesson-081",
+      "vu-lesson-082",
+      "vu-lesson-083",
+      "vu-lesson-084",
+      "vu-lesson-085",
+      "vu-lesson-086",
+      "vu-lesson-087",
+      "vu-lesson-088",
+      "vu-lesson-089",
+      "vu-lesson-090",
+      "vu-lesson-091"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-08",
+    "order": 8,
+    "slug": "propsemit",
+    "title": "props、emit 与 slot",
+    "description": "props校验、emit事件、slot类型。",
+    "estimatedHours": 8,
+    "difficulty": "medium",
+    "tags": [
+      "props、emit 与 slot"
+    ],
+    "lessonIds": [
+      "vu-lesson-092",
+      "vu-lesson-093",
+      "vu-lesson-094",
+      "vu-lesson-095",
+      "vu-lesson-096",
+      "vu-lesson-097",
+      "vu-lesson-098",
+      "vu-lesson-099",
+      "vu-lesson-100",
+      "vu-lesson-101",
+      "vu-lesson-102",
+      "vu-lesson-103",
+      "vu-lesson-104"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-09",
+    "order": 9,
+    "slug": "computedwatch",
+    "title": "computed、watch 与生命周期",
+    "description": "computed、watch/watchEffect、生命周期钩子。",
+    "estimatedHours": 8,
+    "difficulty": "medium",
+    "tags": [
+      "computed、watch 与生命周期"
+    ],
+    "lessonIds": [
+      "vu-lesson-105",
+      "vu-lesson-106",
+      "vu-lesson-107",
+      "vu-lesson-108",
+      "vu-lesson-109",
+      "vu-lesson-110",
+      "vu-lesson-111",
+      "vu-lesson-112",
+      "vu-lesson-113",
+      "vu-lesson-114",
+      "vu-lesson-115",
+      "vu-lesson-116",
+      "vu-lesson-117"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-10",
+    "order": 10,
+    "slug": "CompositionAPI",
+    "title": "Composition API 进阶",
+    "description": "setup语法、composable、provide/inject。",
+    "estimatedHours": 10,
+    "difficulty": "hard",
+    "tags": [
+      "Composition API 进阶"
+    ],
+    "lessonIds": [
+      "vu-lesson-118",
+      "vu-lesson-119",
+      "vu-lesson-120",
+      "vu-lesson-121",
+      "vu-lesson-122",
+      "vu-lesson-123",
+      "vu-lesson-124",
+      "vu-lesson-125",
+      "vu-lesson-126",
+      "vu-lesson-127",
+      "vu-lesson-128",
+      "vu-lesson-129",
+      "vu-lesson-130"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-11",
+    "order": 11,
+    "slug": "VueRouter",
+    "title": "Vue Router 路由开发",
+    "description": "路由配置、动态路由、导航守卫。",
+    "estimatedHours": 10,
+    "difficulty": "hard",
+    "tags": [
+      "Vue Router 路由开发"
+    ],
+    "lessonIds": [
+      "vu-lesson-131",
+      "vu-lesson-132",
+      "vu-lesson-133",
+      "vu-lesson-134",
+      "vu-lesson-135",
+      "vu-lesson-136",
+      "vu-lesson-137",
+      "vu-lesson-138",
+      "vu-lesson-139",
+      "vu-lesson-140",
+      "vu-lesson-141",
+      "vu-lesson-142",
+      "vu-lesson-143"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-12",
+    "order": 12,
+    "slug": "Pinia",
+    "title": "Pinia 状态管理",
+    "description": "Pinia定义、state/getter/action、持久化。",
+    "estimatedHours": 8,
+    "difficulty": "hard",
+    "tags": [
+      "Pinia 状态管理"
+    ],
+    "lessonIds": [
+      "vu-lesson-144",
+      "vu-lesson-145",
+      "vu-lesson-146",
+      "vu-lesson-147",
+      "vu-lesson-148",
+      "vu-lesson-149",
+      "vu-lesson-150",
+      "vu-lesson-151",
+      "vu-lesson-152",
+      "vu-lesson-153",
+      "vu-lesson-154",
+      "vu-lesson-155",
+      "vu-lesson-156"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-13",
+    "order": 13,
+    "slug": "接口请求",
+    "title": "接口请求与项目工程化",
+    "description": "axios/fetch、loading/error处理、工程化。",
+    "estimatedHours": 8,
+    "difficulty": "hard",
+    "tags": [
+      "接口请求与项目工程化"
+    ],
+    "lessonIds": [
+      "vu-lesson-157",
+      "vu-lesson-158",
+      "vu-lesson-159",
+      "vu-lesson-160",
+      "vu-lesson-161",
+      "vu-lesson-162",
+      "vu-lesson-163",
+      "vu-lesson-164",
+      "vu-lesson-165",
+      "vu-lesson-166",
+      "vu-lesson-167",
+      "vu-lesson-168",
+      "vu-lesson-169"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-course-14",
+    "order": 14,
+    "slug": "项目实战",
+    "title": "Vue 项目实战、部署与面试",
+    "description": "后台管理、GitHub Pages部署、面试题。",
+    "estimatedHours": 10,
+    "difficulty": "hard",
+    "tags": [
+      "Vue 项目实战、部署与面试"
+    ],
+    "lessonIds": [
+      "vu-lesson-170",
+      "vu-lesson-171",
+      "vu-lesson-172",
+      "vu-lesson-173",
+      "vu-lesson-174",
+      "vu-lesson-175",
+      "vu-lesson-176",
+      "vu-lesson-177",
+      "vu-lesson-178",
+      "vu-lesson-179",
+      "vu-lesson-180",
+      "vu-lesson-181",
+      "vu-lesson-182"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "掌握Vue3",
+      "能构建组件",
+      "会用路由",
+      "具备项目能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  }
+]

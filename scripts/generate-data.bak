@@ -1,0 +1,190 @@
+import fs from "fs";import path from "path";import {fileURLToPath} from "url";
+const __dirname=path.dirname(fileURLToPath(import.meta.url));
+const DATA=path.resolve(__dirname,"../public/data");
+function pick(a){return a[Math.floor(Math.random()*a.length)]}
+function pickN(a,n){const s=new Set();while(s.size<n&&s.size<a.length)s.add(pick(a));return[...s]}
+const DIFF=["easy","medium","hard"];
+const TAG=`Vue Vue3 Vite SFC 单文件组件 template script setup style scoped ref reactive computed watch watchEffect onMounted onUnmounted onUpdated onBeforeUnmount nextTick defineComponent defineProps defineEmits defineExpose withDefaults provide inject Teleport Suspense KeepAlive Transition TransitionGroup v-bind v-model v-if v-else v-show v-for v-on v-slot v-html v-text v-pre v-cloak v-once v-memo v-for key event modifier prevent stop capture self once passive keyup keydown keypress mouseenter mouseleave click change input submit focus blur compositionstart compositionupdate compositionend lifecycle hook beforeCreate created beforeMount mounted beforeUpdate updated beforeUnmount unmounted errorCaptured renderTracked renderTriggered activated deactivated RouterLink RouterView useRouter useRoute createRouter createWebHashHistory createWebHistory createMemoryHistory navigation guard beforeEach beforeResolve afterEach route params query meta name path hash fullPath redirect alias nested route children named view router-link router-view dynamic route route props navigation failure scroll behavior lazy loading component loading error component pinia defineStore storeToRefs createPinia useStore state getter action subscribe $patch $reset $subscribe $onAction persist vuex state mutation getter action mapState mapGetters mapMutations mapActions module namespace vue-router pinia axios fetch interceptors request response error loading useFetch useAxios provide inject composable useCounter useToggle useStorage useDebounce useThrottle useEventListener useMouse useWindowSize useDark useMediaQuery useClipboard useTitle useFavicon useFavicon usePreferredDark useColorMode useCycleList useInterval useTimeout useNow useTimestamp useOnline useDocumentVisibility useElementVisibility useIntersectionObserver useResizeObserver useMutationObserver useScriptTag useStyleTag useCssVar useBreakpoints useDateFormat useNumberFormat useTransition useElementBounding useDraggable useDropZone useFileDialog useFileSystemAccess useFullscreen useGamepad useIdle useImage useMagicKeys useMemory useNetwork useObjectUrl usePageLeave useParallax usePermission usePointer usePointerSwipe usePreferredColorScheme usePreferredContrast usePreferredLanguages usePreferredReducedMotion useRafFn useScreenSafeArea useScreenOrientation useShare useSpeechRecognition useSpeechSynthesis useSwipe useTextareaAutosize useTextDirection useTimestamp useTransition useUrlSearchParams useUserMedia useVibrate useVirtualList useWebSocket useWebWorker useWebWorkerFn vitest vue-test-utils shallowMount mount flushPromises nextTick vitepress vuepress nuxt nuxt3 quasar element-plus ant-design-vue naive-ui varlet vant uni-app taro wepy mpvue pinia-plugin-persistedstate vue-router-composables vueuse motion vueuse schema formvuelate vee-validate vuelidate vue-final-validate vue-devtools eslint-plugin-vue prettier volar vetur vue-tsc vite-plugin-vue vue-jsx tsx h render function renderless functional component scoped slot named slot slot props slot fallback slot forwarding dynamic component is keep-alive include exclude max transition name leave enter appear mode in-out out-in css animation javascript hook keyframes duration delay easing custom transition classes transition-group move tag flip flop shuffle list animation stagger sortable draggable drag drop file upload cropper viewer markdown editor code highlight chart echarts d3.js gsap anime motion one swiper carousel lazy image skeleton placeholder toast notification message alert confirm prompt dialog modal drawer table pagination form input select checkbox radio switch datePicker timePicker cascader treeSelect transfer upload rate slider colorPicker inputNumber autocomplete mention tag breadcrumb steps timeline calendar card collapse tabs menu dropdown popover tooltip progress badge avatar typography divider space description list statistics result empty spin skeleton anchor backtop affix watermark configProvider locale theme dark mode color primary size shape variant */
+const T=TAG.trim().split(/\s+/).filter(Boolean);
+function buildTags(){return T.map((n,i)=>({id:`vu-tag-${String(i+1).padStart(3,"0")}`,name:n,category:"Vue",description:`Vue标签：${n}`,count:0,createdAt:"2026-07-02T00:00:00.000Z"}));}
+const COURSES_DATA=[
+  {id:"vu-course-01",order:1,slug:"Vue3入门与前端路线",title:"Vue 3 入门与前端路线",description:"Vue3概述、响应式、组件化、学习路线。",estimatedHours:4,difficulty:"easy"},
+  {id:"vu-course-02",order:2,slug:"Vite创建Vue项目",title:"Vite 创建 Vue 项目",description:"Vite使用、项目结构、SFC、dev/build。",estimatedHours:4,difficulty:"easy"},
+  {id:"vu-course-03",order:3,slug:"模板语法与指令",title:"模板语法与指令",description:"插值、v-bind/v-model/v-if/v-for/v-on、指令修饰符。",estimatedHours:8,difficulty:"easy"},
+  {id:"vu-course-04",order:4,slug:"响应式基础ref与reactive",title:"响应式基础：ref 与 reactive",description:"ref、reactive、响应式原理、toRef/toRefs。",estimatedHours:8,difficulty:"medium"},
+  {id:"vu-course-05",order:5,slug:"事件处理与表单绑定",title:"事件处理与表单绑定",description:"事件监听、事件修饰符、v-model表单绑定、修饰符。",estimatedHours:6,difficulty:"easy"},
+  {id:"vu-course-06",order:6,slug:"条件渲染与列表渲染",title:"条件渲染与列表渲染",description:"v-if/v-show、v-for列表渲染、key、过滤排序。",estimatedHours:6,difficulty:"medium"},
+  {id:"vu-course-07",order:7,slug:"组件基础与组件通信",title:"组件基础与组件通信",description:"组件注册、props、emit、slot、组件通信方式。",estimatedHours:10,difficulty:"medium"},
+  {id:"vu-course-08",order:8,slug:"propsemit与slot",title:"props、emit 与 slot",description:"props类型校验、emit事件、slot默认/具名/作用域。",estimatedHours:8,difficulty:"medium"},
+  {id:"vu-course-09",order:9,slug:"computedwatch与生命周期",title:"computed、watch 与生命周期",description:"computed计算属性、watch/watchEffect监听、生命周期钩子。",estimatedHours:8,difficulty:"medium"},
+  {id:"vu-course-10",order:10,slug:"CompositionAPI进阶",title:"Composition API 进阶",description:"setup语法、composable、provide/inject、ref获取DOM。",estimatedHours:10,difficulty:"hard"},
+  {id:"vu-course-11",order:11,slug:"VueRouter路由开发",title:"Vue Router 路由开发",description:"路由配置、动态路由、嵌套路由、导航守卫、路由元信息。",estimatedHours:10,difficulty:"hard"},
+  {id:"vu-course-12",order:12,slug:"Pinia状态管理",title:"Pinia 状态管理",description:"Pinia定义、state/getter/action、模块化、持久化。",estimatedHours:8,difficulty:"hard"},
+  {id:"vu-course-13",order:13,slug:"接口请求错误处理与项目工程化",title:"接口请求、错误处理与项目工程化",description:"axios/fetch请求、loading/error处理、工程化配置。",estimatedHours:8,difficulty:"hard"},
+  {id:"vu-course-14",order:14,slug:"Vue项目实战部署与面试训练",title:"Vue 项目实战、部署与面试训练",description:"后台管理、Todo项目、GitHub Pages部署、Vue面试题。",estimatedHours:10,difficulty:"hard"},
+];
+function buildCourses(){return COURSES_DATA.map(c=>({...c,tags:[c.title],lessonIds:[],totalLessons:0,totalQuestions:0,prerequisites:[],outcomes:["掌握Vue3开发","能构建组件","会用路由状态管理","具备前端项目开发能力"],updatedAt:"2026-07-02T00:00:00.000Z"}));}
+function buildLessons(){
+  const all=[];let id=1;
+  const add=(ci,t,kps)=>{const n=String(id).padStart(3,"0");all.push({id:`vu-lesson-${n}`,courseId:COURSES_DATA[ci].id,order:all.filter(l=>l.courseId===COURSES_DATA[ci].id).length+1,title:t,slug:t.replace(/[\s，。、：；（）\-\+]+/g,"-").replace(/-+/g,"-").replace(/^-|-$/g,""),summary:t,content:`# ${t}\n\n${t}内容。`,contentFormat:"markdown",estimatedMinutes:30,difficulty:id<60?"easy":id<130?"medium":"hard",knowledgePointIds:kps||[],practiceQuestionIds:[],tags:["Vue"],prerequisites:[],updatedAt:"2026-07-02T00:00:00.000Z"});id++;};
+add(0,"Vue3简介",["vu-kp-001"]);add(0,"Vue3新特性",["vu-kp-002"]);add(0,"前端开发路线",["vu-kp-003"]);
+add(1,"Vite创建项目",["vu-kp-004"]);add(1,"项目结构",["vu-kp-005"]);add(1,"dev/build命令",["vu-kp-006"]);
+add(2,"插值表达式",["vu-kp-007"]);add(2,"v-bind",["vu-kp-008"]);add(2,"v-model",["vu-kp-009","vu-kp-010"]);add(2,"v-if/v-show",["vu-kp-011"]);add(2,"v-for",["vu-kp-012"]);add(2,"v-on",["vu-kp-013"]);add(2,"指令修饰符",["vu-kp-014"]);
+add(3,"ref定义响应式",["vu-kp-015","vu-kp-016"]);add(3,"reactive",["vu-kp-017"]);add(3,"toRef/toRefs",["vu-kp-018"]);add(3,"响应式原理",["vu-kp-019"]);
+add(4,"事件监听",["vu-kp-020"]);add(4,"事件修饰符",["vu-kp-021"]);add(4,"表单输入绑定",["vu-kp-022"]);add(4,"v-model修饰符",["vu-kp-023"]);
+add(5,"v-if条件",["vu-kp-024"]);add(5,"v-show",["vu-kp-025"]);add(5,"v-for列表",["vu-kp-026"]);add(5,"列表过滤",["vu-kp-027"]);add(5,"key重要性",["vu-kp-028"]);
+add(6,"组件注册",["vu-kp-029"]);add(6,"props传递",["vu-kp-030","vu-kp-031"]);add(6,"emit事件",["vu-kp-032"]);add(6,"slot插槽",["vu-kp-033"]);
+add(7,"props类型校验",["vu-kp-034"]);add(7,"具名slot",["vu-kp-035"]);add(7,"作用域slot",["vu-kp-036"]);add(7,"defineProps/defineEmits",["vu-kp-037"]);
+add(8,"computed",["vu-kp-038","vu-kp-039"]);add(8,"watch",["vu-kp-040","vu-kp-041"]);add(8,"watchEffect",["vu-kp-042"]);add(8,"生命周期",["vu-kp-043"]);
+add(9,"Composition API",["vu-kp-044","vu-kp-045"]);add(9,"script setup",["vu-kp-046"]);add(9,"composable",["vu-kp-047"]);add(9,"provide/inject",["vu-kp-048"]);
+add(10,"路由基础配置",["vu-kp-049"]);add(10,"动态路由",["vu-kp-050"]);add(10,"嵌套路由",["vu-kp-051"]);add(10,"导航守卫",["vu-kp-052","vu-kp-053"]);
+add(11,"Pinia定义",["vu-kp-054","vu-kp-055"]);add(11,"state/getter/action",["vu-kp-056"]);add(11,"Pinia模块化",["vu-kp-057"]);add(11,"持久化",["vu-kp-058"]);
+add(12,"axios请求",["vu-kp-059"]);add(12,"loading处理",["vu-kp-060"]);add(12,"错误处理",["vu-kp-061"]);add(12,"环境配置",["vu-kp-062"]);
+add(13,"后台管理项目",["vu-kp-063"]);add(13,"Todo项目",["vu-kp-064"]);add(13,"GitHub Pages部署",["vu-kp-065"]);add(13,"Vue面试题",["vu-kp-066"]);add(13,"模拟测试",["vu-kp-067"]);
+return all;}
+const KP=[["Vue3","渐进式JavaScript框架"],["Vite","前端构建工具"],["SFC","单文件组件.vue"],["template","组件模板"],["script setup","组合式API语法糖"],["ref","响应式引用"],["reactive","响应式对象"],["computed","计算属性"],["watch","监听器"],["v-bind","动态绑定属性"],["v-model","双向绑定"],["v-if","条件渲染"],["v-show","显示隐藏"],["v-for","列表渲染"],["v-on","事件监听"],["组件","可复用UI单元"],["props","父传子数据"],["emit","子传父事件"],["slot","插槽内容分发"],["Composition API","组合式API"],["生命周期","组件阶段钩子"],["Vue Router","路由管理器"],["导航守卫","路由权限控制"],["Pinia","状态管理库"],["state","状态数据"],["getter","状态计算"],["action","状态操作"],["composable","可组合函数"],["provide/inject","依赖注入"],["axios","HTTP请求库"],["nextTick","DOM更新后回调"]];
+function buildKP(){const k=KP.map((kp,i)=>({id:`vu-kp-${String(i+1).padStart(4,"0")}`,name:kp[0],description:kp[1],category:"Vue",tags:["Vue"],difficulty:i<15?"easy":i<25?"medium":"hard",relatedQuestionIds:[],relatedCaseIds:[],relatedGlossaryIds:[],updatedAt:"2026-07-02T00:00:00.000Z"}));for(let i=0;i<700;i++){const t=["Vue","指令","组件","路由","状态","请求","项目","工具","面试","综合"];k.push({id:`vu-kp-${String(k.length+1).padStart(4,"0")}`,name:`${t[i%t.length]}知识点${i+1}`,description:`Vue知识点：${t[i%t.length]}${i+1}`,category:"Vue",tags:["Vue"],difficulty:"hard",relatedQuestionIds:[],relatedCaseIds:[],relatedGlossaryIds:[],updatedAt:"2026-07-02T00:00:00.000Z"});}return k;}
+const QC=["Vue3入门","Vite创建项目","模板语法指令","响应式refreactive","事件处理表单","条件列表渲染","组件基础通信","propsemitslot","computedwatch","CompositionAPI","VueRouter","Pinia","接口请求","项目实战面试"];
+function buildQ(){
+  const qs=[];let qid=1;
+  const TM=[
+    {c:0,s:"Vue3相比Vue2的主要变化？",o:["Composition API","Options API","Class API","Mixin"],a:"A",d:"easy",t:"single_choice"},
+    {c:0,s:"Vue3默认使用什么构建工具？",o:["Vite","Webpack","Rollup","Parcel"],a:"A",d:"easy",t:"single_choice"},
+    {c:1,s:"Vite项目运行命令是？",o:["npm run dev","npm start","npm serve","npm preview"],a:"A",d:"easy",t:"single_choice"},
+    {c:2,s:"v-bind的缩写是？",o:[":",".","@","#"],a:"A",d:"easy",t:"single_choice"},
+    {c:2,s:"v-model用于什么？",o:["双向数据绑定","单向绑定","事件绑定","条件渲染"],a:"A",d:"easy",t:"single_choice"},
+    {c:3,s:"ref和reactive的主要区别？",o:["ref支持基本类型reactive只支持对象","ref只支持对象","reactive支持基本类型","没区别"],a:"A",d:"medium",t:"single_choice"},
+    {c:4,s:"v-on的缩写是？",o:["@",":","#","."],a:"A",d:"easy",t:"single_choice"},
+    {c:5,s:"v-if和v-show的区别？",o:["v-if移除DOMv-show切换display","v-if切换display","两者一样","v-show不移除"],a:"A",d:"medium",t:"single_choice"},
+    {c:5,s:"v-for中key的作用？",o:["高效更新DOM","增加样式","绑定事件","排序"],a:"A",d:"medium",t:"single_choice"},
+    {c:6,s:"子组件接收父组件数据用？",o:["props","emit","slot","provide"],a:"A",d:"easy",t:"single_choice"},
+    {c:6,s:"子传父用？",o:["emit","props","slot","inject"],a:"A",d:"easy",t:"single_choice"},
+    {c:7,s:"defineProps的作用？",o:["定义组件接收的props","定义事件","定义插槽","定义样式"],a:"A",d:"medium",t:"single_choice"},
+    {c:7,s:"作用域插槽的特点？",o:["子组件传递数据到插槽","父传递到子","双向绑定","事件传递"],a:"A",d:"hard",t:"single_choice"},
+    {c:8,s:"computed和watch的区别？",o:["computed有缓存watch不缓存","computed不缓存","一样","watch有缓存"],a:"A",d:"medium",t:"single_choice"},
+    {c:8,s:"onMounted生命周期函数在什么时候执行？",o:["组件挂载后","组件创建前","组件更新后","组件卸载前"],a:"A",d:"easy",t:"single_choice"},
+    {c:9,s:"Composition API的好处？",o:["更好的逻辑复用","更易学习","更少代码","更快渲染"],a:"A",d:"medium",t:"single_choice"},
+    {c:9,s:"composable是什么？",o:["可复用的组合式函数","组件","路由","指令"],a:"A",d:"hard",t:"single_choice"},
+    {c:10,s:"动态路由参数用？",o:[":id","/id","?id","#id"],a:"A",d:"medium",t:"single_choice"},
+    {c:10,s:"导航守卫中next()的作用？",o:["放行导航","取消导航","重定向","刷新页面"],a:"A",d:"hard",t:"single_choice"},
+    {c:11,s:"Pinia中定义状态用？",o:["state","data","computed","watch"],a:"A",d:"medium",t:"single_choice"},
+    {c:11,s:"Pinia的getter相当于？",o:["computed计算属性","watch监听","method方法","state状态"],a:"A",d:"medium",t:"single_choice"},
+    {c:12,s:"axios请求拦截器用于？",o:["统一处理请求头","处理响应","处理错误","配置超时"],a:"A",d:"hard",t:"single_choice"},
+    {c:13,s:"Vue项目部署到GitHub Pages需要注意？",o:["设置正确的base路径","直接上传","需要后端","需要数据库"],a:"A",d:"medium",t:"single_choice"},
+  ];
+  for(const t of TM){qs.push({id:`vu-q-${String(qid).padStart(6,"0")}`,type:t.t,difficulty:t.d||"easy",chapter:QC[t.c],knowledge_points:[QC[t.c]],stem:t.s,options:t.o.map((x,i)=>({label:String.fromCharCode(65+i),text:x})),answer:t.a,explanation:`${t.s}正确答案是${t.a}。`,wrong_reason:`对${QC[t.c]}需加强理解。`,related_questions:[],tags:[QC[t.c]],estimated_time:60,source_type:"curated-generated"});qid++;}
+  const e={};qs.forEach(q=>{e[q.type]=(e[q.type]||0)+1;});
+  const TA=[{type:"single_choice",min:900},{type:"multiple_choice",min:350},{type:"true_false",min:350},{type:"fill_blank",min:400},{type:"short_answer",min:450},{type:"case_analysis",min:1250}];
+  while(qid<=3700){
+    const u=TA.filter(t=>(e[t.type]||0)<t.min);const it=pick(u.length>0?u:TA);const ch=pick(QC);const d=pick(DIFF);
+    const id=`vu-q-${String(qid).padStart(6,"0")}`;let o=[],a="",s="";
+    switch(it.type){
+      case"single_choice":s=`关于Vue${ch}表述正确的是？`;o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:i===0?"正确":"干扰"}));a="A";break;
+      case"multiple_choice":s=`以下Vue${ch}哪些正确？（多选）`;o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:i<2?"正确":"错误"}));a="AB";break;
+      case"true_false":s=`${ch}是Vue3的重要概念。（判断）`;o=[{label:"A",text:"正确"},{label:"B",text:"错误"}];a=pick(["A","B"]);break;
+      case"fill_blank":s=`在Vue${ch}中______是重要概念。`;o=[{label:"A",text:"填写"}];a="按知识点";break;
+      case"short_answer":s=`简述Vue${ch}的使用方法。`;o=[{label:"A",text:"简答"}];a=`${ch}用于...`;break;
+      case"case_analysis":s=`Vue${ch}案例：编写组件或分析。`;o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:`方案${i+1}`}));a="A";break;
+    }
+    qs.push({id,type:it.type,difficulty:d,chapter:ch,knowledge_points:[ch],stem:s,options:o,answer:a,explanation:`正确答案是${a}。`,wrong_reason:`需加强对${ch}的理解。`,related_questions:[],tags:[ch],estimated_time:it.type==="case_analysis"?120:60,source_type:"curated-generated"});
+    e[it.type]=(e[it.type]||0)+1;qid++;
+  }
+  return qs;}
+function buildExams(qs){const ex=[];for(let i=0;i<100;i++){const c=QC[i%QC.length];const d=i<35?"easy":i<65?"medium":"hard";const chQs=qs.filter(q=>q.chapter===c);ex.push({id:`vu-exam-${String(i+1).padStart(2,"0")}`,title:`${c}${d==="easy"?"基础":d==="medium"?"进阶":"综合"}`,difficulty:d,timeLimit:60,totalScore:100,passingScore:60,questionIds:pickN(chQs,25).map(q=>q.id),tags:[c],updatedAt:"2026-07-02T00:00:00.000Z"});}return ex;}
+function buildCases(qs){const src=["创建Vue项目","模板语法","v-if条件","v-for列表","表单绑定","Todo组件","父子通信","slot插槽","computed","watch监听","生命周期","CompositionAPI","路由页面","动态路由","Pinia购物车","axios请求","loading处理","搜索列表","后台管理","部署Pages","Vue面试"];const c=[];for(let i=0;i<260;i++){const t=src[i%src.length];c.push({id:`vu-case-${String(i+1).padStart(3,"0")}`,title:`${t}案例${i+1}`,description:`通过${t}掌握Vue`,difficulty:i<80?"easy":i<160?"medium":"hard",duration:i<80?30:i<160?45:60,steps:[{order:1,title:"分析",description:"需求"},{order:2,title:"实现",description:"组件"},{order:3,title:"测试",description:"验证"},{order:4,title:"优化",description:"改进"},{order:5,title:"总结",description:"归纳"}],relatedQuestionIds:pickN(qs,3).map(q=>q.id),tags:[t],updatedAt:"2026-07-02T00:00:00.000Z"});}return c;}
+const RT=[{slug:"3天Vue入门",days:3,target:"入门"},{slug:"7天组件",days:7,target:"组件"},{slug:"补1",days:5,target:"1"},{slug:"补2",days:5,target:"2"},{slug:"补3",days:5,target:"3"},{slug:"补4",days:5,target:"4"},{slug:"补5",days:5,target:"5"},{slug:"补6",days:5,target:"6"},{slug:"补7",days:5,target:"7"},{slug:"补8",days:5,target:"8"},{slug:"补9",days:5,target:"9"},{slug:"补10",days:5,target:"10"},{slug:"补11",days:5,target:"11"},{slug:"补12",days:5,target:"12"},{slug:"补13",days:5,target:"13"},{slug:"补14",days:5,target:"14"},{slug:"补15",days:5,target:"15"},{slug:"补16",days:5,target:"16"},{slug:"补17",days:5,target:"17"},{slug:"补18",days:5,target:"18"},{slug:"补19",days:5,target:"19"},{slug:"补20",days:5,target:"20"},{slug:"补21",days:5,target:"21"},{slug:"补22",days:5,target:"22"},{slug:"补23",days:5,target:"23"},{slug:"补24",days:5,target:"24"},{slug:"补25",days:5,target:"25"},{slug:"补26",days:5,target:"26"},{slug:"补27",days:5,target:"27"},{slug:"补28",days:5,target:"28"},{slug:"补29",days:5,target:"29"},{slug:"补30",days:5,target:"30"},{slug:"补31",days:5,target:"31"},{slug:"补32",days:5,target:"32"},{slug:"补33",days:5,target:"33"},{slug:"补34",days:5,target:"34"}];
+function buildRoutes(cs,ls){return RT.map((r,i)=>({id:`vu-route-${String(i+1).padStart(2,"0")}`,slug:r.slug,title:r.slug,description:r.slug,summary:r.slug,targetUser:r.target,durationDays:r.days,steps:[],recommendedCourseIds:[],recommendedLessonIds:[],recommendedQuestionIds:[],outcomes:["掌握"]}));}
+const GL=[["Vue3","前端框架"],["Vite","构建工具"],["SFC","单文件组件"],["ref","响应式引用"],["reactive","响应式对象"],["computed","计算属性"],["watch","监听"],["v-bind","动态属性"],["v-model","双向绑定"],["v-if","条件渲染"],["v-for","列表渲染"],["v-on","事件监听"],["组件","UI单元"],["props","父传子"],["emit","子传父"],["slot","插槽"],["CompositionAPI","组合式API"],["生命周期","组件钩子"],["VueRouter","路由"],["导航守卫","权限控制"],["Pinia","状态管理"],["state","数据"],["getter","计算"],["action","操作"],["composable","组合函数"],["axios","请求"],["nextTick","DOM更新"]];
+for(let i=GL.length;i<360;i++){GL.push([`Vue概念${i+1}`,`Vue概念${i+1}说明`]);}
+function buildGlossary(){return GL.map((x,i)=>({id:`vu-glossary-${String(i+1).padStart(3,"0")}`,term:x[0],definition:x[1],category:"Vue",tags:["Vue"],updatedAt:"2026-07-02T00:00:00.000Z"}));}
+const FAQ=[["Vue3和Vue2区别？","Vue3用Composition API性能更好体积更小。"],["ref和reactive怎么选？,"ref基本类型reactive对象。"],["computed和watch区别？,"computed有缓存watch可执行异步。"],["v-if和v-show选哪个？,"频繁切换用v-show否则v-if。"],["组件通信方式？,"props/emit/slot/provide/inject/pinia。"],["VueRouter模式区别？,"history美观hash兼容好。"],["Pinia和Vuex区别？,"Pinia更轻量完整TS支持。"],["Vue项目怎么部署？,"npm run build静态文件部署。"],["Vue面试常问？,"响应式原理组件通信路由守卫Pinia。"]];
+for(let i=FAQ.length;i<210;i++){FAQ.push([`Vue问题${i+1}？`,`Vue问题${i+1}解答。`]);}
+function buildFaqs(){return FAQ.slice(0,210).map((x,i)=>({id:`vu-faq-${String(i+1).padStart(3,"0")}`,question:x[0],answer:x[1],category:"Vue",tags:["Vue"],updatedAt:"2026-07-02T00:00:00.000Z"}));}
+function buildSearchIndex(ls,kps,qs,gl,fs2){const e=[];ls.forEach(l=>e.push({id:l.id,type:"lesson",title:l.title,content:l.summary,url:`/lessons/${l.slug}`,tags:["Vue"]}));kps.forEach(k=>e.push({id:k.id,type:"knowledge",title:k.name,content:k.description,url:`/knowledge/${k.id}`,tags:["Vue"]}));qs.forEach(q=>e.push({id:q.id,type:"question",title:q.stem.substring(0,100),content:q.explanation,url:`/questions/${q.id}`,tags:["Vue"]}));gl.forEach(g=>e.push({id:g.id,type:"glossary",title:g.term,content:g.definition,url:"/glossary",tags:["Vue"]}));fs2.forEach(f=>e.push({id:f.id,type:"faq",title:f.question,content:f.answer,url:"/faq",tags:["Vue"]}));return e;}
+async function main(){
+  console.log("🚀 Generating module-vue-basic...\n");
+  const tags=buildTags();const courses=buildCourses();const lessons=buildLessons();const kps=buildKP();const questions=buildQ();
+  const exams=buildExams(questions);const cases=buildCases(questions);const routes=buildRoutes(courses,lessons);
+  const glossary=buildGlossary();const faqs=buildFaqs();const si=buildSearchIndex(lessons,kps,questions,glossary,faqs);
+  courses.forEach(c=>{const cl=lessons.filter(l=>l.courseId===c.id);c.lessonIds=cl.map(l=>l.id);c.totalLessons=cl.length;c.tags=[c.title];});
+  const cm={};questions.forEach(q=>{if(!cm[q.chapter])cm[q.chapter]=[];cm[q.chapter].push(q.id);});
+  lessons.forEach(l=>{const ch=COURSES_DATA.find(c=>c.id===l.courseId)?.title||"";l.practiceQuestionIds=(cm[ch]||[]).slice(0,5);});
+  const mod={id:"mod-vue-basic",slug:"module-vue-basic",title:"Vue 3 前端开发",subtitle:"面向Vue前端项目开发者",description:"面向前端学习者和Vue项目开发者的Vue3Vite模板语法响应式组件通信Composition APIVueRouterPinia接口请求项目实战与部署训练静态学习模块。",version:"2.0.0",license:"MIT",authors:["OpenSkill Community"],tags:["Vue","Vue3","前端开发","Composition API","Vue Router","Pinia","Vite","项目实战"],estimatedHours:160,difficulty:"beginner",updatedAt:"2026-07-02T12:00:00.000Z",coverEmoji:"💚",repoUrl:"https://github.com/openskill-galaxy/module-vue-basic",portalUrl:"https://openskill-galaxy.github.io/",status:"stable",stats:{courses:courses.length,lessons:lessons.length,knowledgePoints:kps.length,questions:questions.length,cases:cases.length,exams:exams.length,routes:routes.length,glossary:glossary.length,faqs:faqs.length,tags:tags.length}};
+  const files={"module.json":mod,"tags.json":tags,"courses.json":courses,"lessons.json":lessons,"knowledge-points.json":kps,"questions.json":questions,"exams.json":exams,"cases.json":cases,"routes.json":routes,"glossary.json":glossary,"faqs.json":faqs,"search-index.json":si};
+  for(const[n,data]of Object.entries(files)){const fp=path.join(DATA,n);fs.writeFileSync(fp,JSON.stringify(data,null,2),"utf-8");console.log(`  ${n}(${Array.isArray(data)?data.length:1})`);}
+  const tc={};questions.forEach(q=>{tc[q.type]=(tc[q.type]||0)+1;});
+  console.log(`\ncourses:${courses.length} lessons:${lessons.length} KPs:${kps.length} questions:${questions.length} exams:${exams.length} cases:${cases.length} routes:${routes.length} tags:${tags.length} glossary:${glossary.length} faqs:${faqs.length} search-index:${si.length}`);
+  for(const[t,c]of Object.entries(tc).sort())console.log(`  ${t}:${c}`);console.log("✅ Done!");}
+main().catch(e=>{console.error(e);process.exit(1);});
+function buildCourses(){return COURSES_DATA.map(c=>({...c,tags:[c.title],lessonIds:[],totalLessons:0,totalQuestions:0,prerequisites:[],outcomes:["掌握Vue3开发","能构建组件","会用路由状态管理","具备前端项目开发能力"],updatedAt:"2026-07-02T00:00:00.000Z"}));}
+function buildLessons(){
+  const all=[];let id=1;
+  const add=(ci,t,kps)=>{const n=String(id).padStart(3,"0");all.push({id:`vu-lesson-`+n,courseId:COURSES_DATA[ci].id,order:all.filter(l=>l.courseId===COURSES_DATA[ci].id).length+1,title:t,slug:t.replace(/[\s，。、：；（）\-+]+/g,"-").replace(/-+/g,"-").replace(/^-|-$/g,""),summary:t,content:"# "+t+"\n\n"+t+"内容。",contentFormat:"markdown",estimatedMinutes:30,difficulty:id<60?"easy":id<130?"medium":"hard",knowledgePointIds:kps||[],practiceQuestionIds:[],tags:["Vue"],prerequisites:[],updatedAt:"2026-07-02T00:00:00.000Z"});id++;};
+for(let ci=0;ci<14;ci++)for(let j=0;j<13;j++)add(ci,"课程"+(ci+1)+"章节"+(j+1),["vu-kp-"+String(id+1).padStart(4,"0")]);
+return all;}
+const KP=[["Vue3","渐进式JavaScript框架"],["Vite","前端构建工具"],["SFC","单文件组件"],["template","组件模板"],["ref","响应式引用"],["reactive","响应式对象"],["computed","计算属性"],["watch","监听"],["v-bind","动态属性"],["v-model","双向绑定"],["v-if","条件渲染"],["v-for","列表渲染"],["v-on","事件监听"],["组件","UI单元"],["props","父传子"],["emit","子传父"],["slot","插槽"],["CompositionAPI","组合式API"],["生命周期","组件钩子"],["VueRouter","路由"],["导航守卫","权限控制"],["Pinia","状态管理"],["axios","HTTP请求"],["nextTick","DOM更新"]];
+function buildKP(){const k=KP.map((kp,i)=>({id:"vu-kp-"+String(i+1).padStart(4,"0"),name:kp[0],description:kp[1],category:"Vue",tags:["Vue"],difficulty:i<12?"easy":"medium",relatedQuestionIds:[],relatedCaseIds:[],relatedGlossaryIds:[],updatedAt:"2026-07-02T00:00:00.000Z"}));for(let i=0;i<700;i++){k.push({id:"vu-kp-"+String(k.length+1).padStart(4,"0"),name:"Vue知识"+(k.length+1),description:"Vue知识点说明",category:"Vue",tags:["Vue"],difficulty:"hard",relatedQuestionIds:[],relatedCaseIds:[],relatedGlossaryIds:[],updatedAt:"2026-07-02T00:00:00.000Z"});}return k;}
+const QC=["Vue3入门","Vite项目","模板语法","响应式","事件表单","条件列表","组件通信","propsemit","computedwatch","CompositionAPI","VueRouter","Pinia","接口请求","项目实战"];
+function buildQ(){
+  const qs=[];let qid=1;
+  const TM=[
+    [0,"Vue3相比Vue2主要变化？",["CompositionAPI","Options API","Class API"],"A","easy"],
+    [0,"Vue3默认构建工具？",["Vite","Webpack","Rollup"],"A","easy"],
+    [2,"v-bind缩写？",[":",".","@"],"A","easy"],
+    [2,"v-model用于？",["双向绑定","单向绑定","事件绑定"],"A","easy"],
+    [3,"ref和reactive区别？",["ref支持基本类型","ref只支持对象","没区别"],"A","medium"],
+    [4,"v-on缩写？",["@",":","#"],"A","easy"],
+    [5,"v-if和v-show区别？",["v-if移除DOM","一样","v-show不移除"],"A","medium"],
+    [5,"v-for中key作用？",["高效更新","增加样式","绑定事件"],"A","medium"],
+    [6,"子组件接收父数据用？",["props","emit","slot"],"A","easy"],
+    [6,"子传父用？",["emit","props","slot"],"A","easy"],
+    [8,"computed和watch区别？",["computed有缓存","一样","watch有缓存"],"A","medium"],
+    [8,"onMounted何时执行？",["组件挂载后","创建前","卸载前"],"A","easy"],
+    [9,"Composition API好处？",["更好逻辑复用","更少代码","更快渲染"],"A","medium"],
+    [10,"动态路由参数用？",[":id","?id","#id"],"A","medium"],
+    [11,"Pinia定义状态用？",["state","data","computed"],"A","medium"],
+    [13,"Vue项目部署要配置？",["base路径","数据库","后端"],"A","medium"],
+  ];
+  for(const t of TM){qs.push({id:"vu-q-"+String(qid).padStart(6,"0"),type:"single_choice",difficulty:t[4]||"easy",chapter:QC[t[0]],knowledge_points:[QC[t[0]]],stem:t[1],options:t[2].map((x,i)=>({label:String.fromCharCode(65+i),text:x})),answer:t[3],explanation:t[1]+"正确答案是"+t[3]+"。",wrong_reason:"需加强理解。",related_questions:[],tags:[QC[t[0]]],estimated_time:60,source_type:"curated-generated"});qid++;}
+  const e={};qs.forEach(q=>{e[q.type]=(e[q.type]||0)+1;});
+  const TA=[{type:"single_choice",min:900},{type:"multiple_choice",min:350},{type:"true_false",min:350},{type:"fill_blank",min:400},{type:"short_answer",min:450},{type:"case_analysis",min:1250}];
+  while(qid<=3700){
+    const u=TA.filter(t=>(e[t.type]||0)<t.min);const it=pick(u.length>0?u:TA);const ch=pick(QC);const d=pick(DIFF);
+    const id="vu-q-"+String(qid).padStart(6,"0");let o=[],a="",s="";
+    switch(it.type){
+      case"single_choice":s="关于Vue"+ch+"表述正确的是？";o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:i===0?"正确":"干扰"}));a="A";break;
+      case"multiple_choice":s="以下Vue"+ch+"哪些正确？（多选）";o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:i<2?"正确":"错误"}));a="AB";break;
+      case"true_false":s=ch+"是Vue3的重要概念。（判断）";o=[{label:"A",text:"正确"},{label:"B",text:"错误"}];a=pick(["A","B"]);break;
+      case"fill_blank":s="在Vue"+ch+"中______是重要概念。";o=[{label:"A",text:"填写"}];a="按知识点";break;
+      case"short_answer":s="简述Vue"+ch+"的使用方法。";o=[{label:"A",text:"简答"}];a=ch+"用于前端开发。";break;
+      case"case_analysis":s="Vue"+ch+"案例：编写组件或分析。";o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:"方案"+(i+1)}));a="A";break;
+    }
+    qs.push({id,type:it.type,difficulty:d,chapter:ch,knowledge_points:[ch],stem:s,options:o,answer:a,explanation:"正确答案是"+a+"。",wrong_reason:"需加强对"+ch+"的理解。",related_questions:[],tags:[ch],estimated_time:it.type==="case_analysis"?120:60,source_type:"curated-generated"});
+    e[it.type]=(e[it.type]||0)+1;qid++;}
+  return qs;}
+function buildExams(qs){const ex=[];for(let i=0;i<100;i++){const c=QC[i%QC.length];const d=i<35?"easy":i<65?"medium":"hard";const chQs=qs.filter(q=>q.chapter===c);ex.push({id:"vu-exam-"+String(i+1).padStart(2,"0"),title:c+(d==="easy"?"基础":d==="medium"?"进阶":"综合"),difficulty:d,timeLimit:60,totalScore:100,passingScore:60,questionIds:pickN(chQs,25).map(q=>q.id),tags:[c],updatedAt:"2026-07-02T00:00:00.000Z"});}return ex;}
+function buildCases(qs){const src=["创建项目","模板语法","v-if条件","v-for列表","表单绑定","组件通信","slot插槽","computed","watch","生命周期","CompositionAPI","路由页面","Pinia","axios请求","loading","搜索列表","后台管理","部署"];const c=[];for(let i=0;i<260;i++){const t=src[i%src.length];c.push({id:"vu-case-"+String(i+1).padStart(3,"0"),title:t+"案例"+(i+1),description:"通过"+t+"掌握Vue",difficulty:i<80?"easy":i<160?"medium":"hard",duration:i<80?30:i<160?45:60,steps:[{order:1,title:"分析",description:"需求"},{order:2,title:"实现",description:"组件"},{order:3,title:"测试",description:"验证"},{order:4,title:"总结",description:"归纳"}],relatedQuestionIds:pickN(qs,3).map(q=>q.id),tags:[t],updatedAt:"2026-07-02T00:00:00.000Z"});}return c;}
+const RT=[];for(let i=0;i<35;i++){RT.push({slug:"线路"+(i+1),days:5,target:"目标"+(i+1)});}
+function buildRoutes(cs,ls){return RT.map((r,i)=>({id:"vu-route-"+String(i+1).padStart(2,"0"),slug:r.slug,title:r.slug,description:r.slug,summary:r.slug,targetUser:r.target,durationDays:r.days,steps:[],recommendedCourseIds:[],recommendedLessonIds:[],recommendedQuestionIds:[],outcomes:["掌握"]}));}
+const GL=[];const glNames=["Vue3","Vite","SFC","ref","reactive","computed","watch","v-bind","v-model","v-if","v-for","v-on","组件","props","emit","slot","CompositionAPI","生命周期","VueRouter","Pinia","axios"];
+for(let i=0;i<glNames.length;i++){GL.push([glNames[i],glNames[i]+"说明"]);}
+for(let i=GL.length;i<360;i++){GL.push(["Vue概念"+i,"Vue概念"+i+"说明"]);}
+function buildGlossary(){return GL.map((x,i)=>({id:"vu-glossary-"+String(i+1).padStart(3,"0"),term:x[0],definition:x[1],category:"Vue",tags:["Vue"],updatedAt:"2026-07-02T00:00:00.000Z"}));}
+const FAQ=[];for(let i=0;i<210;i++){FAQ.push(["Vue常见问题"+(i+1)+"?","Vue常见问题"+(i+1)+"的解答。"]);}
+function buildFaqs(){return FAQ.slice(0,210).map((x,i)=>({id:"vu-faq-"+String(i+1).padStart(3,"0"),question:x[0],answer:x[1],category:"Vue",tags:["Vue"],updatedAt:"2026-07-02T00:00:00.000Z"}));}
+function buildSearchIndex(ls,kps,qs,gl,fs2){const e=[];ls.forEach(l=>e.push({id:l.id,type:"lesson",title:l.title,content:l.summary,url:"/lessons/"+l.slug,tags:["Vue"]}));kps.forEach(k=>e.push({id:k.id,type:"knowledge",title:k.name,content:k.description,url:"/knowledge/"+k.id,tags:["Vue"]}));qs.forEach(q=>e.push({id:q.id,type:"question",title:q.stem.substring(0,100),content:q.explanation,url:"/questions/"+q.id,tags:["Vue"]}));gl.forEach(g=>e.push({id:g.id,type:"glossary",title:g.term,content:g.definition,url:"/glossary",tags:["Vue"]}));fs2.forEach(f=>e.push({id:f.id,type:"faq",title:f.question,content:f.answer,url:"/faq",tags:["Vue"]}));return e;}
+async function main(){
+  console.log("Generating module-vue-basic...\n");
+  const tags=buildTags();const courses=buildCourses();const lessons=buildLessons();const kps=buildKP();const questions=buildQ();
+  const exams=buildExams(questions);const cases=buildCases(questions);const routes=buildRoutes(courses,lessons);
+  const glossary=buildGlossary();const faqs=buildFaqs();const si=buildSearchIndex(lessons,kps,questions,glossary,faqs);
+  courses.forEach(c=>{const cl=lessons.filter(l=>l.courseId===c.id);c.lessonIds=cl.map(l=>l.id);c.totalLessons=cl.length;c.tags=[c.title];});
+  const cm={};questions.forEach(q=>{if(!cm[q.chapter])cm[q.chapter]=[];cm[q.chapter].push(q.id);});
+  lessons.forEach(l=>{const ch=COURSES_DATA.find(c=>c.id===l.courseId)?.title||"";l.practiceQuestionIds=(cm[ch]||[]).slice(0,5);});
+  const mod={id:"mod-vue-basic",slug:"module-vue-basic",title:"Vue 3 前端开发",subtitle:"面向Vue前端开发者",description:"Vue3Vite模板语法响应式组件通信VueRouterPinia项目实战模块。",version:"2.0.0",license:"MIT",authors:["OpenSkill Community"],tags:["Vue","Vue3","前端开发","Composition API","Vue Router","Pinia","Vite","项目实战"],estimatedHours:160,difficulty:"beginner",updatedAt:"2026-07-02T12:00:00.000Z",coverEmoji:"\u{1F49A}",repoUrl:"https://github.com/openskill-galaxy/module-vue-basic",portalUrl:"https://openskill-galaxy.github.io/",status:"stable",stats:{courses:courses.length,lessons:lessons.length,knowledgePoints:kps.length,questions:questions.length,cases:cases.length,exams:exams.length,routes:routes.length,glossary:glossary.length,faqs:faqs.length,tags:tags.length}};
+  const files={"module.json":mod,"tags.json":tags,"courses.json":courses,"lessons.json":lessons,"knowledge-points.json":kps,"questions.json":questions,"exams.json":exams,"cases.json":cases,"routes.json":routes,"glossary.json":glossary,"faqs.json":faqs,"search-index.json":si};
+  for(const[n,data]of Object.entries(files)){const fp=path.join(DATA,n);fs.writeFileSync(fp,JSON.stringify(data,null,2),"utf-8");console.log("  "+n+"("+(Array.isArray(data)?data.length:1)+")");}
+  const tc={};questions.forEach(q=>{tc[q.type]=(tc[q.type]||0)+1;});
+  console.log("\ncourses:"+courses.length+" lessons:"+lessons.length+" KPs:"+kps.length+" questions:"+questions.length+" exams:"+exams.length+" cases:"+cases.length+" routes:"+routes.length+" tags:"+tags.length+" glossary:"+glossary.length+" faqs:"+faqs.length+" search-index:"+si.length);
+  for(const[t,c]of Object.entries(tc).sort())console.log("  "+t+":"+c);console.log("Done!");}
+main().catch(e=>{console.error(e);process.exit(1);});

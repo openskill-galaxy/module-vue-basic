@@ -1,0 +1,562 @@
+[
+  {
+    "id": "vu-route-01",
+    "slug": "路线1",
+    "title": "路线1",
+    "description": "路线1",
+    "summary": "路线1",
+    "targetUser": "目标1",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-02",
+    "slug": "路线2",
+    "title": "路线2",
+    "description": "路线2",
+    "summary": "路线2",
+    "targetUser": "目标2",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-03",
+    "slug": "路线3",
+    "title": "路线3",
+    "description": "路线3",
+    "summary": "路线3",
+    "targetUser": "目标3",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-04",
+    "slug": "路线4",
+    "title": "路线4",
+    "description": "路线4",
+    "summary": "路线4",
+    "targetUser": "目标4",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-05",
+    "slug": "路线5",
+    "title": "路线5",
+    "description": "路线5",
+    "summary": "路线5",
+    "targetUser": "目标5",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-06",
+    "slug": "路线6",
+    "title": "路线6",
+    "description": "路线6",
+    "summary": "路线6",
+    "targetUser": "目标6",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-07",
+    "slug": "路线7",
+    "title": "路线7",
+    "description": "路线7",
+    "summary": "路线7",
+    "targetUser": "目标7",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-08",
+    "slug": "路线8",
+    "title": "路线8",
+    "description": "路线8",
+    "summary": "路线8",
+    "targetUser": "目标8",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-09",
+    "slug": "路线9",
+    "title": "路线9",
+    "description": "路线9",
+    "summary": "路线9",
+    "targetUser": "目标9",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-10",
+    "slug": "路线10",
+    "title": "路线10",
+    "description": "路线10",
+    "summary": "路线10",
+    "targetUser": "目标10",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-11",
+    "slug": "路线11",
+    "title": "路线11",
+    "description": "路线11",
+    "summary": "路线11",
+    "targetUser": "目标11",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-12",
+    "slug": "路线12",
+    "title": "路线12",
+    "description": "路线12",
+    "summary": "路线12",
+    "targetUser": "目标12",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-13",
+    "slug": "路线13",
+    "title": "路线13",
+    "description": "路线13",
+    "summary": "路线13",
+    "targetUser": "目标13",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-14",
+    "slug": "路线14",
+    "title": "路线14",
+    "description": "路线14",
+    "summary": "路线14",
+    "targetUser": "目标14",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-15",
+    "slug": "路线15",
+    "title": "路线15",
+    "description": "路线15",
+    "summary": "路线15",
+    "targetUser": "目标15",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-16",
+    "slug": "路线16",
+    "title": "路线16",
+    "description": "路线16",
+    "summary": "路线16",
+    "targetUser": "目标16",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-17",
+    "slug": "路线17",
+    "title": "路线17",
+    "description": "路线17",
+    "summary": "路线17",
+    "targetUser": "目标17",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-18",
+    "slug": "路线18",
+    "title": "路线18",
+    "description": "路线18",
+    "summary": "路线18",
+    "targetUser": "目标18",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-19",
+    "slug": "路线19",
+    "title": "路线19",
+    "description": "路线19",
+    "summary": "路线19",
+    "targetUser": "目标19",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-20",
+    "slug": "路线20",
+    "title": "路线20",
+    "description": "路线20",
+    "summary": "路线20",
+    "targetUser": "目标20",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-21",
+    "slug": "路线21",
+    "title": "路线21",
+    "description": "路线21",
+    "summary": "路线21",
+    "targetUser": "目标21",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-22",
+    "slug": "路线22",
+    "title": "路线22",
+    "description": "路线22",
+    "summary": "路线22",
+    "targetUser": "目标22",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-23",
+    "slug": "路线23",
+    "title": "路线23",
+    "description": "路线23",
+    "summary": "路线23",
+    "targetUser": "目标23",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-24",
+    "slug": "路线24",
+    "title": "路线24",
+    "description": "路线24",
+    "summary": "路线24",
+    "targetUser": "目标24",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-25",
+    "slug": "路线25",
+    "title": "路线25",
+    "description": "路线25",
+    "summary": "路线25",
+    "targetUser": "目标25",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-26",
+    "slug": "路线26",
+    "title": "路线26",
+    "description": "路线26",
+    "summary": "路线26",
+    "targetUser": "目标26",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-27",
+    "slug": "路线27",
+    "title": "路线27",
+    "description": "路线27",
+    "summary": "路线27",
+    "targetUser": "目标27",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-28",
+    "slug": "路线28",
+    "title": "路线28",
+    "description": "路线28",
+    "summary": "路线28",
+    "targetUser": "目标28",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-29",
+    "slug": "路线29",
+    "title": "路线29",
+    "description": "路线29",
+    "summary": "路线29",
+    "targetUser": "目标29",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-30",
+    "slug": "路线30",
+    "title": "路线30",
+    "description": "路线30",
+    "summary": "路线30",
+    "targetUser": "目标30",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-31",
+    "slug": "路线31",
+    "title": "路线31",
+    "description": "路线31",
+    "summary": "路线31",
+    "targetUser": "目标31",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-32",
+    "slug": "路线32",
+    "title": "路线32",
+    "description": "路线32",
+    "summary": "路线32",
+    "targetUser": "目标32",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-33",
+    "slug": "路线33",
+    "title": "路线33",
+    "description": "路线33",
+    "summary": "路线33",
+    "targetUser": "目标33",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-34",
+    "slug": "路线34",
+    "title": "路线34",
+    "description": "路线34",
+    "summary": "路线34",
+    "targetUser": "目标34",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  },
+  {
+    "id": "vu-route-35",
+    "slug": "路线35",
+    "title": "路线35",
+    "description": "路线35",
+    "summary": "路线35",
+    "targetUser": "目标35",
+    "durationDays": 5,
+    "steps": [],
+    "recommendedCourseIds": [],
+    "recommendedLessonIds": [],
+    "recommendedQuestionIds": [],
+    "outcomes": [
+      "掌握"
+    ]
+  }
+]

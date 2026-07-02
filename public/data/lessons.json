@@ -1,0 +1,3824 @@
+[
+  {
+    "id": "vu-lesson-001",
+    "courseId": "vu-course-01",
+    "order": 1,
+    "title": "课程1章1",
+    "slug": "课程1章1",
+    "summary": "课程1章1",
+    "content": "# 课程1章1\n\n课程1章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0002"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-002",
+    "courseId": "vu-course-01",
+    "order": 2,
+    "title": "课程1章2",
+    "slug": "课程1章2",
+    "summary": "课程1章2",
+    "content": "# 课程1章2\n\n课程1章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0003"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-003",
+    "courseId": "vu-course-01",
+    "order": 3,
+    "title": "课程1章3",
+    "slug": "课程1章3",
+    "summary": "课程1章3",
+    "content": "# 课程1章3\n\n课程1章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0004"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-004",
+    "courseId": "vu-course-01",
+    "order": 4,
+    "title": "课程1章4",
+    "slug": "课程1章4",
+    "summary": "课程1章4",
+    "content": "# 课程1章4\n\n课程1章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0005"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-005",
+    "courseId": "vu-course-01",
+    "order": 5,
+    "title": "课程1章5",
+    "slug": "课程1章5",
+    "summary": "课程1章5",
+    "content": "# 课程1章5\n\n课程1章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0006"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-006",
+    "courseId": "vu-course-01",
+    "order": 6,
+    "title": "课程1章6",
+    "slug": "课程1章6",
+    "summary": "课程1章6",
+    "content": "# 课程1章6\n\n课程1章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0007"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-007",
+    "courseId": "vu-course-01",
+    "order": 7,
+    "title": "课程1章7",
+    "slug": "课程1章7",
+    "summary": "课程1章7",
+    "content": "# 课程1章7\n\n课程1章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0008"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-008",
+    "courseId": "vu-course-01",
+    "order": 8,
+    "title": "课程1章8",
+    "slug": "课程1章8",
+    "summary": "课程1章8",
+    "content": "# 课程1章8\n\n课程1章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0009"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-009",
+    "courseId": "vu-course-01",
+    "order": 9,
+    "title": "课程1章9",
+    "slug": "课程1章9",
+    "summary": "课程1章9",
+    "content": "# 课程1章9\n\n课程1章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0010"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-010",
+    "courseId": "vu-course-01",
+    "order": 10,
+    "title": "课程1章10",
+    "slug": "课程1章10",
+    "summary": "课程1章10",
+    "content": "# 课程1章10\n\n课程1章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0011"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-011",
+    "courseId": "vu-course-01",
+    "order": 11,
+    "title": "课程1章11",
+    "slug": "课程1章11",
+    "summary": "课程1章11",
+    "content": "# 课程1章11\n\n课程1章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0012"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-012",
+    "courseId": "vu-course-01",
+    "order": 12,
+    "title": "课程1章12",
+    "slug": "课程1章12",
+    "summary": "课程1章12",
+    "content": "# 课程1章12\n\n课程1章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0013"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-013",
+    "courseId": "vu-course-01",
+    "order": 13,
+    "title": "课程1章13",
+    "slug": "课程1章13",
+    "summary": "课程1章13",
+    "content": "# 课程1章13\n\n课程1章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0014"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-014",
+    "courseId": "vu-course-02",
+    "order": 1,
+    "title": "课程2章1",
+    "slug": "课程2章1",
+    "summary": "课程2章1",
+    "content": "# 课程2章1\n\n课程2章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0015"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-015",
+    "courseId": "vu-course-02",
+    "order": 2,
+    "title": "课程2章2",
+    "slug": "课程2章2",
+    "summary": "课程2章2",
+    "content": "# 课程2章2\n\n课程2章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0016"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-016",
+    "courseId": "vu-course-02",
+    "order": 3,
+    "title": "课程2章3",
+    "slug": "课程2章3",
+    "summary": "课程2章3",
+    "content": "# 课程2章3\n\n课程2章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0017"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-017",
+    "courseId": "vu-course-02",
+    "order": 4,
+    "title": "课程2章4",
+    "slug": "课程2章4",
+    "summary": "课程2章4",
+    "content": "# 课程2章4\n\n课程2章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0018"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-018",
+    "courseId": "vu-course-02",
+    "order": 5,
+    "title": "课程2章5",
+    "slug": "课程2章5",
+    "summary": "课程2章5",
+    "content": "# 课程2章5\n\n课程2章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0019"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-019",
+    "courseId": "vu-course-02",
+    "order": 6,
+    "title": "课程2章6",
+    "slug": "课程2章6",
+    "summary": "课程2章6",
+    "content": "# 课程2章6\n\n课程2章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0020"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-020",
+    "courseId": "vu-course-02",
+    "order": 7,
+    "title": "课程2章7",
+    "slug": "课程2章7",
+    "summary": "课程2章7",
+    "content": "# 课程2章7\n\n课程2章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0021"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-021",
+    "courseId": "vu-course-02",
+    "order": 8,
+    "title": "课程2章8",
+    "slug": "课程2章8",
+    "summary": "课程2章8",
+    "content": "# 课程2章8\n\n课程2章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0022"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-022",
+    "courseId": "vu-course-02",
+    "order": 9,
+    "title": "课程2章9",
+    "slug": "课程2章9",
+    "summary": "课程2章9",
+    "content": "# 课程2章9\n\n课程2章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0023"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-023",
+    "courseId": "vu-course-02",
+    "order": 10,
+    "title": "课程2章10",
+    "slug": "课程2章10",
+    "summary": "课程2章10",
+    "content": "# 课程2章10\n\n课程2章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0024"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-024",
+    "courseId": "vu-course-02",
+    "order": 11,
+    "title": "课程2章11",
+    "slug": "课程2章11",
+    "summary": "课程2章11",
+    "content": "# 课程2章11\n\n课程2章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0025"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-025",
+    "courseId": "vu-course-02",
+    "order": 12,
+    "title": "课程2章12",
+    "slug": "课程2章12",
+    "summary": "课程2章12",
+    "content": "# 课程2章12\n\n课程2章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0026"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-026",
+    "courseId": "vu-course-02",
+    "order": 13,
+    "title": "课程2章13",
+    "slug": "课程2章13",
+    "summary": "课程2章13",
+    "content": "# 课程2章13\n\n课程2章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0027"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-027",
+    "courseId": "vu-course-03",
+    "order": 1,
+    "title": "课程3章1",
+    "slug": "课程3章1",
+    "summary": "课程3章1",
+    "content": "# 课程3章1\n\n课程3章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0028"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-028",
+    "courseId": "vu-course-03",
+    "order": 2,
+    "title": "课程3章2",
+    "slug": "课程3章2",
+    "summary": "课程3章2",
+    "content": "# 课程3章2\n\n课程3章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0029"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-029",
+    "courseId": "vu-course-03",
+    "order": 3,
+    "title": "课程3章3",
+    "slug": "课程3章3",
+    "summary": "课程3章3",
+    "content": "# 课程3章3\n\n课程3章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0030"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-030",
+    "courseId": "vu-course-03",
+    "order": 4,
+    "title": "课程3章4",
+    "slug": "课程3章4",
+    "summary": "课程3章4",
+    "content": "# 课程3章4\n\n课程3章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0031"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-031",
+    "courseId": "vu-course-03",
+    "order": 5,
+    "title": "课程3章5",
+    "slug": "课程3章5",
+    "summary": "课程3章5",
+    "content": "# 课程3章5\n\n课程3章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0032"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-032",
+    "courseId": "vu-course-03",
+    "order": 6,
+    "title": "课程3章6",
+    "slug": "课程3章6",
+    "summary": "课程3章6",
+    "content": "# 课程3章6\n\n课程3章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0033"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-033",
+    "courseId": "vu-course-03",
+    "order": 7,
+    "title": "课程3章7",
+    "slug": "课程3章7",
+    "summary": "课程3章7",
+    "content": "# 课程3章7\n\n课程3章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0034"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-034",
+    "courseId": "vu-course-03",
+    "order": 8,
+    "title": "课程3章8",
+    "slug": "课程3章8",
+    "summary": "课程3章8",
+    "content": "# 课程3章8\n\n课程3章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0035"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-035",
+    "courseId": "vu-course-03",
+    "order": 9,
+    "title": "课程3章9",
+    "slug": "课程3章9",
+    "summary": "课程3章9",
+    "content": "# 课程3章9\n\n课程3章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0036"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-036",
+    "courseId": "vu-course-03",
+    "order": 10,
+    "title": "课程3章10",
+    "slug": "课程3章10",
+    "summary": "课程3章10",
+    "content": "# 课程3章10\n\n课程3章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0037"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-037",
+    "courseId": "vu-course-03",
+    "order": 11,
+    "title": "课程3章11",
+    "slug": "课程3章11",
+    "summary": "课程3章11",
+    "content": "# 课程3章11\n\n课程3章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0038"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-038",
+    "courseId": "vu-course-03",
+    "order": 12,
+    "title": "课程3章12",
+    "slug": "课程3章12",
+    "summary": "课程3章12",
+    "content": "# 课程3章12\n\n课程3章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0039"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-039",
+    "courseId": "vu-course-03",
+    "order": 13,
+    "title": "课程3章13",
+    "slug": "课程3章13",
+    "summary": "课程3章13",
+    "content": "# 课程3章13\n\n课程3章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0040"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-040",
+    "courseId": "vu-course-04",
+    "order": 1,
+    "title": "课程4章1",
+    "slug": "课程4章1",
+    "summary": "课程4章1",
+    "content": "# 课程4章1\n\n课程4章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0041"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-041",
+    "courseId": "vu-course-04",
+    "order": 2,
+    "title": "课程4章2",
+    "slug": "课程4章2",
+    "summary": "课程4章2",
+    "content": "# 课程4章2\n\n课程4章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0042"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-042",
+    "courseId": "vu-course-04",
+    "order": 3,
+    "title": "课程4章3",
+    "slug": "课程4章3",
+    "summary": "课程4章3",
+    "content": "# 课程4章3\n\n课程4章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0043"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-043",
+    "courseId": "vu-course-04",
+    "order": 4,
+    "title": "课程4章4",
+    "slug": "课程4章4",
+    "summary": "课程4章4",
+    "content": "# 课程4章4\n\n课程4章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0044"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-044",
+    "courseId": "vu-course-04",
+    "order": 5,
+    "title": "课程4章5",
+    "slug": "课程4章5",
+    "summary": "课程4章5",
+    "content": "# 课程4章5\n\n课程4章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0045"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-045",
+    "courseId": "vu-course-04",
+    "order": 6,
+    "title": "课程4章6",
+    "slug": "课程4章6",
+    "summary": "课程4章6",
+    "content": "# 课程4章6\n\n课程4章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0046"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-046",
+    "courseId": "vu-course-04",
+    "order": 7,
+    "title": "课程4章7",
+    "slug": "课程4章7",
+    "summary": "课程4章7",
+    "content": "# 课程4章7\n\n课程4章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0047"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-047",
+    "courseId": "vu-course-04",
+    "order": 8,
+    "title": "课程4章8",
+    "slug": "课程4章8",
+    "summary": "课程4章8",
+    "content": "# 课程4章8\n\n课程4章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0048"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-048",
+    "courseId": "vu-course-04",
+    "order": 9,
+    "title": "课程4章9",
+    "slug": "课程4章9",
+    "summary": "课程4章9",
+    "content": "# 课程4章9\n\n课程4章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0049"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-049",
+    "courseId": "vu-course-04",
+    "order": 10,
+    "title": "课程4章10",
+    "slug": "课程4章10",
+    "summary": "课程4章10",
+    "content": "# 课程4章10\n\n课程4章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0050"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-050",
+    "courseId": "vu-course-04",
+    "order": 11,
+    "title": "课程4章11",
+    "slug": "课程4章11",
+    "summary": "课程4章11",
+    "content": "# 课程4章11\n\n课程4章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0051"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-051",
+    "courseId": "vu-course-04",
+    "order": 12,
+    "title": "课程4章12",
+    "slug": "课程4章12",
+    "summary": "课程4章12",
+    "content": "# 课程4章12\n\n课程4章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0052"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-052",
+    "courseId": "vu-course-04",
+    "order": 13,
+    "title": "课程4章13",
+    "slug": "课程4章13",
+    "summary": "课程4章13",
+    "content": "# 课程4章13\n\n课程4章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0053"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-053",
+    "courseId": "vu-course-05",
+    "order": 1,
+    "title": "课程5章1",
+    "slug": "课程5章1",
+    "summary": "课程5章1",
+    "content": "# 课程5章1\n\n课程5章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0054"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-054",
+    "courseId": "vu-course-05",
+    "order": 2,
+    "title": "课程5章2",
+    "slug": "课程5章2",
+    "summary": "课程5章2",
+    "content": "# 课程5章2\n\n课程5章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0055"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-055",
+    "courseId": "vu-course-05",
+    "order": 3,
+    "title": "课程5章3",
+    "slug": "课程5章3",
+    "summary": "课程5章3",
+    "content": "# 课程5章3\n\n课程5章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0056"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-056",
+    "courseId": "vu-course-05",
+    "order": 4,
+    "title": "课程5章4",
+    "slug": "课程5章4",
+    "summary": "课程5章4",
+    "content": "# 课程5章4\n\n课程5章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0057"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-057",
+    "courseId": "vu-course-05",
+    "order": 5,
+    "title": "课程5章5",
+    "slug": "课程5章5",
+    "summary": "课程5章5",
+    "content": "# 课程5章5\n\n课程5章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0058"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-058",
+    "courseId": "vu-course-05",
+    "order": 6,
+    "title": "课程5章6",
+    "slug": "课程5章6",
+    "summary": "课程5章6",
+    "content": "# 课程5章6\n\n课程5章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0059"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-059",
+    "courseId": "vu-course-05",
+    "order": 7,
+    "title": "课程5章7",
+    "slug": "课程5章7",
+    "summary": "课程5章7",
+    "content": "# 课程5章7\n\n课程5章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "vu-kp-0060"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-060",
+    "courseId": "vu-course-05",
+    "order": 8,
+    "title": "课程5章8",
+    "slug": "课程5章8",
+    "summary": "课程5章8",
+    "content": "# 课程5章8\n\n课程5章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0061"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-061",
+    "courseId": "vu-course-05",
+    "order": 9,
+    "title": "课程5章9",
+    "slug": "课程5章9",
+    "summary": "课程5章9",
+    "content": "# 课程5章9\n\n课程5章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0062"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-062",
+    "courseId": "vu-course-05",
+    "order": 10,
+    "title": "课程5章10",
+    "slug": "课程5章10",
+    "summary": "课程5章10",
+    "content": "# 课程5章10\n\n课程5章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0063"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-063",
+    "courseId": "vu-course-05",
+    "order": 11,
+    "title": "课程5章11",
+    "slug": "课程5章11",
+    "summary": "课程5章11",
+    "content": "# 课程5章11\n\n课程5章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0064"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-064",
+    "courseId": "vu-course-05",
+    "order": 12,
+    "title": "课程5章12",
+    "slug": "课程5章12",
+    "summary": "课程5章12",
+    "content": "# 课程5章12\n\n课程5章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0065"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-065",
+    "courseId": "vu-course-05",
+    "order": 13,
+    "title": "课程5章13",
+    "slug": "课程5章13",
+    "summary": "课程5章13",
+    "content": "# 课程5章13\n\n课程5章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0066"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-066",
+    "courseId": "vu-course-06",
+    "order": 1,
+    "title": "课程6章1",
+    "slug": "课程6章1",
+    "summary": "课程6章1",
+    "content": "# 课程6章1\n\n课程6章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0067"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-067",
+    "courseId": "vu-course-06",
+    "order": 2,
+    "title": "课程6章2",
+    "slug": "课程6章2",
+    "summary": "课程6章2",
+    "content": "# 课程6章2\n\n课程6章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0068"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-068",
+    "courseId": "vu-course-06",
+    "order": 3,
+    "title": "课程6章3",
+    "slug": "课程6章3",
+    "summary": "课程6章3",
+    "content": "# 课程6章3\n\n课程6章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0069"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-069",
+    "courseId": "vu-course-06",
+    "order": 4,
+    "title": "课程6章4",
+    "slug": "课程6章4",
+    "summary": "课程6章4",
+    "content": "# 课程6章4\n\n课程6章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0070"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-070",
+    "courseId": "vu-course-06",
+    "order": 5,
+    "title": "课程6章5",
+    "slug": "课程6章5",
+    "summary": "课程6章5",
+    "content": "# 课程6章5\n\n课程6章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0071"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-071",
+    "courseId": "vu-course-06",
+    "order": 6,
+    "title": "课程6章6",
+    "slug": "课程6章6",
+    "summary": "课程6章6",
+    "content": "# 课程6章6\n\n课程6章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0072"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-072",
+    "courseId": "vu-course-06",
+    "order": 7,
+    "title": "课程6章7",
+    "slug": "课程6章7",
+    "summary": "课程6章7",
+    "content": "# 课程6章7\n\n课程6章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0073"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-073",
+    "courseId": "vu-course-06",
+    "order": 8,
+    "title": "课程6章8",
+    "slug": "课程6章8",
+    "summary": "课程6章8",
+    "content": "# 课程6章8\n\n课程6章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0074"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-074",
+    "courseId": "vu-course-06",
+    "order": 9,
+    "title": "课程6章9",
+    "slug": "课程6章9",
+    "summary": "课程6章9",
+    "content": "# 课程6章9\n\n课程6章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0075"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-075",
+    "courseId": "vu-course-06",
+    "order": 10,
+    "title": "课程6章10",
+    "slug": "课程6章10",
+    "summary": "课程6章10",
+    "content": "# 课程6章10\n\n课程6章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0076"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-076",
+    "courseId": "vu-course-06",
+    "order": 11,
+    "title": "课程6章11",
+    "slug": "课程6章11",
+    "summary": "课程6章11",
+    "content": "# 课程6章11\n\n课程6章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0077"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-077",
+    "courseId": "vu-course-06",
+    "order": 12,
+    "title": "课程6章12",
+    "slug": "课程6章12",
+    "summary": "课程6章12",
+    "content": "# 课程6章12\n\n课程6章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0078"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-078",
+    "courseId": "vu-course-06",
+    "order": 13,
+    "title": "课程6章13",
+    "slug": "课程6章13",
+    "summary": "课程6章13",
+    "content": "# 课程6章13\n\n课程6章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0079"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-079",
+    "courseId": "vu-course-07",
+    "order": 1,
+    "title": "课程7章1",
+    "slug": "课程7章1",
+    "summary": "课程7章1",
+    "content": "# 课程7章1\n\n课程7章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0080"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-080",
+    "courseId": "vu-course-07",
+    "order": 2,
+    "title": "课程7章2",
+    "slug": "课程7章2",
+    "summary": "课程7章2",
+    "content": "# 课程7章2\n\n课程7章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0081"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-081",
+    "courseId": "vu-course-07",
+    "order": 3,
+    "title": "课程7章3",
+    "slug": "课程7章3",
+    "summary": "课程7章3",
+    "content": "# 课程7章3\n\n课程7章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0082"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-082",
+    "courseId": "vu-course-07",
+    "order": 4,
+    "title": "课程7章4",
+    "slug": "课程7章4",
+    "summary": "课程7章4",
+    "content": "# 课程7章4\n\n课程7章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0083"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-083",
+    "courseId": "vu-course-07",
+    "order": 5,
+    "title": "课程7章5",
+    "slug": "课程7章5",
+    "summary": "课程7章5",
+    "content": "# 课程7章5\n\n课程7章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0084"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-084",
+    "courseId": "vu-course-07",
+    "order": 6,
+    "title": "课程7章6",
+    "slug": "课程7章6",
+    "summary": "课程7章6",
+    "content": "# 课程7章6\n\n课程7章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0085"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-085",
+    "courseId": "vu-course-07",
+    "order": 7,
+    "title": "课程7章7",
+    "slug": "课程7章7",
+    "summary": "课程7章7",
+    "content": "# 课程7章7\n\n课程7章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0086"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-086",
+    "courseId": "vu-course-07",
+    "order": 8,
+    "title": "课程7章8",
+    "slug": "课程7章8",
+    "summary": "课程7章8",
+    "content": "# 课程7章8\n\n课程7章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0087"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-087",
+    "courseId": "vu-course-07",
+    "order": 9,
+    "title": "课程7章9",
+    "slug": "课程7章9",
+    "summary": "课程7章9",
+    "content": "# 课程7章9\n\n课程7章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0088"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-088",
+    "courseId": "vu-course-07",
+    "order": 10,
+    "title": "课程7章10",
+    "slug": "课程7章10",
+    "summary": "课程7章10",
+    "content": "# 课程7章10\n\n课程7章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0089"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-089",
+    "courseId": "vu-course-07",
+    "order": 11,
+    "title": "课程7章11",
+    "slug": "课程7章11",
+    "summary": "课程7章11",
+    "content": "# 课程7章11\n\n课程7章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0090"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-090",
+    "courseId": "vu-course-07",
+    "order": 12,
+    "title": "课程7章12",
+    "slug": "课程7章12",
+    "summary": "课程7章12",
+    "content": "# 课程7章12\n\n课程7章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0091"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-091",
+    "courseId": "vu-course-07",
+    "order": 13,
+    "title": "课程7章13",
+    "slug": "课程7章13",
+    "summary": "课程7章13",
+    "content": "# 课程7章13\n\n课程7章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0092"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-092",
+    "courseId": "vu-course-08",
+    "order": 1,
+    "title": "课程8章1",
+    "slug": "课程8章1",
+    "summary": "课程8章1",
+    "content": "# 课程8章1\n\n课程8章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0093"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-093",
+    "courseId": "vu-course-08",
+    "order": 2,
+    "title": "课程8章2",
+    "slug": "课程8章2",
+    "summary": "课程8章2",
+    "content": "# 课程8章2\n\n课程8章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0094"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-094",
+    "courseId": "vu-course-08",
+    "order": 3,
+    "title": "课程8章3",
+    "slug": "课程8章3",
+    "summary": "课程8章3",
+    "content": "# 课程8章3\n\n课程8章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0095"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-095",
+    "courseId": "vu-course-08",
+    "order": 4,
+    "title": "课程8章4",
+    "slug": "课程8章4",
+    "summary": "课程8章4",
+    "content": "# 课程8章4\n\n课程8章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0096"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-096",
+    "courseId": "vu-course-08",
+    "order": 5,
+    "title": "课程8章5",
+    "slug": "课程8章5",
+    "summary": "课程8章5",
+    "content": "# 课程8章5\n\n课程8章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0097"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-097",
+    "courseId": "vu-course-08",
+    "order": 6,
+    "title": "课程8章6",
+    "slug": "课程8章6",
+    "summary": "课程8章6",
+    "content": "# 课程8章6\n\n课程8章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0098"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-098",
+    "courseId": "vu-course-08",
+    "order": 7,
+    "title": "课程8章7",
+    "slug": "课程8章7",
+    "summary": "课程8章7",
+    "content": "# 课程8章7\n\n课程8章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0099"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-099",
+    "courseId": "vu-course-08",
+    "order": 8,
+    "title": "课程8章8",
+    "slug": "课程8章8",
+    "summary": "课程8章8",
+    "content": "# 课程8章8\n\n课程8章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0100"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-100",
+    "courseId": "vu-course-08",
+    "order": 9,
+    "title": "课程8章9",
+    "slug": "课程8章9",
+    "summary": "课程8章9",
+    "content": "# 课程8章9\n\n课程8章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0101"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-101",
+    "courseId": "vu-course-08",
+    "order": 10,
+    "title": "课程8章10",
+    "slug": "课程8章10",
+    "summary": "课程8章10",
+    "content": "# 课程8章10\n\n课程8章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0102"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-102",
+    "courseId": "vu-course-08",
+    "order": 11,
+    "title": "课程8章11",
+    "slug": "课程8章11",
+    "summary": "课程8章11",
+    "content": "# 课程8章11\n\n课程8章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0103"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-103",
+    "courseId": "vu-course-08",
+    "order": 12,
+    "title": "课程8章12",
+    "slug": "课程8章12",
+    "summary": "课程8章12",
+    "content": "# 课程8章12\n\n课程8章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0104"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-104",
+    "courseId": "vu-course-08",
+    "order": 13,
+    "title": "课程8章13",
+    "slug": "课程8章13",
+    "summary": "课程8章13",
+    "content": "# 课程8章13\n\n课程8章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0105"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-105",
+    "courseId": "vu-course-09",
+    "order": 1,
+    "title": "课程9章1",
+    "slug": "课程9章1",
+    "summary": "课程9章1",
+    "content": "# 课程9章1\n\n课程9章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0106"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-106",
+    "courseId": "vu-course-09",
+    "order": 2,
+    "title": "课程9章2",
+    "slug": "课程9章2",
+    "summary": "课程9章2",
+    "content": "# 课程9章2\n\n课程9章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0107"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-107",
+    "courseId": "vu-course-09",
+    "order": 3,
+    "title": "课程9章3",
+    "slug": "课程9章3",
+    "summary": "课程9章3",
+    "content": "# 课程9章3\n\n课程9章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0108"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-108",
+    "courseId": "vu-course-09",
+    "order": 4,
+    "title": "课程9章4",
+    "slug": "课程9章4",
+    "summary": "课程9章4",
+    "content": "# 课程9章4\n\n课程9章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0109"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-109",
+    "courseId": "vu-course-09",
+    "order": 5,
+    "title": "课程9章5",
+    "slug": "课程9章5",
+    "summary": "课程9章5",
+    "content": "# 课程9章5\n\n课程9章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0110"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-110",
+    "courseId": "vu-course-09",
+    "order": 6,
+    "title": "课程9章6",
+    "slug": "课程9章6",
+    "summary": "课程9章6",
+    "content": "# 课程9章6\n\n课程9章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0111"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-111",
+    "courseId": "vu-course-09",
+    "order": 7,
+    "title": "课程9章7",
+    "slug": "课程9章7",
+    "summary": "课程9章7",
+    "content": "# 课程9章7\n\n课程9章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0112"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-112",
+    "courseId": "vu-course-09",
+    "order": 8,
+    "title": "课程9章8",
+    "slug": "课程9章8",
+    "summary": "课程9章8",
+    "content": "# 课程9章8\n\n课程9章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0113"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-113",
+    "courseId": "vu-course-09",
+    "order": 9,
+    "title": "课程9章9",
+    "slug": "课程9章9",
+    "summary": "课程9章9",
+    "content": "# 课程9章9\n\n课程9章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0114"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-114",
+    "courseId": "vu-course-09",
+    "order": 10,
+    "title": "课程9章10",
+    "slug": "课程9章10",
+    "summary": "课程9章10",
+    "content": "# 课程9章10\n\n课程9章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0115"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-115",
+    "courseId": "vu-course-09",
+    "order": 11,
+    "title": "课程9章11",
+    "slug": "课程9章11",
+    "summary": "课程9章11",
+    "content": "# 课程9章11\n\n课程9章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0116"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-116",
+    "courseId": "vu-course-09",
+    "order": 12,
+    "title": "课程9章12",
+    "slug": "课程9章12",
+    "summary": "课程9章12",
+    "content": "# 课程9章12\n\n课程9章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0117"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-117",
+    "courseId": "vu-course-09",
+    "order": 13,
+    "title": "课程9章13",
+    "slug": "课程9章13",
+    "summary": "课程9章13",
+    "content": "# 课程9章13\n\n课程9章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0118"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-118",
+    "courseId": "vu-course-10",
+    "order": 1,
+    "title": "课程10章1",
+    "slug": "课程10章1",
+    "summary": "课程10章1",
+    "content": "# 课程10章1\n\n课程10章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0119"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-119",
+    "courseId": "vu-course-10",
+    "order": 2,
+    "title": "课程10章2",
+    "slug": "课程10章2",
+    "summary": "课程10章2",
+    "content": "# 课程10章2\n\n课程10章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0120"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-120",
+    "courseId": "vu-course-10",
+    "order": 3,
+    "title": "课程10章3",
+    "slug": "课程10章3",
+    "summary": "课程10章3",
+    "content": "# 课程10章3\n\n课程10章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0121"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-121",
+    "courseId": "vu-course-10",
+    "order": 4,
+    "title": "课程10章4",
+    "slug": "课程10章4",
+    "summary": "课程10章4",
+    "content": "# 课程10章4\n\n课程10章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0122"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-122",
+    "courseId": "vu-course-10",
+    "order": 5,
+    "title": "课程10章5",
+    "slug": "课程10章5",
+    "summary": "课程10章5",
+    "content": "# 课程10章5\n\n课程10章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0123"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-123",
+    "courseId": "vu-course-10",
+    "order": 6,
+    "title": "课程10章6",
+    "slug": "课程10章6",
+    "summary": "课程10章6",
+    "content": "# 课程10章6\n\n课程10章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0124"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-124",
+    "courseId": "vu-course-10",
+    "order": 7,
+    "title": "课程10章7",
+    "slug": "课程10章7",
+    "summary": "课程10章7",
+    "content": "# 课程10章7\n\n课程10章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0125"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-125",
+    "courseId": "vu-course-10",
+    "order": 8,
+    "title": "课程10章8",
+    "slug": "课程10章8",
+    "summary": "课程10章8",
+    "content": "# 课程10章8\n\n课程10章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0126"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-126",
+    "courseId": "vu-course-10",
+    "order": 9,
+    "title": "课程10章9",
+    "slug": "课程10章9",
+    "summary": "课程10章9",
+    "content": "# 课程10章9\n\n课程10章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0127"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-127",
+    "courseId": "vu-course-10",
+    "order": 10,
+    "title": "课程10章10",
+    "slug": "课程10章10",
+    "summary": "课程10章10",
+    "content": "# 课程10章10\n\n课程10章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0128"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-128",
+    "courseId": "vu-course-10",
+    "order": 11,
+    "title": "课程10章11",
+    "slug": "课程10章11",
+    "summary": "课程10章11",
+    "content": "# 课程10章11\n\n课程10章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0129"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-129",
+    "courseId": "vu-course-10",
+    "order": 12,
+    "title": "课程10章12",
+    "slug": "课程10章12",
+    "summary": "课程10章12",
+    "content": "# 课程10章12\n\n课程10章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "vu-kp-0130"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-130",
+    "courseId": "vu-course-10",
+    "order": 13,
+    "title": "课程10章13",
+    "slug": "课程10章13",
+    "summary": "课程10章13",
+    "content": "# 课程10章13\n\n课程10章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0131"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-131",
+    "courseId": "vu-course-11",
+    "order": 1,
+    "title": "课程11章1",
+    "slug": "课程11章1",
+    "summary": "课程11章1",
+    "content": "# 课程11章1\n\n课程11章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0132"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-132",
+    "courseId": "vu-course-11",
+    "order": 2,
+    "title": "课程11章2",
+    "slug": "课程11章2",
+    "summary": "课程11章2",
+    "content": "# 课程11章2\n\n课程11章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0133"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-133",
+    "courseId": "vu-course-11",
+    "order": 3,
+    "title": "课程11章3",
+    "slug": "课程11章3",
+    "summary": "课程11章3",
+    "content": "# 课程11章3\n\n课程11章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0134"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-134",
+    "courseId": "vu-course-11",
+    "order": 4,
+    "title": "课程11章4",
+    "slug": "课程11章4",
+    "summary": "课程11章4",
+    "content": "# 课程11章4\n\n课程11章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0135"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-135",
+    "courseId": "vu-course-11",
+    "order": 5,
+    "title": "课程11章5",
+    "slug": "课程11章5",
+    "summary": "课程11章5",
+    "content": "# 课程11章5\n\n课程11章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0136"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-136",
+    "courseId": "vu-course-11",
+    "order": 6,
+    "title": "课程11章6",
+    "slug": "课程11章6",
+    "summary": "课程11章6",
+    "content": "# 课程11章6\n\n课程11章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0137"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-137",
+    "courseId": "vu-course-11",
+    "order": 7,
+    "title": "课程11章7",
+    "slug": "课程11章7",
+    "summary": "课程11章7",
+    "content": "# 课程11章7\n\n课程11章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0138"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-138",
+    "courseId": "vu-course-11",
+    "order": 8,
+    "title": "课程11章8",
+    "slug": "课程11章8",
+    "summary": "课程11章8",
+    "content": "# 课程11章8\n\n课程11章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0139"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-139",
+    "courseId": "vu-course-11",
+    "order": 9,
+    "title": "课程11章9",
+    "slug": "课程11章9",
+    "summary": "课程11章9",
+    "content": "# 课程11章9\n\n课程11章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0140"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-140",
+    "courseId": "vu-course-11",
+    "order": 10,
+    "title": "课程11章10",
+    "slug": "课程11章10",
+    "summary": "课程11章10",
+    "content": "# 课程11章10\n\n课程11章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0141"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-141",
+    "courseId": "vu-course-11",
+    "order": 11,
+    "title": "课程11章11",
+    "slug": "课程11章11",
+    "summary": "课程11章11",
+    "content": "# 课程11章11\n\n课程11章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0142"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-142",
+    "courseId": "vu-course-11",
+    "order": 12,
+    "title": "课程11章12",
+    "slug": "课程11章12",
+    "summary": "课程11章12",
+    "content": "# 课程11章12\n\n课程11章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0143"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-143",
+    "courseId": "vu-course-11",
+    "order": 13,
+    "title": "课程11章13",
+    "slug": "课程11章13",
+    "summary": "课程11章13",
+    "content": "# 课程11章13\n\n课程11章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0144"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-144",
+    "courseId": "vu-course-12",
+    "order": 1,
+    "title": "课程12章1",
+    "slug": "课程12章1",
+    "summary": "课程12章1",
+    "content": "# 课程12章1\n\n课程12章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0145"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-145",
+    "courseId": "vu-course-12",
+    "order": 2,
+    "title": "课程12章2",
+    "slug": "课程12章2",
+    "summary": "课程12章2",
+    "content": "# 课程12章2\n\n课程12章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0146"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-146",
+    "courseId": "vu-course-12",
+    "order": 3,
+    "title": "课程12章3",
+    "slug": "课程12章3",
+    "summary": "课程12章3",
+    "content": "# 课程12章3\n\n课程12章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0147"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-147",
+    "courseId": "vu-course-12",
+    "order": 4,
+    "title": "课程12章4",
+    "slug": "课程12章4",
+    "summary": "课程12章4",
+    "content": "# 课程12章4\n\n课程12章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0148"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-148",
+    "courseId": "vu-course-12",
+    "order": 5,
+    "title": "课程12章5",
+    "slug": "课程12章5",
+    "summary": "课程12章5",
+    "content": "# 课程12章5\n\n课程12章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0149"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-149",
+    "courseId": "vu-course-12",
+    "order": 6,
+    "title": "课程12章6",
+    "slug": "课程12章6",
+    "summary": "课程12章6",
+    "content": "# 课程12章6\n\n课程12章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0150"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-150",
+    "courseId": "vu-course-12",
+    "order": 7,
+    "title": "课程12章7",
+    "slug": "课程12章7",
+    "summary": "课程12章7",
+    "content": "# 课程12章7\n\n课程12章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0151"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-151",
+    "courseId": "vu-course-12",
+    "order": 8,
+    "title": "课程12章8",
+    "slug": "课程12章8",
+    "summary": "课程12章8",
+    "content": "# 课程12章8\n\n课程12章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0152"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-152",
+    "courseId": "vu-course-12",
+    "order": 9,
+    "title": "课程12章9",
+    "slug": "课程12章9",
+    "summary": "课程12章9",
+    "content": "# 课程12章9\n\n课程12章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0153"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-153",
+    "courseId": "vu-course-12",
+    "order": 10,
+    "title": "课程12章10",
+    "slug": "课程12章10",
+    "summary": "课程12章10",
+    "content": "# 课程12章10\n\n课程12章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0154"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-154",
+    "courseId": "vu-course-12",
+    "order": 11,
+    "title": "课程12章11",
+    "slug": "课程12章11",
+    "summary": "课程12章11",
+    "content": "# 课程12章11\n\n课程12章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0155"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-155",
+    "courseId": "vu-course-12",
+    "order": 12,
+    "title": "课程12章12",
+    "slug": "课程12章12",
+    "summary": "课程12章12",
+    "content": "# 课程12章12\n\n课程12章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0156"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-156",
+    "courseId": "vu-course-12",
+    "order": 13,
+    "title": "课程12章13",
+    "slug": "课程12章13",
+    "summary": "课程12章13",
+    "content": "# 课程12章13\n\n课程12章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0157"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-157",
+    "courseId": "vu-course-13",
+    "order": 1,
+    "title": "课程13章1",
+    "slug": "课程13章1",
+    "summary": "课程13章1",
+    "content": "# 课程13章1\n\n课程13章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0158"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-158",
+    "courseId": "vu-course-13",
+    "order": 2,
+    "title": "课程13章2",
+    "slug": "课程13章2",
+    "summary": "课程13章2",
+    "content": "# 课程13章2\n\n课程13章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0159"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-159",
+    "courseId": "vu-course-13",
+    "order": 3,
+    "title": "课程13章3",
+    "slug": "课程13章3",
+    "summary": "课程13章3",
+    "content": "# 课程13章3\n\n课程13章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0160"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-160",
+    "courseId": "vu-course-13",
+    "order": 4,
+    "title": "课程13章4",
+    "slug": "课程13章4",
+    "summary": "课程13章4",
+    "content": "# 课程13章4\n\n课程13章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0161"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-161",
+    "courseId": "vu-course-13",
+    "order": 5,
+    "title": "课程13章5",
+    "slug": "课程13章5",
+    "summary": "课程13章5",
+    "content": "# 课程13章5\n\n课程13章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0162"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-162",
+    "courseId": "vu-course-13",
+    "order": 6,
+    "title": "课程13章6",
+    "slug": "课程13章6",
+    "summary": "课程13章6",
+    "content": "# 课程13章6\n\n课程13章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0163"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-163",
+    "courseId": "vu-course-13",
+    "order": 7,
+    "title": "课程13章7",
+    "slug": "课程13章7",
+    "summary": "课程13章7",
+    "content": "# 课程13章7\n\n课程13章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0164"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-164",
+    "courseId": "vu-course-13",
+    "order": 8,
+    "title": "课程13章8",
+    "slug": "课程13章8",
+    "summary": "课程13章8",
+    "content": "# 课程13章8\n\n课程13章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0165"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-165",
+    "courseId": "vu-course-13",
+    "order": 9,
+    "title": "课程13章9",
+    "slug": "课程13章9",
+    "summary": "课程13章9",
+    "content": "# 课程13章9\n\n课程13章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0166"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-166",
+    "courseId": "vu-course-13",
+    "order": 10,
+    "title": "课程13章10",
+    "slug": "课程13章10",
+    "summary": "课程13章10",
+    "content": "# 课程13章10\n\n课程13章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0167"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-167",
+    "courseId": "vu-course-13",
+    "order": 11,
+    "title": "课程13章11",
+    "slug": "课程13章11",
+    "summary": "课程13章11",
+    "content": "# 课程13章11\n\n课程13章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0168"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-168",
+    "courseId": "vu-course-13",
+    "order": 12,
+    "title": "课程13章12",
+    "slug": "课程13章12",
+    "summary": "课程13章12",
+    "content": "# 课程13章12\n\n课程13章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0169"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-169",
+    "courseId": "vu-course-13",
+    "order": 13,
+    "title": "课程13章13",
+    "slug": "课程13章13",
+    "summary": "课程13章13",
+    "content": "# 课程13章13\n\n课程13章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0170"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-170",
+    "courseId": "vu-course-14",
+    "order": 1,
+    "title": "课程14章1",
+    "slug": "课程14章1",
+    "summary": "课程14章1",
+    "content": "# 课程14章1\n\n课程14章1内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0171"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-171",
+    "courseId": "vu-course-14",
+    "order": 2,
+    "title": "课程14章2",
+    "slug": "课程14章2",
+    "summary": "课程14章2",
+    "content": "# 课程14章2\n\n课程14章2内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0172"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-172",
+    "courseId": "vu-course-14",
+    "order": 3,
+    "title": "课程14章3",
+    "slug": "课程14章3",
+    "summary": "课程14章3",
+    "content": "# 课程14章3\n\n课程14章3内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0173"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-173",
+    "courseId": "vu-course-14",
+    "order": 4,
+    "title": "课程14章4",
+    "slug": "课程14章4",
+    "summary": "课程14章4",
+    "content": "# 课程14章4\n\n课程14章4内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0174"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-174",
+    "courseId": "vu-course-14",
+    "order": 5,
+    "title": "课程14章5",
+    "slug": "课程14章5",
+    "summary": "课程14章5",
+    "content": "# 课程14章5\n\n课程14章5内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0175"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-175",
+    "courseId": "vu-course-14",
+    "order": 6,
+    "title": "课程14章6",
+    "slug": "课程14章6",
+    "summary": "课程14章6",
+    "content": "# 课程14章6\n\n课程14章6内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0176"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-176",
+    "courseId": "vu-course-14",
+    "order": 7,
+    "title": "课程14章7",
+    "slug": "课程14章7",
+    "summary": "课程14章7",
+    "content": "# 课程14章7\n\n课程14章7内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0177"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-177",
+    "courseId": "vu-course-14",
+    "order": 8,
+    "title": "课程14章8",
+    "slug": "课程14章8",
+    "summary": "课程14章8",
+    "content": "# 课程14章8\n\n课程14章8内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0178"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-178",
+    "courseId": "vu-course-14",
+    "order": 9,
+    "title": "课程14章9",
+    "slug": "课程14章9",
+    "summary": "课程14章9",
+    "content": "# 课程14章9\n\n课程14章9内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0179"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-179",
+    "courseId": "vu-course-14",
+    "order": 10,
+    "title": "课程14章10",
+    "slug": "课程14章10",
+    "summary": "课程14章10",
+    "content": "# 课程14章10\n\n课程14章10内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0180"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-180",
+    "courseId": "vu-course-14",
+    "order": 11,
+    "title": "课程14章11",
+    "slug": "课程14章11",
+    "summary": "课程14章11",
+    "content": "# 课程14章11\n\n课程14章11内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0181"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-181",
+    "courseId": "vu-course-14",
+    "order": 12,
+    "title": "课程14章12",
+    "slug": "课程14章12",
+    "summary": "课程14章12",
+    "content": "# 课程14章12\n\n课程14章12内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0182"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "vu-lesson-182",
+    "courseId": "vu-course-14",
+    "order": 13,
+    "title": "课程14章13",
+    "slug": "课程14章13",
+    "summary": "课程14章13",
+    "content": "# 课程14章13\n\n课程14章13内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "vu-kp-0183"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "Vue"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  }
+]

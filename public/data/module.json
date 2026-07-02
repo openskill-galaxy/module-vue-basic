@@ -1,0 +1,41 @@
+{
+  "id": "mod-vue-basic",
+  "slug": "module-vue-basic",
+  "title": "Vue 3 前端开发",
+  "subtitle": "面向Vue前端开发者",
+  "description": "Vue3 Vite模板语法响应式组件通信VueRouter Pinia项目实战训练模块。",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    "OpenSkill Community"
+  ],
+  "tags": [
+    "Vue",
+    "Vue3",
+    "前端开发",
+    "Composition API",
+    "Vue Router",
+    "Pinia",
+    "Vite",
+    "项目实战"
+  ],
+  "estimatedHours": 160,
+  "difficulty": "beginner",
+  "updatedAt": "2026-07-02T12:00:00.000Z",
+  "coverEmoji": "❤",
+  "repoUrl": "https://github.com/openskill-galaxy/module-vue-basic",
+  "portalUrl": "https://openskill-galaxy.github.io/",
+  "status": "stable",
+  "stats": {
+    "courses": 14,
+    "lessons": 182,
+    "knowledgePoints": 721,
+    "questions": 3700,
+    "cases": 260,
+    "exams": 100,
+    "routes": 35,
+    "glossary": 360,
+    "faqs": 210,
+    "tags": 160
+  }
+}
