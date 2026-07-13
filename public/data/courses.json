@@ -34,7 +34,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-001",
+      "vu-lesson-002",
+      "vu-lesson-003",
+      "vu-lesson-004",
+      "vu-lesson-005",
+      "vu-lesson-006",
+      "vu-lesson-007",
+      "vu-lesson-008",
+      "vu-lesson-009",
+      "vu-lesson-010",
+      "vu-lesson-011",
+      "vu-lesson-012",
+      "vu-lesson-013"
+    ],
+    "summary": "Vue3概述、响应式、组件化、学习路线。"
   },
   {
     "id": "vu-course-02",
@@ -71,7 +87,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-014",
+      "vu-lesson-015",
+      "vu-lesson-016",
+      "vu-lesson-017",
+      "vu-lesson-018",
+      "vu-lesson-019",
+      "vu-lesson-020",
+      "vu-lesson-021",
+      "vu-lesson-022",
+      "vu-lesson-023",
+      "vu-lesson-024",
+      "vu-lesson-025",
+      "vu-lesson-026"
+    ],
+    "summary": "Vite使用、项目结构、SFC、dev/build。"
   },
   {
     "id": "vu-course-03",
@@ -108,7 +140,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-027",
+      "vu-lesson-028",
+      "vu-lesson-029",
+      "vu-lesson-030",
+      "vu-lesson-031",
+      "vu-lesson-032",
+      "vu-lesson-033",
+      "vu-lesson-034",
+      "vu-lesson-035",
+      "vu-lesson-036",
+      "vu-lesson-037",
+      "vu-lesson-038",
+      "vu-lesson-039"
+    ],
+    "summary": "插值、v-bind/v-model/v-if/v-for/v-on。"
   },
   {
     "id": "vu-course-04",
@@ -145,7 +193,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-040",
+      "vu-lesson-041",
+      "vu-lesson-042",
+      "vu-lesson-043",
+      "vu-lesson-044",
+      "vu-lesson-045",
+      "vu-lesson-046",
+      "vu-lesson-047",
+      "vu-lesson-048",
+      "vu-lesson-049",
+      "vu-lesson-050",
+      "vu-lesson-051",
+      "vu-lesson-052"
+    ],
+    "summary": "ref、reactive、toRef/toRefs。"
   },
   {
     "id": "vu-course-05",
@@ -182,7 +246,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-053",
+      "vu-lesson-054",
+      "vu-lesson-055",
+      "vu-lesson-056",
+      "vu-lesson-057",
+      "vu-lesson-058",
+      "vu-lesson-059",
+      "vu-lesson-060",
+      "vu-lesson-061",
+      "vu-lesson-062",
+      "vu-lesson-063",
+      "vu-lesson-064",
+      "vu-lesson-065"
+    ],
+    "summary": "事件监听、修饰符、v-model表单绑定。"
   },
   {
     "id": "vu-course-06",
@@ -219,7 +299,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-066",
+      "vu-lesson-067",
+      "vu-lesson-068",
+      "vu-lesson-069",
+      "vu-lesson-070",
+      "vu-lesson-071",
+      "vu-lesson-072",
+      "vu-lesson-073",
+      "vu-lesson-074",
+      "vu-lesson-075",
+      "vu-lesson-076",
+      "vu-lesson-077",
+      "vu-lesson-078"
+    ],
+    "summary": "v-if/v-show、v-for、key。"
   },
   {
     "id": "vu-course-07",
@@ -256,7 +352,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-079",
+      "vu-lesson-080",
+      "vu-lesson-081",
+      "vu-lesson-082",
+      "vu-lesson-083",
+      "vu-lesson-084",
+      "vu-lesson-085",
+      "vu-lesson-086",
+      "vu-lesson-087",
+      "vu-lesson-088",
+      "vu-lesson-089",
+      "vu-lesson-090",
+      "vu-lesson-091"
+    ],
+    "summary": "组件注册、props、emit、slot。"
   },
   {
     "id": "vu-course-08",
@@ -293,7 +405,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-092",
+      "vu-lesson-093",
+      "vu-lesson-094",
+      "vu-lesson-095",
+      "vu-lesson-096",
+      "vu-lesson-097",
+      "vu-lesson-098",
+      "vu-lesson-099",
+      "vu-lesson-100",
+      "vu-lesson-101",
+      "vu-lesson-102",
+      "vu-lesson-103",
+      "vu-lesson-104"
+    ],
+    "summary": "props校验、emit事件、slot类型。"
   },
   {
     "id": "vu-course-09",
@@ -330,7 +458,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-105",
+      "vu-lesson-106",
+      "vu-lesson-107",
+      "vu-lesson-108",
+      "vu-lesson-109",
+      "vu-lesson-110",
+      "vu-lesson-111",
+      "vu-lesson-112",
+      "vu-lesson-113",
+      "vu-lesson-114",
+      "vu-lesson-115",
+      "vu-lesson-116",
+      "vu-lesson-117"
+    ],
+    "summary": "computed、watch/watchEffect、生命周期钩子。"
   },
   {
     "id": "vu-course-10",
@@ -367,7 +511,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-118",
+      "vu-lesson-119",
+      "vu-lesson-120",
+      "vu-lesson-121",
+      "vu-lesson-122",
+      "vu-lesson-123",
+      "vu-lesson-124",
+      "vu-lesson-125",
+      "vu-lesson-126",
+      "vu-lesson-127",
+      "vu-lesson-128",
+      "vu-lesson-129",
+      "vu-lesson-130"
+    ],
+    "summary": "setup语法、composable、provide/inject。"
   },
   {
     "id": "vu-course-11",
@@ -404,7 +564,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-131",
+      "vu-lesson-132",
+      "vu-lesson-133",
+      "vu-lesson-134",
+      "vu-lesson-135",
+      "vu-lesson-136",
+      "vu-lesson-137",
+      "vu-lesson-138",
+      "vu-lesson-139",
+      "vu-lesson-140",
+      "vu-lesson-141",
+      "vu-lesson-142",
+      "vu-lesson-143"
+    ],
+    "summary": "路由配置、动态路由、导航守卫。"
   },
   {
     "id": "vu-course-12",
@@ -441,7 +617,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-144",
+      "vu-lesson-145",
+      "vu-lesson-146",
+      "vu-lesson-147",
+      "vu-lesson-148",
+      "vu-lesson-149",
+      "vu-lesson-150",
+      "vu-lesson-151",
+      "vu-lesson-152",
+      "vu-lesson-153",
+      "vu-lesson-154",
+      "vu-lesson-155",
+      "vu-lesson-156"
+    ],
+    "summary": "Pinia定义、state/getter/action、持久化。"
   },
   {
     "id": "vu-course-13",
@@ -478,7 +670,23 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-157",
+      "vu-lesson-158",
+      "vu-lesson-159",
+      "vu-lesson-160",
+      "vu-lesson-161",
+      "vu-lesson-162",
+      "vu-lesson-163",
+      "vu-lesson-164",
+      "vu-lesson-165",
+      "vu-lesson-166",
+      "vu-lesson-167",
+      "vu-lesson-168",
+      "vu-lesson-169"
+    ],
+    "summary": "axios/fetch、loading/error处理、工程化。"
   },
   {
     "id": "vu-course-14",
@@ -515,6 +723,22 @@
       "会用路由",
       "具备项目能力"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "vu-lesson-170",
+      "vu-lesson-171",
+      "vu-lesson-172",
+      "vu-lesson-173",
+      "vu-lesson-174",
+      "vu-lesson-175",
+      "vu-lesson-176",
+      "vu-lesson-177",
+      "vu-lesson-178",
+      "vu-lesson-179",
+      "vu-lesson-180",
+      "vu-lesson-181",
+      "vu-lesson-182"
+    ],
+    "summary": "后台管理、GitHub Pages部署、面试题。"
   }
 ]

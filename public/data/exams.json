@@ -36,7 +36,11 @@
     "tags": [
       "Vue3入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vue3入门基础",
+    "description": "Vue3入门基础",
+    "slug": "vue3入门基础"
   },
   {
     "id": "vu-exam-02",
@@ -75,7 +79,11 @@
     "tags": [
       "Vite项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vite项目基础",
+    "description": "Vite项目基础",
+    "slug": "vite项目基础"
   },
   {
     "id": "vu-exam-03",
@@ -114,7 +122,11 @@
     "tags": [
       "模板语法"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "模板语法基础",
+    "description": "模板语法基础",
+    "slug": "模板语法基础"
   },
   {
     "id": "vu-exam-04",
@@ -153,7 +165,11 @@
     "tags": [
       "响应式"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "响应式基础",
+    "description": "响应式基础",
+    "slug": "响应式基础"
   },
   {
     "id": "vu-exam-05",
@@ -192,7 +208,11 @@
     "tags": [
       "事件表单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事件表单基础",
+    "description": "事件表单基础",
+    "slug": "事件表单基础"
   },
   {
     "id": "vu-exam-06",
@@ -231,7 +251,11 @@
     "tags": [
       "条件列表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "条件列表基础",
+    "description": "条件列表基础",
+    "slug": "条件列表基础"
   },
   {
     "id": "vu-exam-07",
@@ -270,7 +294,11 @@
     "tags": [
       "组件通信"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "组件通信基础",
+    "description": "组件通信基础",
+    "slug": "组件通信基础"
   },
   {
     "id": "vu-exam-08",
@@ -309,7 +337,11 @@
     "tags": [
       "propsemit"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "propsemit基础",
+    "description": "propsemit基础",
+    "slug": "propsemit基础"
   },
   {
     "id": "vu-exam-09",
@@ -348,7 +380,11 @@
     "tags": [
       "computedwatch"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "computedwatch基础",
+    "description": "computedwatch基础",
+    "slug": "computedwatch基础"
   },
   {
     "id": "vu-exam-10",
@@ -387,7 +423,11 @@
     "tags": [
       "CompositionAPI"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "CompositionAPI基础",
+    "description": "CompositionAPI基础",
+    "slug": "compositionapi基础"
   },
   {
     "id": "vu-exam-11",
@@ -426,7 +466,11 @@
     "tags": [
       "VueRouter"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "VueRouter基础",
+    "description": "VueRouter基础",
+    "slug": "vuerouter基础"
   },
   {
     "id": "vu-exam-12",
@@ -465,7 +509,11 @@
     "tags": [
       "Pinia"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Pinia基础",
+    "description": "Pinia基础",
+    "slug": "pinia基础"
   },
   {
     "id": "vu-exam-13",
@@ -504,7 +552,11 @@
     "tags": [
       "接口请求"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "接口请求基础",
+    "description": "接口请求基础",
+    "slug": "接口请求基础"
   },
   {
     "id": "vu-exam-14",
@@ -543,7 +595,11 @@
     "tags": [
       "项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "项目实战基础",
+    "description": "项目实战基础",
+    "slug": "项目实战基础"
   },
   {
     "id": "vu-exam-15",
@@ -582,7 +638,11 @@
     "tags": [
       "Vue3入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vue3入门基础",
+    "description": "Vue3入门基础",
+    "slug": "vue3入门基础"
   },
   {
     "id": "vu-exam-16",
@@ -621,7 +681,11 @@
     "tags": [
       "Vite项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vite项目基础",
+    "description": "Vite项目基础",
+    "slug": "vite项目基础"
   },
   {
     "id": "vu-exam-17",
@@ -660,7 +724,11 @@
     "tags": [
       "模板语法"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "模板语法基础",
+    "description": "模板语法基础",
+    "slug": "模板语法基础"
   },
   {
     "id": "vu-exam-18",
@@ -699,7 +767,11 @@
     "tags": [
       "响应式"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "响应式基础",
+    "description": "响应式基础",
+    "slug": "响应式基础"
   },
   {
     "id": "vu-exam-19",
@@ -738,7 +810,11 @@
     "tags": [
       "事件表单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事件表单基础",
+    "description": "事件表单基础",
+    "slug": "事件表单基础"
   },
   {
     "id": "vu-exam-20",
@@ -777,7 +853,11 @@
     "tags": [
       "条件列表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "条件列表基础",
+    "description": "条件列表基础",
+    "slug": "条件列表基础"
   },
   {
     "id": "vu-exam-21",
@@ -816,7 +896,11 @@
     "tags": [
       "组件通信"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "组件通信基础",
+    "description": "组件通信基础",
+    "slug": "组件通信基础"
   },
   {
     "id": "vu-exam-22",
@@ -855,7 +939,11 @@
     "tags": [
       "propsemit"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "propsemit基础",
+    "description": "propsemit基础",
+    "slug": "propsemit基础"
   },
   {
     "id": "vu-exam-23",
@@ -894,7 +982,11 @@
     "tags": [
       "computedwatch"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "computedwatch基础",
+    "description": "computedwatch基础",
+    "slug": "computedwatch基础"
   },
   {
     "id": "vu-exam-24",
@@ -933,7 +1025,11 @@
     "tags": [
       "CompositionAPI"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "CompositionAPI基础",
+    "description": "CompositionAPI基础",
+    "slug": "compositionapi基础"
   },
   {
     "id": "vu-exam-25",
@@ -972,7 +1068,11 @@
     "tags": [
       "VueRouter"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "VueRouter基础",
+    "description": "VueRouter基础",
+    "slug": "vuerouter基础"
   },
   {
     "id": "vu-exam-26",
@@ -1011,7 +1111,11 @@
     "tags": [
       "Pinia"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Pinia基础",
+    "description": "Pinia基础",
+    "slug": "pinia基础"
   },
   {
     "id": "vu-exam-27",
@@ -1050,7 +1154,11 @@
     "tags": [
       "接口请求"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "接口请求基础",
+    "description": "接口请求基础",
+    "slug": "接口请求基础"
   },
   {
     "id": "vu-exam-28",
@@ -1089,7 +1197,11 @@
     "tags": [
       "项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "项目实战基础",
+    "description": "项目实战基础",
+    "slug": "项目实战基础"
   },
   {
     "id": "vu-exam-29",
@@ -1128,7 +1240,11 @@
     "tags": [
       "Vue3入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vue3入门基础",
+    "description": "Vue3入门基础",
+    "slug": "vue3入门基础"
   },
   {
     "id": "vu-exam-30",
@@ -1167,7 +1283,11 @@
     "tags": [
       "Vite项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vite项目基础",
+    "description": "Vite项目基础",
+    "slug": "vite项目基础"
   },
   {
     "id": "vu-exam-31",
@@ -1206,7 +1326,11 @@
     "tags": [
       "模板语法"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "模板语法基础",
+    "description": "模板语法基础",
+    "slug": "模板语法基础"
   },
   {
     "id": "vu-exam-32",
@@ -1245,7 +1369,11 @@
     "tags": [
       "响应式"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "响应式基础",
+    "description": "响应式基础",
+    "slug": "响应式基础"
   },
   {
     "id": "vu-exam-33",
@@ -1284,7 +1412,11 @@
     "tags": [
       "事件表单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事件表单基础",
+    "description": "事件表单基础",
+    "slug": "事件表单基础"
   },
   {
     "id": "vu-exam-34",
@@ -1323,7 +1455,11 @@
     "tags": [
       "条件列表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "条件列表基础",
+    "description": "条件列表基础",
+    "slug": "条件列表基础"
   },
   {
     "id": "vu-exam-35",
@@ -1362,7 +1498,11 @@
     "tags": [
       "组件通信"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "组件通信基础",
+    "description": "组件通信基础",
+    "slug": "组件通信基础"
   },
   {
     "id": "vu-exam-36",
@@ -1401,7 +1541,11 @@
     "tags": [
       "propsemit"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "propsemit进阶",
+    "description": "propsemit进阶",
+    "slug": "propsemit进阶"
   },
   {
     "id": "vu-exam-37",
@@ -1440,7 +1584,11 @@
     "tags": [
       "computedwatch"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "computedwatch进阶",
+    "description": "computedwatch进阶",
+    "slug": "computedwatch进阶"
   },
   {
     "id": "vu-exam-38",
@@ -1479,7 +1627,11 @@
     "tags": [
       "CompositionAPI"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "CompositionAPI进阶",
+    "description": "CompositionAPI进阶",
+    "slug": "compositionapi进阶"
   },
   {
     "id": "vu-exam-39",
@@ -1518,7 +1670,11 @@
     "tags": [
       "VueRouter"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "VueRouter进阶",
+    "description": "VueRouter进阶",
+    "slug": "vuerouter进阶"
   },
   {
     "id": "vu-exam-40",
@@ -1557,7 +1713,11 @@
     "tags": [
       "Pinia"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Pinia进阶",
+    "description": "Pinia进阶",
+    "slug": "pinia进阶"
   },
   {
     "id": "vu-exam-41",
@@ -1596,7 +1756,11 @@
     "tags": [
       "接口请求"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "接口请求进阶",
+    "description": "接口请求进阶",
+    "slug": "接口请求进阶"
   },
   {
     "id": "vu-exam-42",
@@ -1635,7 +1799,11 @@
     "tags": [
       "项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "项目实战进阶",
+    "description": "项目实战进阶",
+    "slug": "项目实战进阶"
   },
   {
     "id": "vu-exam-43",
@@ -1674,7 +1842,11 @@
     "tags": [
       "Vue3入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vue3入门进阶",
+    "description": "Vue3入门进阶",
+    "slug": "vue3入门进阶"
   },
   {
     "id": "vu-exam-44",
@@ -1713,7 +1885,11 @@
     "tags": [
       "Vite项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vite项目进阶",
+    "description": "Vite项目进阶",
+    "slug": "vite项目进阶"
   },
   {
     "id": "vu-exam-45",
@@ -1752,7 +1928,11 @@
     "tags": [
       "模板语法"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "模板语法进阶",
+    "description": "模板语法进阶",
+    "slug": "模板语法进阶"
   },
   {
     "id": "vu-exam-46",
@@ -1791,7 +1971,11 @@
     "tags": [
       "响应式"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "响应式进阶",
+    "description": "响应式进阶",
+    "slug": "响应式进阶"
   },
   {
     "id": "vu-exam-47",
@@ -1830,7 +2014,11 @@
     "tags": [
       "事件表单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事件表单进阶",
+    "description": "事件表单进阶",
+    "slug": "事件表单进阶"
   },
   {
     "id": "vu-exam-48",
@@ -1869,7 +2057,11 @@
     "tags": [
       "条件列表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "条件列表进阶",
+    "description": "条件列表进阶",
+    "slug": "条件列表进阶"
   },
   {
     "id": "vu-exam-49",
@@ -1908,7 +2100,11 @@
     "tags": [
       "组件通信"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "组件通信进阶",
+    "description": "组件通信进阶",
+    "slug": "组件通信进阶"
   },
   {
     "id": "vu-exam-50",
@@ -1947,7 +2143,11 @@
     "tags": [
       "propsemit"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "propsemit进阶",
+    "description": "propsemit进阶",
+    "slug": "propsemit进阶"
   },
   {
     "id": "vu-exam-51",
@@ -1986,7 +2186,11 @@
     "tags": [
       "computedwatch"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "computedwatch进阶",
+    "description": "computedwatch进阶",
+    "slug": "computedwatch进阶"
   },
   {
     "id": "vu-exam-52",
@@ -2025,7 +2229,11 @@
     "tags": [
       "CompositionAPI"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "CompositionAPI进阶",
+    "description": "CompositionAPI进阶",
+    "slug": "compositionapi进阶"
   },
   {
     "id": "vu-exam-53",
@@ -2064,7 +2272,11 @@
     "tags": [
       "VueRouter"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "VueRouter进阶",
+    "description": "VueRouter进阶",
+    "slug": "vuerouter进阶"
   },
   {
     "id": "vu-exam-54",
@@ -2103,7 +2315,11 @@
     "tags": [
       "Pinia"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Pinia进阶",
+    "description": "Pinia进阶",
+    "slug": "pinia进阶"
   },
   {
     "id": "vu-exam-55",
@@ -2142,7 +2358,11 @@
     "tags": [
       "接口请求"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "接口请求进阶",
+    "description": "接口请求进阶",
+    "slug": "接口请求进阶"
   },
   {
     "id": "vu-exam-56",
@@ -2181,7 +2401,11 @@
     "tags": [
       "项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "项目实战进阶",
+    "description": "项目实战进阶",
+    "slug": "项目实战进阶"
   },
   {
     "id": "vu-exam-57",
@@ -2220,7 +2444,11 @@
     "tags": [
       "Vue3入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vue3入门进阶",
+    "description": "Vue3入门进阶",
+    "slug": "vue3入门进阶"
   },
   {
     "id": "vu-exam-58",
@@ -2259,7 +2487,11 @@
     "tags": [
       "Vite项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vite项目进阶",
+    "description": "Vite项目进阶",
+    "slug": "vite项目进阶"
   },
   {
     "id": "vu-exam-59",
@@ -2298,7 +2530,11 @@
     "tags": [
       "模板语法"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "模板语法进阶",
+    "description": "模板语法进阶",
+    "slug": "模板语法进阶"
   },
   {
     "id": "vu-exam-60",
@@ -2337,7 +2573,11 @@
     "tags": [
       "响应式"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "响应式进阶",
+    "description": "响应式进阶",
+    "slug": "响应式进阶"
   },
   {
     "id": "vu-exam-61",
@@ -2376,7 +2616,11 @@
     "tags": [
       "事件表单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事件表单进阶",
+    "description": "事件表单进阶",
+    "slug": "事件表单进阶"
   },
   {
     "id": "vu-exam-62",
@@ -2415,7 +2659,11 @@
     "tags": [
       "条件列表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "条件列表进阶",
+    "description": "条件列表进阶",
+    "slug": "条件列表进阶"
   },
   {
     "id": "vu-exam-63",
@@ -2454,7 +2702,11 @@
     "tags": [
       "组件通信"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "组件通信进阶",
+    "description": "组件通信进阶",
+    "slug": "组件通信进阶"
   },
   {
     "id": "vu-exam-64",
@@ -2493,7 +2745,11 @@
     "tags": [
       "propsemit"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "propsemit进阶",
+    "description": "propsemit进阶",
+    "slug": "propsemit进阶"
   },
   {
     "id": "vu-exam-65",
@@ -2532,7 +2788,11 @@
     "tags": [
       "computedwatch"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "computedwatch进阶",
+    "description": "computedwatch进阶",
+    "slug": "computedwatch进阶"
   },
   {
     "id": "vu-exam-66",
@@ -2571,7 +2831,11 @@
     "tags": [
       "CompositionAPI"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "CompositionAPI综合",
+    "description": "CompositionAPI综合",
+    "slug": "compositionapi综合"
   },
   {
     "id": "vu-exam-67",
@@ -2610,7 +2874,11 @@
     "tags": [
       "VueRouter"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "VueRouter综合",
+    "description": "VueRouter综合",
+    "slug": "vuerouter综合"
   },
   {
     "id": "vu-exam-68",
@@ -2649,7 +2917,11 @@
     "tags": [
       "Pinia"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Pinia综合",
+    "description": "Pinia综合",
+    "slug": "pinia综合"
   },
   {
     "id": "vu-exam-69",
@@ -2688,7 +2960,11 @@
     "tags": [
       "接口请求"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "接口请求综合",
+    "description": "接口请求综合",
+    "slug": "接口请求综合"
   },
   {
     "id": "vu-exam-70",
@@ -2727,7 +3003,11 @@
     "tags": [
       "项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "项目实战综合",
+    "description": "项目实战综合",
+    "slug": "项目实战综合"
   },
   {
     "id": "vu-exam-71",
@@ -2766,7 +3046,11 @@
     "tags": [
       "Vue3入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vue3入门综合",
+    "description": "Vue3入门综合",
+    "slug": "vue3入门综合"
   },
   {
     "id": "vu-exam-72",
@@ -2805,7 +3089,11 @@
     "tags": [
       "Vite项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vite项目综合",
+    "description": "Vite项目综合",
+    "slug": "vite项目综合"
   },
   {
     "id": "vu-exam-73",
@@ -2844,7 +3132,11 @@
     "tags": [
       "模板语法"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "模板语法综合",
+    "description": "模板语法综合",
+    "slug": "模板语法综合"
   },
   {
     "id": "vu-exam-74",
@@ -2883,7 +3175,11 @@
     "tags": [
       "响应式"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "响应式综合",
+    "description": "响应式综合",
+    "slug": "响应式综合"
   },
   {
     "id": "vu-exam-75",
@@ -2922,7 +3218,11 @@
     "tags": [
       "事件表单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事件表单综合",
+    "description": "事件表单综合",
+    "slug": "事件表单综合"
   },
   {
     "id": "vu-exam-76",
@@ -2961,7 +3261,11 @@
     "tags": [
       "条件列表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "条件列表综合",
+    "description": "条件列表综合",
+    "slug": "条件列表综合"
   },
   {
     "id": "vu-exam-77",
@@ -3000,7 +3304,11 @@
     "tags": [
       "组件通信"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "组件通信综合",
+    "description": "组件通信综合",
+    "slug": "组件通信综合"
   },
   {
     "id": "vu-exam-78",
@@ -3039,7 +3347,11 @@
     "tags": [
       "propsemit"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "propsemit综合",
+    "description": "propsemit综合",
+    "slug": "propsemit综合"
   },
   {
     "id": "vu-exam-79",
@@ -3078,7 +3390,11 @@
     "tags": [
       "computedwatch"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "computedwatch综合",
+    "description": "computedwatch综合",
+    "slug": "computedwatch综合"
   },
   {
     "id": "vu-exam-80",
@@ -3117,7 +3433,11 @@
     "tags": [
       "CompositionAPI"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "CompositionAPI综合",
+    "description": "CompositionAPI综合",
+    "slug": "compositionapi综合"
   },
   {
     "id": "vu-exam-81",
@@ -3156,7 +3476,11 @@
     "tags": [
       "VueRouter"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "VueRouter综合",
+    "description": "VueRouter综合",
+    "slug": "vuerouter综合"
   },
   {
     "id": "vu-exam-82",
@@ -3195,7 +3519,11 @@
     "tags": [
       "Pinia"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Pinia综合",
+    "description": "Pinia综合",
+    "slug": "pinia综合"
   },
   {
     "id": "vu-exam-83",
@@ -3234,7 +3562,11 @@
     "tags": [
       "接口请求"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "接口请求综合",
+    "description": "接口请求综合",
+    "slug": "接口请求综合"
   },
   {
     "id": "vu-exam-84",
@@ -3273,7 +3605,11 @@
     "tags": [
       "项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "项目实战综合",
+    "description": "项目实战综合",
+    "slug": "项目实战综合"
   },
   {
     "id": "vu-exam-85",
@@ -3312,7 +3648,11 @@
     "tags": [
       "Vue3入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vue3入门综合",
+    "description": "Vue3入门综合",
+    "slug": "vue3入门综合"
   },
   {
     "id": "vu-exam-86",
@@ -3351,7 +3691,11 @@
     "tags": [
       "Vite项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vite项目综合",
+    "description": "Vite项目综合",
+    "slug": "vite项目综合"
   },
   {
     "id": "vu-exam-87",
@@ -3390,7 +3734,11 @@
     "tags": [
       "模板语法"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "模板语法综合",
+    "description": "模板语法综合",
+    "slug": "模板语法综合"
   },
   {
     "id": "vu-exam-88",
@@ -3429,7 +3777,11 @@
     "tags": [
       "响应式"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "响应式综合",
+    "description": "响应式综合",
+    "slug": "响应式综合"
   },
   {
     "id": "vu-exam-89",
@@ -3468,7 +3820,11 @@
     "tags": [
       "事件表单"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "事件表单综合",
+    "description": "事件表单综合",
+    "slug": "事件表单综合"
   },
   {
     "id": "vu-exam-90",
@@ -3507,7 +3863,11 @@
     "tags": [
       "条件列表"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "条件列表综合",
+    "description": "条件列表综合",
+    "slug": "条件列表综合"
   },
   {
     "id": "vu-exam-91",
@@ -3546,7 +3906,11 @@
     "tags": [
       "组件通信"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "组件通信综合",
+    "description": "组件通信综合",
+    "slug": "组件通信综合"
   },
   {
     "id": "vu-exam-92",
@@ -3585,7 +3949,11 @@
     "tags": [
       "propsemit"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "propsemit综合",
+    "description": "propsemit综合",
+    "slug": "propsemit综合"
   },
   {
     "id": "vu-exam-93",
@@ -3624,7 +3992,11 @@
     "tags": [
       "computedwatch"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "computedwatch综合",
+    "description": "computedwatch综合",
+    "slug": "computedwatch综合"
   },
   {
     "id": "vu-exam-94",
@@ -3663,7 +4035,11 @@
     "tags": [
       "CompositionAPI"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "CompositionAPI综合",
+    "description": "CompositionAPI综合",
+    "slug": "compositionapi综合"
   },
   {
     "id": "vu-exam-95",
@@ -3702,7 +4078,11 @@
     "tags": [
       "VueRouter"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "VueRouter综合",
+    "description": "VueRouter综合",
+    "slug": "vuerouter综合"
   },
   {
     "id": "vu-exam-96",
@@ -3741,7 +4121,11 @@
     "tags": [
       "Pinia"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Pinia综合",
+    "description": "Pinia综合",
+    "slug": "pinia综合"
   },
   {
     "id": "vu-exam-97",
@@ -3780,7 +4164,11 @@
     "tags": [
       "接口请求"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "接口请求综合",
+    "description": "接口请求综合",
+    "slug": "接口请求综合"
   },
   {
     "id": "vu-exam-98",
@@ -3819,7 +4207,11 @@
     "tags": [
       "项目实战"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "项目实战综合",
+    "description": "项目实战综合",
+    "slug": "项目实战综合"
   },
   {
     "id": "vu-exam-99",
@@ -3858,7 +4250,11 @@
     "tags": [
       "Vue3入门"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vue3入门综合",
+    "description": "Vue3入门综合",
+    "slug": "vue3入门综合"
   },
   {
     "id": "vu-exam-100",
@@ -3897,6 +4293,10 @@
     "tags": [
       "Vite项目"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Vite项目综合",
+    "description": "Vite项目综合",
+    "slug": "vite项目综合"
   }
 ]
