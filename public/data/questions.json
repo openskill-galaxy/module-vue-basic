@@ -1,218 +1,428 @@
 [
   {
     "id": "mod-vue-basic-q-1",
-    "slug": "question-course-1-2",
+    "slug": "question-1",
     "type": "single",
-    "stem": "在学习 [Vue 3 前端开发] 的过程里，关于“Vue 3 前端开发 环境依赖搭建与运行机制”的核心考点，以下表述最为准确的是？",
+    "stem": "Vue 3 组合式 API 中，ref 与 reactive 的区别，下列说法正确的是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      { "key": "A", "text": "ref 可包装任意类型的值并通过 .value 访问；reactive 只能用于对象类型且直接访问属性" },
+      { "key": "B", "text": "reactive 可以包装基本类型如 reactive(0)" },
+      { "key": "C", "text": "ref 创建的数据不具备响应性" },
+      { "key": "D", "text": "两者完全等价，只是命名不同" }
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“Vue 3 前端开发 环境依赖搭建与运行机制”的正确答案为 A。解析：在 Vue 3 前端开发 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "Vue 3 前端开发",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-1",
+    "answer": ["A"],
+    "explanation": "ref 适用于任意类型（基本类型或对象），在 JS 中通过 .value 读写（模板中自动解包）；reactive 基于 Proxy 只能代理对象/数组/Map 等引用类型，reactive(0) 无效并会告警。两者都具备响应性，但适用场景与访问方式不同。",
+    "tags": ["ref", "reactive", "组合式API"],
+    "difficulty": "easy",
+    "chapter": "mod-vue-basic-c-1",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
   },
   {
     "id": "mod-vue-basic-q-2",
-    "slug": "question-course-1-3",
+    "slug": "question-2",
     "type": "single",
-    "stem": "在学习 [Vue 3 前端开发] 的过程里，关于“Vue 3 前端开发 配置文件覆盖与属性解析”的核心考点，以下表述最为准确的是？",
+    "stem": "Vue 模板中实现输入框与数据的双向绑定，应使用哪个指令？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      { "key": "A", "text": "v-model" },
+      { "key": "B", "text": "v-bind" },
+      { "key": "C", "text": "v-show" },
+      { "key": "D", "text": "v-once" }
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“Vue 3 前端开发 配置文件覆盖与属性解析”的正确答案为 A。解析：在 Vue 3 前端开发 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "Vue 3 前端开发",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-1",
+    "answer": ["A"],
+    "explanation": "v-model 是双向绑定语法糖，等价于 :value 绑定加 @input 事件回写，Vue 3 中组件上的 v-model 默认对应 modelValue prop 与 update:modelValue 事件。v-bind 只是单向绑定属性；v-show 控制显示隐藏；v-once 表示只渲染一次。",
+    "tags": ["v-model", "指令"],
+    "difficulty": "easy",
+    "chapter": "mod-vue-basic-c-2",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-vue-basic-q-3",
-    "slug": "question-course-2-4",
+    "slug": "question-3",
     "type": "single",
-    "stem": "在学习 [Vue 3 前端开发] 的过程里，关于“Vue 3 前端开发 API 接口规范与数据通信”的核心考点，以下表述最为准确的是？",
+    "stem": "v-if 与 v-show 的区别，下列描述正确的是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      { "key": "A", "text": "v-if 条件为假时不渲染 DOM（真正的条件渲染）；v-show 始终渲染 DOM，仅切换 CSS 的 display" },
+      { "key": "B", "text": "v-show 为假时会把元素从 DOM 树中移除" },
+      { "key": "C", "text": "v-if 的切换开销总是低于 v-show" },
+      { "key": "D", "text": "两者可以互相替代，性能完全相同" }
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“Vue 3 前端开发 API 接口规范与数据通信”的正确答案为 A。解析：在 Vue 3 前端开发 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "Vue 3 前端开发",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-2",
+    "answer": ["A"],
+    "explanation": "v-if 是惰性的真条件渲染，切换时销毁/重建组件与 DOM；v-show 只是切换 display:none。因此频繁切换用 v-show 更划算（切换成本低），条件很少改变用 v-if 更划算（初始渲染成本低）。B 描述的是 v-if 的行为；C、D 与两者的性能特征相反。",
+    "tags": ["v-if", "v-show", "条件渲染"],
+    "difficulty": "easy",
+    "chapter": "mod-vue-basic-c-3",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
   },
   {
     "id": "mod-vue-basic-q-4",
-    "slug": "question-course-2-5",
+    "slug": "question-4",
     "type": "single",
-    "stem": "在学习 [Vue 3 前端开发] 的过程里，关于“Vue 3 前端开发 核心控制器与数据校验机制”的核心考点，以下表述最为准确的是？",
+    "stem": "Vue 3 的响应式系统底层基于什么机制实现？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      { "key": "A", "text": "ES6 Proxy 拦截对象操作，配合依赖收集与触发更新" },
+      { "key": "B", "text": "Object.defineProperty 遍历劫持每个属性（与 Vue 2 相同）" },
+      { "key": "C", "text": "定时轮询比较数据快照（脏检查）" },
+      { "key": "D", "text": "手动调用 update() 通知视图" }
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“Vue 3 前端开发 核心控制器与数据校验机制”的正确答案为 A。解析：在 Vue 3 前端开发 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "Vue 3 前端开发",
-      "基础考点"
-    ],
+    "answer": ["A"],
+    "explanation": "Vue 3 用 Proxy 代理整个对象，读取时收集依赖（track）、修改时触发副作用（trigger），天然支持新增/删除属性和数组索引，解决了 Vue 2 defineProperty 方案需要 $set 的痛点。脏检查是 AngularJS 的机制；D 不属于 Vue 的自动响应式模型。",
+    "tags": ["响应式原理", "Proxy"],
     "difficulty": "medium",
-    "chapter": "course-2",
+    "chapter": "mod-vue-basic-c-1",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
   },
   {
     "id": "mod-vue-basic-q-5",
-    "slug": "question-course-3-6",
+    "slug": "question-5",
     "type": "single",
-    "stem": "在学习 [Vue 3 前端开发] 的过程里，关于“Vue 3 前端开发 缓存优化与垃圾回收调优”的核心考点，以下表述最为准确的是？",
+    "stem": "关于 computed 计算属性与 methods 方法的区别，正确的是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      { "key": "A", "text": "computed 基于响应式依赖缓存，依赖不变时重复访问不会重新计算；methods 每次调用都会执行" },
+      { "key": "B", "text": "computed 每次访问都会重新执行计算函数" },
+      { "key": "C", "text": "methods 的结果会被自动缓存" },
+      { "key": "D", "text": "computed 不能依赖其他响应式数据" }
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“Vue 3 前端开发 缓存优化与垃圾回收调优”的正确答案为 A。解析：在 Vue 3 前端开发 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "Vue 3 前端开发",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-3",
+    "answer": ["A"],
+    "explanation": "computed 会追踪其响应式依赖并缓存结果，仅当依赖变化时才重新求值，适合模板中多处使用的派生数据；方法调用没有缓存。B、C 把两者的特性说反了；D 完全错误——依赖响应式数据正是 computed 存在的意义。",
+    "tags": ["computed", "缓存"],
+    "difficulty": "easy",
+    "chapter": "mod-vue-basic-c-2",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
   },
   {
     "id": "mod-vue-basic-q-6",
-    "slug": "question-course-3-7",
+    "slug": "question-6",
     "type": "single",
-    "stem": "在学习 [Vue 3 前端开发] 的过程里，关于“Vue 3 前端开发 可观测性日志与分布式链路监控”的核心考点，以下表述最为准确的是？",
+    "stem": "子组件想通知父组件发生了某个事件（如点击了删除按钮），Vue 3 规范的做法是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      { "key": "A", "text": "通过 defineEmits 声明事件，调用 emit('delete', id) 向父组件抛出，父组件用 @delete 监听" },
+      { "key": "B", "text": "子组件直接修改父组件传来的 props" },
+      { "key": "C", "text": "子组件通过 $parent 直接调用父组件方法是官方推荐方式" },
+      { "key": "D", "text": "把回调存到 window 上让父组件轮询检查" }
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“Vue 3 前端开发 可观测性日志与分布式链路监控”的正确答案为 A。解析：在 Vue 3 前端开发 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "Vue 3 前端开发",
-      "基础考点"
-    ],
+    "answer": ["A"],
+    "explanation": "\"props 向下、事件向上\"是 Vue 的单向数据流规范：<script setup> 中用 defineEmits 声明并触发自定义事件。直接改 props 会破坏数据流并触发警告；$parent 造成强耦合，是应急逃生口而非推荐方式；D 是明显的反模式。",
+    "tags": ["组件通信", "emit"],
     "difficulty": "medium",
-    "chapter": "course-3",
+    "chapter": "mod-vue-basic-c-3",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-vue-basic-q-7",
+    "slug": "question-7",
+    "type": "single",
+    "stem": "v-for 渲染列表时绑定 key 的最佳实践是？",
+    "options": [
+      { "key": "A", "text": "使用每项数据稳定且唯一的标识（如 item.id）作为 key" },
+      { "key": "B", "text": "始终使用数组下标 index 作为 key，任何场景都最safe" },
+      { "key": "C", "text": "用 Math.random() 生成 key 保证唯一" },
+      { "key": "D", "text": "Vue 3 中 key 已经没有任何作用，可以不写" }
+    ],
+    "answer": ["A"],
+    "explanation": "key 是虚拟 DOM diff 时识别节点身份的依据：稳定唯一的业务 id 能让插入、删除、排序时正确复用节点。index 在列表中间增删或排序时会造成状态错位（如输入框内容串行）；随机 key 每次渲染都变化，导致全量销毁重建；D 错误，key 仍是核心优化手段。",
+    "tags": ["v-for", "key", "diff"],
+    "difficulty": "medium",
+    "chapter": "mod-vue-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-vue-basic-q-8",
+    "slug": "question-8",
+    "type": "single",
+    "stem": "<script setup> 中，组件挂载完成后需要操作 DOM（如初始化图表），应把逻辑写在哪个生命周期钩子中？",
+    "options": [
+      { "key": "A", "text": "onMounted(() => { ... })" },
+      { "key": "B", "text": "onUnmounted(() => { ... })" },
+      { "key": "C", "text": "直接写在 setup 顶层，此时 DOM 一定已存在" },
+      { "key": "D", "text": "onErrorCaptured(() => { ... })" }
+    ],
+    "answer": ["A"],
+    "explanation": "onMounted 在组件挂载、真实 DOM 生成后调用，是初始化 ECharts、访问模板 ref 元素等 DOM 操作的正确时机。setup 顶层代码执行时组件尚未挂载，模板 ref 还是 null，C 错误；onUnmounted 用于清理；onErrorCaptured 用于捕获后代组件错误。",
+    "tags": ["生命周期", "onMounted"],
+    "difficulty": "medium",
+    "chapter": "mod-vue-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-vue-basic-q-9",
+    "slug": "question-9",
+    "type": "single",
+    "stem": "关于 watch 与 watchEffect 的区别，正确的是？",
+    "options": [
+      { "key": "A", "text": "watch 需显式指定侦听源且默认惰性执行；watchEffect 立即执行并自动收集回调中用到的响应式依赖" },
+      { "key": "B", "text": "watchEffect 需要显式列出所有依赖，否则不会更新" },
+      { "key": "C", "text": "watch 无法获取变化前的旧值" },
+      { "key": "D", "text": "两者的回调都会在依赖变化前同步执行" }
+    ],
+    "answer": ["A"],
+    "explanation": "watch(source, cb) 明确指定侦听源，回调可拿到 (newVal, oldVal)，默认在源变化时才执行（可用 immediate 改变）；watchEffect 创建时立即运行一次并自动追踪内部访问的响应式状态。B 把 watchEffect 特性说反；C 错误，旧值正是 watch 的优势；D 描述不符合默认调度时机。",
+    "tags": ["watch", "watchEffect"],
+    "difficulty": "medium",
+    "chapter": "mod-vue-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-vue-basic-q-10",
+    "slug": "question-10",
+    "type": "single",
+    "stem": "Pinia（Vue 3 官方推荐状态库）中定义 store 的正确方式是？",
+    "options": [
+      { "key": "A", "text": "defineStore('counter', { state: () => ({ count: 0 }), actions: { increment() { this.count++ } } })" },
+      { "key": "B", "text": "new Vuex.Store({ state: { count: 0 } })" },
+      { "key": "C", "text": "createStore('counter', { count: 0 }) 是 Pinia 的唯一 API" },
+      { "key": "D", "text": "Pinia 中必须通过 mutation 才能修改 state" }
+    ],
+    "answer": ["A"],
+    "explanation": "Pinia 用 defineStore(id, options) 定义（也支持 setup 函数式写法），state 是返回初始状态的函数，actions 中可直接用 this 修改状态并支持异步。B 是 Vuex 的写法；C 的 API 不存在；D 错误——Pinia 取消了 mutation 概念，这正是它相对 Vuex 的简化之一。",
+    "tags": ["Pinia", "状态管理"],
+    "difficulty": "medium",
+    "chapter": "mod-vue-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-vue-basic-q-11",
+    "slug": "question-11",
+    "type": "single",
+    "stem": "Vue Router 中配置动态路由 /user/:id 后，在组合式 API 组件内获取 id 参数的方式是？",
+    "options": [
+      { "key": "A", "text": "const route = useRoute(); route.params.id" },
+      { "key": "B", "text": "useRouter().params.id" },
+      { "key": "C", "text": "window.location.params.id" },
+      { "key": "D", "text": "this.$route 是 <script setup> 中唯一的取参方式" }
+    ],
+    "answer": ["A"],
+    "explanation": "useRoute() 返回当前路由信息对象（params、query、path 等）；useRouter() 返回的是路由器实例（用于 push/replace 导航），其上没有 params，B 是高频易错点。window.location 没有 params 属性；<script setup> 中没有 this，D 错误。",
+    "tags": ["Vue Router", "路由"],
+    "difficulty": "medium",
+    "chapter": "mod-vue-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-vue-basic-q-12",
+    "slug": "question-12",
+    "type": "single",
+    "stem": "把 reactive 对象解构为普通变量后响应性丢失，Vue 3 提供的保持响应性的解构方案是？",
+    "options": [
+      { "key": "A", "text": "const { count } = toRefs(state)，得到与源属性保持关联的 ref" },
+      { "key": "B", "text": "const { count } = state 本身就保持响应性，无需处理" },
+      { "key": "C", "text": "用 JSON.parse(JSON.stringify(state)) 深拷贝后解构" },
+      { "key": "D", "text": "把解构结果再包一层 reactive() 即可恢复关联" }
+    ],
+    "answer": ["A"],
+    "explanation": "直接解构拿到的是普通值，脱离了 Proxy 的 track/trigger；toRefs 把每个属性转换为指向源属性的 ref，解构后仍与原对象双向联动（单属性可用 toRef）。深拷贝彻底切断关联；再包 reactive 产生的是与源无关的新代理，无法恢复联动。",
+    "tags": ["toRefs", "响应式"],
+    "difficulty": "hard",
+    "chapter": "mod-vue-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-vue-basic-q-13",
+    "slug": "question-13",
+    "type": "single",
+    "stem": "修改响应式数据后，需要读取更新后的 DOM（如获取新的元素高度），正确的做法是？",
+    "options": [
+      { "key": "A", "text": "await nextTick() 之后再读取 DOM" },
+      { "key": "B", "text": "修改数据的下一行代码直接读取，DOM 已同步更新" },
+      { "key": "C", "text": "用 setTimeout(fn, 3000) 等待足够久" },
+      { "key": "D", "text": "调用 forceUpdate() 后 DOM 立即同步" }
+    ],
+    "answer": ["A"],
+    "explanation": "Vue 的 DOM 更新是异步批量执行的：同一 tick 内的多次数据变更会合并，更新队列在微任务中刷新。nextTick 返回的 Promise 在 DOM 更新完成后兑现，是官方标准做法。B 读到的是旧 DOM；C 靠猜时间不可靠且体验差；D 并不改变异步更新机制。",
+    "tags": ["nextTick", "异步更新"],
+    "difficulty": "medium",
+    "chapter": "mod-vue-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-vue-basic-q-14",
+    "slug": "question-14",
+    "type": "single",
+    "stem": "Vue 3 相比 Vue 2 新增的特性不包括下列哪一项？",
+    "options": [
+      { "key": "A", "text": "基于 Options API 的 data/methods 选项写法" },
+      { "key": "B", "text": "组合式 API（Composition API）" },
+      { "key": "C", "text": "Teleport 内置组件" },
+      { "key": "D", "text": "单组件模板支持多个根节点（Fragments）" }
+    ],
+    "answer": ["A"],
+    "explanation": "Options API 是 Vue 2 时代就有的写法（Vue 3 仍然兼容支持），并非新增特性。组合式 API、Teleport（把内容传送到指定 DOM 位置渲染，如弹窗挂到 body）、多根节点 Fragments 以及 Suspense 等才是 Vue 3 引入的新能力。",
+    "tags": ["Vue 3 新特性"],
+    "difficulty": "easy",
+    "chapter": "mod-vue-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-vue-basic-q-15",
+    "slug": "question-15",
+    "type": "multiple",
+    "stem": "下列哪些属于 Vue 3 组合式 API 提供的函数？（多选）",
+    "options": [
+      { "key": "A", "text": "ref 与 reactive" },
+      { "key": "B", "text": "computed 与 watch" },
+      { "key": "C", "text": "onMounted 与 onUnmounted" },
+      { "key": "D", "text": "useEffect 与 useState" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "ref/reactive（响应式状态）、computed/watch（派生与侦听）、onMounted/onUnmounted（生命周期钩子）都从 vue 包导出，是组合式 API 的核心成员。useEffect 与 useState 是 React Hooks 的 API，不属于 Vue。",
+    "tags": ["组合式API"],
+    "difficulty": "easy",
+    "chapter": "mod-vue-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-vue-basic-q-16",
+    "slug": "question-16",
+    "type": "multiple",
+    "stem": "关于 <script setup> 语法糖，下列说法正确的有？（多选）",
+    "options": [
+      { "key": "A", "text": "顶层声明的变量、函数和导入的组件可直接在模板中使用，无需 return" },
+      { "key": "B", "text": "使用 defineProps / defineEmits 声明 props 与自定义事件，无需额外导入" },
+      { "key": "C", "text": "相比 setup() 选项写法，编译后性能更好且更简洁" },
+      { "key": "D", "text": "<script setup> 中可以使用 this 访问组件实例" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "<script setup> 在编译期把顶层绑定直接暴露给模板，defineProps/defineEmits 是无需导入的编译器宏，产物比 setup() 返回对象的方式更高效。D 错误：<script setup> 中不存在组件实例的 this（为 undefined），访问实例需用 getCurrentInstance（不推荐业务使用）。",
+    "tags": ["script setup", "语法糖"],
+    "difficulty": "medium",
+    "chapter": "mod-vue-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-vue-basic-q-17",
+    "slug": "question-17",
+    "type": "multiple",
+    "stem": "下列哪些是 Vue 组件间通信的合理方式？（多选）",
+    "options": [
+      { "key": "A", "text": "父传子：props；子传父：emit 自定义事件" },
+      { "key": "B", "text": "跨层级传递：provide / inject" },
+      { "key": "C", "text": "复杂共享状态：Pinia 集中管理" },
+      { "key": "D", "text": "任意组件间直接互相修改对方的内部 data" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "props/emit 是父子通信标准通道；provide/inject 解决祖孙跨层传递避免逐层透传；Pinia 适合多组件共享的全局状态。D 破坏组件封装与单向数据流，导致数据流向不可追踪、维护困难，是明确的反模式。",
+    "tags": ["组件通信"],
+    "difficulty": "medium",
+    "chapter": "mod-vue-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-vue-basic-q-18",
+    "slug": "question-18",
+    "type": "multiple",
+    "stem": "关于 Vue 3 的性能优化手段，下列说法正确的有？（多选）",
+    "options": [
+      { "key": "A", "text": "路由懒加载：component: () => import('./views/Detail.vue') 按需拆包" },
+      { "key": "B", "text": "用 defineAsyncComponent 异步加载重型组件" },
+      { "key": "C", "text": "长列表使用虚拟滚动方案只渲染可视区域" },
+      { "key": "D", "text": "用 v-if 同时配合 v-for 写在同一元素上是官方推荐的过滤方式" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "动态 import 让路由组件按需加载减小首屏包体；defineAsyncComponent 延迟加载弹窗、图表等重组件；虚拟滚动把上千条 DOM 降为几十条。D 错误：Vue 3 中 v-if 优先级高于 v-for（拿不到迭代变量易报错），官方明确不建议同元素混用，应改用 computed 预过滤或外层 template。",
+    "tags": ["性能优化", "懒加载"],
+    "difficulty": "hard",
+    "chapter": "mod-vue-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-vue-basic-q-19",
+    "slug": "question-19",
+    "type": "judge",
+    "stem": "在模板中使用 ref 创建的响应式数据时，无需手动书写 .value，Vue 会自动解包。",
+    "options": [],
+    "answer": ["T"],
+    "explanation": "正确。模板渲染上下文中顶层的 ref 会被自动解包：{{ count }} 即可直接显示值。需要 .value 的是 JS 逻辑（setup、函数体）中的读写。注意自动解包只针对模板中的顶层 ref，作为深层对象属性访问时行为有差异。",
+    "tags": ["ref", "模板"],
+    "difficulty": "easy",
+    "chapter": "mod-vue-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-vue-basic-q-20",
+    "slug": "question-20",
+    "type": "judge",
+    "stem": "Vue 3 中一个单文件组件的模板必须有且只能有一个根元素。",
+    "options": [],
+    "answer": ["F"],
+    "explanation": "错误。\"单根限制\"是 Vue 2 的规则；Vue 3 支持 Fragments，模板可以直接书写多个根节点。需要注意的是多根组件上的非 props 属性（如 class）无法自动继承，需要用 $attrs 显式指定绑定位置。",
+    "tags": ["Fragments", "模板"],
+    "difficulty": "easy",
+    "chapter": "mod-vue-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-vue-basic-q-21",
+    "slug": "question-21",
+    "type": "judge",
+    "stem": "子组件可以直接修改父组件通过 props 传入的数据，这是 Vue 官方推荐的双向同步方式。",
+    "options": [],
+    "answer": ["F"],
+    "explanation": "错误。Vue 遵循单向数据流：props 对子组件只读，直接修改会在开发模式触发警告，且让数据变化来源难以追踪。子组件应通过 emit 事件请求父组件修改，或使用 v-model（modelValue + update:modelValue）实现规范的\"双向绑定\"。",
+    "tags": ["props", "单向数据流"],
+    "difficulty": "easy",
+    "chapter": "mod-vue-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-vue-basic-q-22",
+    "slug": "question-22",
+    "type": "judge",
+    "stem": "组件中用 watch 侦听 reactive 对象内部嵌套属性的变化时，直接侦听整个对象默认就是深度侦听。",
+    "options": [],
+    "answer": ["T"],
+    "explanation": "正确。watch 直接侦听一个 reactive 对象时会隐式启用深度模式，嵌套属性变化也能触发回调（此时新旧值指向同一对象，无法区分变化前后）。而侦听 getter 函数（() => state.some.prop）或 ref 对象时默认是浅层的，需要 { deep: true } 才深度侦听。",
+    "tags": ["watch", "深度侦听"],
+    "difficulty": "medium",
+    "chapter": "mod-vue-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-vue-basic-q-23",
+    "slug": "question-23",
+    "type": "short",
+    "stem": "Vue 3 官方推荐的新一代构建工具（由 Vue 作者开发，以极快的冷启动与热更新著称）叫什么名字？",
+    "options": [],
+    "answer": ["Vite|vite"],
+    "explanation": "Vite 由尤雨溪开发：开发环境基于浏览器原生 ES Module 按需编译实现秒级冷启动与快速 HMR，生产构建用 Rollup 打包。create-vue 脚手架（npm create vue@latest）默认即基于 Vite，已取代 Vue CLI 成为官方推荐。",
+    "tags": ["Vite", "工程化"],
+    "difficulty": "easy",
+    "chapter": "mod-vue-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 1
+  },
+  {
+    "id": "mod-vue-basic-q-24",
+    "slug": "question-24",
+    "type": "short",
+    "stem": "Vue 3 中把组件内部一段模板渲染到 DOM 中任意目标位置（例如把弹窗渲染到 body 下）的内置组件叫什么？",
+    "options": [],
+    "answer": ["Teleport|teleport|<Teleport>"],
+    "explanation": "Teleport 通过 to 属性指定目标选择器（如 <Teleport to=\"body\">），把插槽内容渲染到组件 DOM 层级之外的位置，同时保持逻辑上仍属于当前组件（状态、事件不变）。典型用途是模态框、下拉浮层等需要脱离父级 overflow/z-index 上下文的场景。",
+    "tags": ["Teleport", "内置组件"],
+    "difficulty": "medium",
+    "chapter": "mod-vue-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 2
   }
 ]

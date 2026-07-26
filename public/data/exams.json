@@ -1,31 +1,60 @@
 [
   {
     "id": "mod-vue-basic-exam-1",
-    "slug": "final-exam",
-    "title": "Vue 3 前端开发 核心期末综合自测",
-    "summary": "全面检验您对 Vue 3 前端开发 所有阶段知识体系的掌握程度。",
+    "slug": "basic-exam",
+    "title": "Vue 3 前端开发 基础入门测验",
+    "summary": "覆盖 ref/reactive、模板指令、条件渲染与计算属性等入门必备考点。",
     "difficulty": "easy",
     "questionIds": [
       "mod-vue-basic-q-1",
       "mod-vue-basic-q-2",
       "mod-vue-basic-q-3",
-      "mod-vue-basic-q-4",
       "mod-vue-basic-q-5",
-      "mod-vue-basic-q-6"
+      "mod-vue-basic-q-14",
+      "mod-vue-basic-q-15",
+      "mod-vue-basic-q-19",
+      "mod-vue-basic-q-20",
+      "mod-vue-basic-q-23"
     ],
-    "timeLimitMinutes": 60,
+    "timeLimitMinutes": 15,
     "passingScore": 60
   },
   {
     "id": "mod-vue-basic-exam-2",
-    "slug": "basic-exam",
-    "title": "Vue 3 前端开发 基础概念快速评估",
-    "summary": "针对核心基础概念的摸底评估，题目精炼。",
-    "difficulty": "easy",
+    "slug": "advanced-exam",
+    "title": "Vue 3 前端开发 进阶强化测验",
+    "summary": "聚焦响应式原理、生命周期、组件通信、路由与 Pinia 状态管理等核心进阶主题。",
+    "difficulty": "medium",
     "questionIds": [
-      "mod-vue-basic-q-1",
-      "mod-vue-basic-q-2",
-      "mod-vue-basic-q-3"
+      "mod-vue-basic-q-4",
+      "mod-vue-basic-q-6",
+      "mod-vue-basic-q-7",
+      "mod-vue-basic-q-8",
+      "mod-vue-basic-q-9",
+      "mod-vue-basic-q-10",
+      "mod-vue-basic-q-11",
+      "mod-vue-basic-q-16",
+      "mod-vue-basic-q-17",
+      "mod-vue-basic-q-21"
+    ],
+    "timeLimitMinutes": 25,
+    "passingScore": 60
+  },
+  {
+    "id": "mod-vue-basic-exam-3",
+    "slug": "comprehensive-exam",
+    "title": "Vue 3 前端开发 综合模拟考试",
+    "summary": "综合考查 toRefs 响应性、nextTick 时机、深度侦听与性能优化，模拟真实面试与实战难度。",
+    "difficulty": "hard",
+    "questionIds": [
+      "mod-vue-basic-q-4",
+      "mod-vue-basic-q-9",
+      "mod-vue-basic-q-12",
+      "mod-vue-basic-q-13",
+      "mod-vue-basic-q-16",
+      "mod-vue-basic-q-18",
+      "mod-vue-basic-q-22",
+      "mod-vue-basic-q-24"
     ],
     "timeLimitMinutes": 30,
     "passingScore": 60
