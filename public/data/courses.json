@@ -1,71 +1,74 @@
 [
   {
     "id": "mod-vue-basic-c-1",
-    "title": "Vue 3 前端开发 架构原理与初始化",
+    "title": "响应式状态与引用 / 计算属性与侦听",
     "slug": "course-1",
-    "summary": "深度探索 Vue 3 前端开发 的设计理念、运行架构以及初始化配置引导。",
+    "summary": "例题研习覆盖ref、reactive、组合式API、toRefs、响应式、computed、缓存、watch。",
     "order": 1,
     "difficulty": "easy",
-    "estimatedHours": 54,
+    "estimatedHours": 0.4,
     "lessons": [
       "mod-vue-basic-l-1",
       "mod-vue-basic-l-2"
     ],
     "tags": [
-      "Vue",
-      "Vue3",
-      "前端开发",
-      "Composition API",
-      "Vue Router",
-      "Pinia",
-      "Vite",
-      "项目实战"
+      "ref",
+      "reactive",
+      "组合式API",
+      "toRefs",
+      "响应式",
+      "computed",
+      "缓存",
+      "watch",
+      "watchEffect"
     ]
   },
   {
     "id": "mod-vue-basic-c-2",
-    "title": "Vue 3 前端开发 核心机制与开发实战",
+    "title": "条件渲染与列表标识 / 组件事件与单向数据流",
     "slug": "course-2",
-    "summary": "掌握 Vue 3 前端开发 的核心组件、API 接口调用以及本地开发调试。",
+    "summary": "例题研习覆盖v-if、v-show、条件渲染、v-for、key、diff、组件通信、emit。",
     "order": 2,
     "difficulty": "easy",
-    "estimatedHours": 54,
+    "estimatedHours": 0.4,
     "lessons": [
       "mod-vue-basic-l-3",
       "mod-vue-basic-l-4"
     ],
     "tags": [
-      "Vue",
-      "Vue3",
-      "前端开发",
-      "Composition API",
-      "Vue Router",
-      "Pinia",
-      "Vite",
-      "项目实战"
+      "v-if",
+      "v-show",
+      "条件渲染",
+      "v-for",
+      "key",
+      "diff",
+      "组件通信",
+      "emit",
+      "props",
+      "单向数据流"
     ]
   },
   {
     "id": "mod-vue-basic-c-3",
-    "title": "Vue 3 前端开发 高级优化与生产部署",
+    "title": "共享状态与客户端路由 / 生命周期与异步更新",
     "slug": "course-3",
-    "summary": "学习如何进行系统性能监控调优、高可用集群部署与数据存储。",
+    "summary": "例题研习覆盖Pinia、状态管理、Vue Router、路由、生命周期、onMounted、nextTick、异步更新。",
     "order": 3,
     "difficulty": "easy",
-    "estimatedHours": 54,
+    "estimatedHours": 0.4,
     "lessons": [
       "mod-vue-basic-l-5",
       "mod-vue-basic-l-6"
     ],
     "tags": [
-      "Vue",
-      "Vue3",
-      "前端开发",
-      "Composition API",
-      "Vue Router",
       "Pinia",
-      "Vite",
-      "项目实战"
+      "状态管理",
+      "Vue Router",
+      "路由",
+      "生命周期",
+      "onMounted",
+      "nextTick",
+      "异步更新"
     ]
   }
 ]

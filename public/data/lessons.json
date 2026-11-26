@@ -3,66 +3,107 @@
     "id": "mod-vue-basic-l-1",
     "courseId": "mod-vue-basic-c-1",
     "order": 1,
-    "title": "Vue 3 前端开发 环境依赖搭建与运行机制",
+    "title": "响应式状态与引用",
     "slug": "lesson-1-1",
-    "summary": "了解平台运行依赖、环境参数配置以及本地运行引导流程。",
-    "contentMarkdown": "# Vue 3 前端开发 环境依赖搭建与运行机制\n          \n## 1. 概述与背景\n在进行 `Vue 3 前端开发` 的开发实践中，`Vue 3 前端开发 环境依赖搭建与运行机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Vue 3 前端开发 生产实践示例\nconsole.log(\"Initializing Vue 3 前端开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括ref、reactive、组合式API、toRefs、响应式。",
+    "contentMarkdown": "## 例题1 · 组合式API\n\nVue 3 组合式 API 中，ref 与 reactive 的区别，下列说法正确的是？\n\n- A. ref 可包装任意类型的值并通过 .value 访问；reactive 只能用于对象类型且直接访问属性\n- B. reactive 可以包装基本类型如 reactive(0)\n- C. ref 创建的数据不具备响应性\n- D. 两者完全等价，只是命名不同\n\n**参考答案**　A\n\nref 适用于任意类型（基本类型或对象），在 JS 中通过 .value 读写（模板中自动解包）；reactive 基于 Proxy 只能代理对象/数组/Map 等引用类型，reactive(0) 无效并会告警。两者都具备响应性，但适用场景与访问方式不同。\n\n## 例题2 · 响应式\n\n把 reactive 对象解构为普通变量后响应性丢失，Vue 3 提供的保持响应性的解构方案是？\n\n- A. const { count } = toRefs(state)，得到与源属性保持关联的 ref\n- B. const { count } = state 本身就保持响应性，无需处理\n- C. 用 JSON.parse(JSON.stringify(state)) 深拷贝后解构\n- D. 把解构结果再包一层 reactive() 即可恢复关联\n\n**参考答案**　A\n\n直接解构拿到的是普通值，脱离了 Proxy 的 track/trigger；toRefs 把每个属性转换为指向源属性的 ref，解构后仍与原对象双向联动（单属性可用 toRef）。深拷贝彻底切断关联；再包 reactive 产生的是与源无关的新代理，无法恢复联动。",
+    "knowledgePoints": [
+      "vu-kp-0004",
+      "vu-kp-0005"
+    ],
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-vue-basic-q-1",
+      "mod-vue-basic-q-12"
+    ]
   },
   {
     "id": "mod-vue-basic-l-2",
     "courseId": "mod-vue-basic-c-1",
     "order": 2,
-    "title": "Vue 3 前端开发 配置文件覆盖与属性解析",
+    "title": "计算属性与侦听",
     "slug": "lesson-1-2",
-    "summary": "学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
-    "contentMarkdown": "# Vue 3 前端开发 配置文件覆盖与属性解析\n          \n## 1. 概述与背景\n在进行 `Vue 3 前端开发` 的开发实践中，`Vue 3 前端开发 配置文件覆盖与属性解析` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Vue 3 前端开发 生产实践示例\nconsole.log(\"Initializing Vue 3 前端开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括computed、缓存、watch、watchEffect。",
+    "contentMarkdown": "## 例题1 · 缓存\n\n关于 computed 计算属性与 methods 方法的区别，正确的是？\n\n- A. computed 基于响应式依赖缓存，依赖不变时重复访问不会重新计算；methods 每次调用都会执行\n- B. computed 每次访问都会重新执行计算函数\n- C. methods 的结果会被自动缓存\n- D. computed 不能依赖其他响应式数据\n\n**参考答案**　A\n\ncomputed 会追踪其响应式依赖并缓存结果，仅当依赖变化时才重新求值，适合模板中多处使用的派生数据；方法调用没有缓存。B、C 把两者的特性说反了；D 完全错误——依赖响应式数据正是 computed 存在的意义。\n\n## 例题2 · watchEffect\n\n关于 watch 与 watchEffect 的区别，正确的是？\n\n- A. watch 需显式指定侦听源且默认惰性执行；watchEffect 立即执行并自动收集回调中用到的响应式依赖\n- B. watchEffect 需要显式列出所有依赖，否则不会更新\n- C. watch 无法获取变化前的旧值\n- D. 两者的回调都会在依赖变化前同步执行\n\n**参考答案**　A\n\nwatch(source, cb) 明确指定侦听源，回调可拿到 (newVal, oldVal)，默认在源变化时才执行（可用 immediate 改变）；watchEffect 创建时立即运行一次并自动追踪内部访问的响应式状态。B 把 watchEffect 特性说反；C 错误，旧值正是 watch 的优势；D 描述不符合默认调度时机。",
+    "knowledgePoints": [
+      "vu-kp-0006",
+      "vu-kp-0007"
+    ],
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-vue-basic-q-5",
+      "mod-vue-basic-q-9"
+    ]
   },
   {
     "id": "mod-vue-basic-l-3",
     "courseId": "mod-vue-basic-c-2",
     "order": 1,
-    "title": "Vue 3 前端开发 API 接口规范与数据通信",
+    "title": "条件渲染与列表标识",
     "slug": "lesson-2-1",
-    "summary": "掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
-    "contentMarkdown": "# Vue 3 前端开发 API 接口规范与数据通信\n          \n## 1. 概述与背景\n在进行 `Vue 3 前端开发` 的开发实践中，`Vue 3 前端开发 API 接口规范与数据通信` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Vue 3 前端开发 生产实践示例\nconsole.log(\"Initializing Vue 3 前端开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括v-if、v-show、条件渲染、v-for、key、diff。",
+    "contentMarkdown": "## 例题1 · 条件渲染\n\nv-if 与 v-show 的区别，下列描述正确的是？\n\n- A. v-if 条件为假时不渲染 DOM（真正的条件渲染）；v-show 始终渲染 DOM，仅切换 CSS 的 display\n- B. v-show 为假时会把元素从 DOM 树中移除\n- C. v-if 的切换开销总是低于 v-show\n- D. 两者可以互相替代，性能完全相同\n\n**参考答案**　A\n\nv-if 是惰性的真条件渲染，切换时销毁/重建组件与 DOM；v-show 只是切换 display:none。因此频繁切换用 v-show 更划算（切换成本低），条件很少改变用 v-if 更划算（初始渲染成本低）。B 描述的是 v-if 的行为；C、D 与两者的性能特征相反。\n\n## 例题2 · diff\n\nv-for 渲染列表时绑定 key 的最佳实践是？\n\n- A. 使用每项数据稳定且唯一的标识（如 item.id）作为 key\n- B. 始终使用数组下标 index 作为 key，任何场景都最safe\n- C. 用 Math.random() 生成 key 保证唯一\n- D. Vue 3 中 key 已经没有任何作用，可以不写\n\n**参考答案**　A\n\nkey 是虚拟 DOM diff 时识别节点身份的依据：稳定唯一的业务 id 能让插入、删除、排序时正确复用节点。index 在列表中间增删或排序时会造成状态错位（如输入框内容串行）；随机 key 每次渲染都变化，导致全量销毁重建；D 错误，key 仍是核心优化手段。",
+    "knowledgePoints": [
+      "vu-kp-0010",
+      "vu-kp-0011"
+    ],
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-vue-basic-q-3",
+      "mod-vue-basic-q-7"
+    ]
   },
   {
     "id": "mod-vue-basic-l-4",
     "courseId": "mod-vue-basic-c-2",
     "order": 2,
-    "title": "Vue 3 前端开发 核心控制器与数据校验机制",
+    "title": "组件事件与单向数据流",
     "slug": "lesson-2-2",
-    "summary": "掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
-    "contentMarkdown": "# Vue 3 前端开发 核心控制器与数据校验机制\n          \n## 1. 概述与背景\n在进行 `Vue 3 前端开发` 的开发实践中，`Vue 3 前端开发 核心控制器与数据校验机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Vue 3 前端开发 生产实践示例\nconsole.log(\"Initializing Vue 3 前端开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括组件通信、emit、props、单向数据流。",
+    "contentMarkdown": "## 例题1 · emit\n\n子组件想通知父组件发生了某个事件（如点击了删除按钮），Vue 3 规范的做法是？\n\n- A. 通过 defineEmits 声明事件，调用 emit('delete', id) 向父组件抛出，父组件用 @delete 监听\n- B. 子组件直接修改父组件传来的 props\n- C. 子组件通过 $parent 直接调用父组件方法是官方推荐方式\n- D. 把回调存到 window 上让父组件轮询检查\n\n**参考答案**　A\n\n\"props 向下、事件向上\"是 Vue 的单向数据流规范：<script setup> 中用 defineEmits 声明并触发自定义事件。直接改 props 会破坏数据流并触发警告；$parent 造成强耦合，是应急逃生口而非推荐方式；D 是明显的反模式。\n\n## 例题2 · 单向数据流\n\n子组件可以直接修改父组件通过 props 传入的数据，这是 Vue 官方推荐的双向同步方式。\n\n**参考答案**　错误\n\n错误。Vue 遵循单向数据流：props 对子组件只读，直接修改会在开发模式触发警告，且让数据变化来源难以追踪。子组件应通过 emit 事件请求父组件修改，或使用 v-model（modelValue + update:modelValue）实现规范的\"双向绑定\"。",
+    "knowledgePoints": [
+      "vu-kp-0015",
+      "vu-kp-0014"
+    ],
+    "estimatedMinutes": 10,
+    "practiceQuestionIds": [
+      "mod-vue-basic-q-6",
+      "mod-vue-basic-q-21"
+    ]
   },
   {
     "id": "mod-vue-basic-l-5",
     "courseId": "mod-vue-basic-c-3",
     "order": 1,
-    "title": "Vue 3 前端开发 缓存优化与垃圾回收调优",
+    "title": "共享状态与客户端路由",
     "slug": "lesson-3-1",
-    "summary": "定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
-    "contentMarkdown": "# Vue 3 前端开发 缓存优化与垃圾回收调优\n          \n## 1. 概述与背景\n在进行 `Vue 3 前端开发` 的开发实践中，`Vue 3 前端开发 缓存优化与垃圾回收调优` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Vue 3 前端开发 生产实践示例\nconsole.log(\"Initializing Vue 3 前端开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括Pinia、状态管理、Vue Router、路由。",
+    "contentMarkdown": "## 例题1 · 状态管理\n\nPinia（Vue 3 官方推荐状态库）中定义 store 的正确方式是？\n\n- A. defineStore('counter', { state: () => ({ count: 0 }), actions: { increment() { this.count++ } } })\n- B. new Vuex.Store({ state: { count: 0 } })\n- C. createStore('counter', { count: 0 }) 是 Pinia 的唯一 API\n- D. Pinia 中必须通过 mutation 才能修改 state\n\n**参考答案**　A\n\nPinia 用 defineStore(id, options) 定义（也支持 setup 函数式写法），state 是返回初始状态的函数，actions 中可直接用 this 修改状态并支持异步。B 是 Vuex 的写法；C 的 API 不存在；D 错误——Pinia 取消了 mutation 概念，这正是它相对 Vuex 的简化之一。\n\n## 例题2 · 路由\n\nVue Router 中配置动态路由 /user/:id 后，在组合式 API 组件内获取 id 参数的方式是？\n\n- A. const route = useRoute(); route.params.id\n- B. useRouter().params.id\n- C. window.location.params.id\n- D. this.$route 是 <script setup> 中唯一的取参方式\n\n**参考答案**　A\n\nuseRoute() 返回当前路由信息对象（params、query、path 等）；useRouter() 返回的是路由器实例（用于 push/replace 导航），其上没有 params，B 是高频易错点。window.location 没有 params 属性；<script setup> 中没有 this，D 错误。",
+    "knowledgePoints": [
+      "vu-kp-0020",
+      "vu-kp-0019"
+    ],
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-vue-basic-q-10",
+      "mod-vue-basic-q-11"
+    ]
   },
   {
     "id": "mod-vue-basic-l-6",
     "courseId": "mod-vue-basic-c-3",
     "order": 2,
-    "title": "Vue 3 前端开发 可观测性日志与分布式链路监控",
+    "title": "生命周期与异步更新",
     "slug": "lesson-3-2",
-    "summary": "配置全局日志收集管道，分析高负载服务下的运行指标波动。",
-    "contentMarkdown": "# Vue 3 前端开发 可观测性日志与分布式链路监控\n          \n## 1. 概述与背景\n在进行 `Vue 3 前端开发` 的开发实践中，`Vue 3 前端开发 可观测性日志与分布式链路监控` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Vue 3 前端开发 生产实践示例\nconsole.log(\"Initializing Vue 3 前端开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括生命周期、onMounted、nextTick、异步更新。",
+    "contentMarkdown": "## 例题1 · onMounted\n\n<script setup> 中，组件挂载完成后需要操作 DOM（如初始化图表），应把逻辑写在哪个生命周期钩子中？\n\n- A. onMounted(() => { ... })\n- B. onUnmounted(() => { ... })\n- C. 直接写在 setup 顶层，此时 DOM 一定已存在\n- D. onErrorCaptured(() => { ... })\n\n**参考答案**　A\n\nonMounted 在组件挂载、真实 DOM 生成后调用，是初始化 ECharts、访问模板 ref 元素等 DOM 操作的正确时机。setup 顶层代码执行时组件尚未挂载，模板 ref 还是 null，C 错误；onUnmounted 用于清理；onErrorCaptured 用于捕获后代组件错误。\n\n## 例题2 · 异步更新\n\n修改响应式数据后，需要读取更新后的 DOM（如获取新的元素高度），正确的做法是？\n\n- A. await nextTick() 之后再读取 DOM\n- B. 修改数据的下一行代码直接读取，DOM 已同步更新\n- C. 用 setTimeout(fn, 3000) 等待足够久\n- D. 调用 forceUpdate() 后 DOM 立即同步\n\n**参考答案**　A\n\nVue 的 DOM 更新是异步批量执行的：同一 tick 内的多次数据变更会合并，更新队列在微任务中刷新。nextTick 返回的 Promise 在 DOM 更新完成后兑现，是官方标准做法。B 读到的是旧 DOM；C 靠猜时间不可靠且体验差；D 并不改变异步更新机制。",
+    "knowledgePoints": [
+      "vu-kp-0018"
+    ],
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-vue-basic-q-8",
+      "mod-vue-basic-q-13"
+    ]
   }
 ]
